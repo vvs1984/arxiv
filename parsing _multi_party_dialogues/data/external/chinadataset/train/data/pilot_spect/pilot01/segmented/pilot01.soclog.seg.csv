@@ -1,0 +1,758 @@
+ID	Timestamp	Emitter	Resources	Buildups	Text	Annotation	Comment
+1	15:45:02:321	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		ello	 	 
+2	16:01:18:077	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Just got a connection reset	 	 
+2.1	16:02:09:773	Markus	 	 	Hm, shouldn't happen& (and hasn't before).& Let me know if you have problems.	 	 
+3	16:02:23:730	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Got a SocketException error appear in this chat line	 	 
+4	16:03:13:729	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		I guess we'll see if it happens again	 	 
+4.1	16:04:20:084	Markus	 	 	Yes, &fingers crossed.	 	 
+5	16:04:34:671	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		I take it this is the right game to be in?	 	 
+5.1	16:04:58:123	Markus	 	 	Yes, &I don't know where the other two are.	 	 
+5.2	16:05:06:651	Markus	 	 	It's been very last minute ...	 	 
+6	16:05:25:988	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Excellent!& Yeah,& well it always feels last minute when you are getting participants, doesn't it?	 	 
+6.1	16:06:06:259	Markus	 	 	Hehe, yes.& Perhaps they're still in a lecture.	 	 
+7	16:07:44:075	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		So, does this generate a random Catan board?	 	 
+7.1	16:08:01:130	Markus	 	 	Yes.	 	 
+8	16:08:03:503	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		I'm still rather impressed at a Hex grid in Java to be honest...& Java layout always feels like a nig	 	 
+9	16:08:12:654	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		*nightmare	 	 
+9.1	16:08:53:698	Markus	 	 	Indeed; &I had the pleasure editing the source code of this application.	 	 
+10	16:09:45:794	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Ah. Fun I take it?& Still, it looks very nicely laid out to be honest.	 	 
+10.1	16:11:05:585	Markus	 	 	Well,& it's an open source projet, so it's OK.& But I had to dig deeper than I wanted.& :*)	 	 
+11	16:14:33:030	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Ahh! I see.& One more to go, I guess.	 	 
+11.1	16:15:13:159	Markus	 	 	Yes, &it's supposed to be three of you.	 	 
+11.2	16:17:39:214	Markus	 	 	Hm, how are you two for time?& Can we wait a bit longer?	 	 
+12	16:18:59:691	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		I'm good for a little bit longer.	 	 
+13	16:19:43:165	rennoc1	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		I don't mind waiting for a while.	 	 
+13.1	16:20:27:612	Markus	 	 	Great.& I guess if person number 3 doesn't show up in 5 or 10 minutes &it'll be you only you two anywa	 	 
+13.2	16:20:39:741	Markus	 	 	y.	 	 
+14	16:22:53:355	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		hi	 	 
+14.1	16:23:10:299	Markus	 	 	Ah, great. &We can start.	 	 
+14.2	16:23:24:188	Markus	 	 	Sombody has to click START GAME.	 	 
+14.3	16:23:33:043	Markus	 	 	Amd and off you go!	 	 
+15	16:24:13:613	Server	 		rennoc1 built a settlement.	 	 
+16	16:24:20:397	Server	 		rennoc1 built a road.	 	 
+17	16:24:43:002	Server	 		Dave built a settlement.	 	 
+18	16:24:47:834	Server	 		Dave built a road.	 	 
+19	16:25:52:404	Server	 		Tomm built a settlement.	 	 
+20	16:25:55:523	Server	 		Tomm built a road.	 	 
+21	16:26:17:489	Server	 		Tomm built a settlement.	 	 
+22	16:26:20:740	Server	 		Tomm built a road.	 	 
+23	16:26:45:253	Server	 		Dave built a settlement.	 	 
+24	16:26:48:037	Server	 		Dave built a road.	 	 
+25	16:27:28:383	Server	 		rennoc1 built a settlement.	 	 
+26	16:27:30:063	Server	 		rennoc1 built a road.	 	 
+27	16:27:34:697	Server	 		rennoc1 rolled a 5 and a 6.	 	 
+28	16:27:34:705	Server	 		rennoc1 gets 1 wheat. Tomm gets 1 wheat.	 	 
+29	16:28:08:824	rennoc1	clay=2; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	so anyone else played this before?	 	 
+30	16:28:14:283	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	I haven't, no	 	 
+31	16:28:26:596	Tomm	clay=0; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Yes, a little...& but I was never good at it.	 	 
+32	16:29:33:901	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	is it still your turn rennoc?	 	 
+33	16:29:42:762	rennoc1	clay=2; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	yeah,	 	 
+
+34	16:30:06:316	Server	 		Dave rolled a 2 and a 4.	 	 
+35	16:30:06:324	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+36	16:31:12:186	Server	 		Tomm rolled a 6 and a 5.	 	 
+37	16:31:12:194	Server	 		rennoc1 gets 1 wheat. Tomm gets 1 wheat.	 	 
+38	16:31:59:048	Server	 		rennoc1 rolled a 4 and a 1.	 	 
+39	16:31:59:055	Server	 		rennoc1 gets 2 clay. Dave gets 1 wheat.	 	 
+40	16:33:23:041	Server	 		Dave rolled a 1 and a 1.	 	 
+41	16:33:23:048	Server	 		No player gets anything.	 	 
+42	16:33:29:516	Dave	clay=1; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	does anyone have any wood they would be willing to trade for?	 	 
+43	16:33:52:721	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Not& until people start rolling 8's :P	 	 
+44	16:34:13:384	Server	 		Tomm rolled a 4 and a 6.	 	 
+45	16:34:13:392	Server	 		Dave gets 1 ore, 1 wood.	 	 
+46	16:34:18:333	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	woo	 	 
+47	16:34:50:135	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Bugger.& Got any clay to trade for sheep/wheat?	 	 
+48	16:35:14:958	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	Only got 1& and I'm holding on to it,& sorry.	 	 
+49	16:35:21:314	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Also: Rennoc - be careful holding lots of resources.& If someone rolls a 7,& I think, you lose cards	 	 
+50	16:35:29:081	rennoc1	clay=4; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	got some clay.& how many do you need	 	 
+51	16:35:32:439	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	Yeah,& that's the robber isn'tit	 	 
+52	16:35:50:533	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Well, what would you like for clay& and/or how many do you want to give?	 	 
+53	16:36:20:250	rennoc1	clay=4; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	could do with some ore or sheep	 	 
+54	16:36:24:953	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	While we're talking about trading,& does anyone have sheep	 	 
+55	16:36:30:256	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Yeah,& on a 7 anyone with lots of cards gets halved& and the robber gets moved.	 	 
+56	16:36:34:301	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	I have sheep, yes.	 	 
+57	16:36:41:873	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	Need ore or wheat?	 	 
+58	16:36:54:692	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Sheep for an ore and sheep for a clay?	 	 
+59	16:37:03:585	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	sure	 	 
+60	16:37:11:726	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	soo... how do we do this?	 	 
+61	16:37:16:858	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	ok,& I THINK	 	 
+62	16:37:20:802	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	click register a trade	 	 
+63	16:37:30:162	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	then I'm not sure	 	 
+64	16:37:42:494	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	so I give a sheep to red,& I get an ore, right?	 	 
+65	16:37:46:931	Dave	clay=1; ore=2; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	yup	 	 
+66	16:37:49:133	Server	 		Tomm made an offer to trade 1 sheep for 1 ore.	 	 
+67	16:37:53:803	Server	 		Tomm traded 1 sheep for 1 ore from Dave.	 	 
+68	16:37:58:800	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Did that work?	 	 
+69	16:38:01:971	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	it did, yeah	 	 
+70	16:38:02:747	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	thanks	 	 
+71	16:38:11:128	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	rennoc: Sheep for an ore?	 	 
+72	16:38:35:013	rennoc1	clay=4; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	I dont have any ore,& but i do have plenty clay	 	 
+73	16:38:42:668	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	Is there a reason I can't buy a settlement now?& I have the resources	 	 
+74	16:38:42:879	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Bah, that's what I meant&, sorry.	 	 
+75	16:38:50:454	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	You have to do it on your go	 	 
+76	16:38:53:925	rennoc1	clay=4; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	ok	 	 
+77	16:39:02:763	Server	 		Tomm made an offer to trade 1 sheep for 1 clay.	 	 
+78	16:39:18:957	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	yes but the road and card options have a greyed out buy option,& settlement is just dashes	 	 
+79	16:39:25:062	rennoc1	clay=4; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	how do I accept a trade	 	 
+80	16:39:25:501	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	also you tried to trade with me there tomm, not rennoc	 	 
+81	16:39:30:188	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Thanks	 	 
+82	16:39:34:884	Server	 		Tomm made an offer to trade 1 sheep for 1 clay.	 	 
+83	16:39:39:568	Server	 		Tomm traded 1 sheep for 1 clay from rennoc1.	 	 
+84	16:39:42:462	rennoc1	clay=3; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	ah...	 	 
+85	16:39:44:846	rennoc1	clay=3; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	thanks	 	 
+86	16:39:45:747	Tomm	clay=1; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	Oh, you don't have anywhere you can BUILD a settlement	 	 
+87	16:39:59:258	Tomm	clay=1; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	they have to be two sides away from a settlement, connected by road	 	 
+88	16:40:05:477	Tomm	clay=1; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	so you need to build one more segment of road first	 	 
+89	16:40:08:102	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	oh, so I need to build a road first	 	 
+90	16:40:11:190	Tomm	clay=1; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[69,86]; settlements=[69,103]	yeah	 	 
+91	16:40:11:350	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	right,& thanks	 	 
+92	16:40:29:528	Server	 		rennoc1 rolled a 2 and a 4.	 	 
+93	16:40:29:535	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+94	16:40:56:981	Server	 		Dave rolled a 3 and a 4.	 	 
+95	16:41:03:760	Dave	clay=1; ore=1; sheep=1; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[100,171]; settlements=[116,171]	:D	 	 
+96	16:42:40:476	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[69,86]; settlements=[69,103]	Oh... &well that's unkind	 	 
+97	16:42:44:103	Server	 		Dave built a road.	 	 
+98	16:42:54:307	Dave	clay=0; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171; 171,170]; settlements=[116,171]	sorry	 	 
+99	16:43:00:770	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[69,86]; settlements=[69,103]	It's okay,& name of the game and all that.	 	 
+100	16:43:11:667	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[69,86]; settlements=[69,103]	Do you get a random one of my resources then?	 	 
+101	16:43:11:915	Dave	clay=0; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171; 171,170]; settlements=[116,171]	anyone need wheat?	 	 
+102	16:43:16:059	Dave	clay=0; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171; 171,170]; settlements=[116,171]	I did, yeah	 	 
+103	16:43:20:460	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[69,86]; settlements=[69,103]	no thanks	 	 
+104	16:43:25:020	Dave	clay=0; ore=1; sheep=1; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[100,171; 171,170]; settlements=[116,171]	rennoc?	 	 
+105	16:43:27:515	rennoc1	clay=2; ore=0; sheep=1; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	i'm ok for now	 	 
+106	16:44:35:101	Server	 		Tomm rolled a 4 and a 3.	 	 
+107	16:44:54:054	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	aww	 	 
+108	16:44:57:121	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	well that was robbery	 	 
+109	16:45:04:550	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	does the robber do anything& after you put him & and before he's moved	 	 
+110	16:45:14:631	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	like, if that resource comes up& will you not get it or something?	 	 
+111	16:45:17:642	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	When he is in a hex& you can't get resources	 	 
+112	16:45:24:247	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	ah	 	 
+113	16:45:27:892	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	yeah,& so 8 won't get you wheat now	 	 
+114	16:45:41:390	Server	 		rennoc1 rolled a 3 and a 5.	 	 
+115	16:45:41:395	Server	 		Tomm gets 1 wood.	 	 
+116	16:46:06:486	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	I wasn't expected to roll 7 to be honest& :p	 	 
+117	16:46:20:216	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	I thought you got to move the robber& because you played a car?	 	 
+118	16:46:22:168	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	*card	 	 
+119	16:46:32:295	rennoc1	clay=2; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	any got any wood they can trade	 	 
+120	16:46:40:993	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	Nope	 	 
+121	16:46:44:345	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	I played the card,& moved the robber& and THEN rolled a 7 as well	 	 
+122	16:46:48:654	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	so I moved him twice	 	 
+123	16:46:49:369	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	aah	 	 
+124	16:46:51:280	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	that sucks	 	 
+125	16:46:53:890	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	and I've only got 1,& sorry.	 	 
+126	16:47:10:216	rennoc1	clay=2; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	ok	 	 
+
+127	16:47:16:487	Server	 		Dave rolled a 6 and a 4.	 	 
+128	16:47:16:492	Server	 		Dave gets 1 ore, 1 wood.	 	 
+129	16:47:42:194	Dave	clay=0; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	anyone need ore?	 	 
+130	16:47:46:024	rennoc1	clay=2; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	yep	 	 
+131	16:47:49:179	Dave	clay=0; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	willing to trade for clay and sheep	 	 
+132	16:47:49:555	Tomm	clay=1; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	what for?	 	 
+133	16:47:58:544	rennoc1	clay=2; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	got some clay.	 	 
+134	16:48:06:843	Dave	clay=0; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	1 ore for 1 clay?	 	 
+135	16:48:10:673	rennoc1	clay=2; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	ok	 	 
+136	16:48:20:737	Server	 		Dave made an offer to trade 1 ore for 1 clay.	 	 
+137	16:48:24:602	Server	 		Dave traded 1 ore for 1 clay from rennoc1.	 	 
+138	16:49:01:427	Server	 		Tomm rolled a 2 and a 1.	 	 
+139	16:49:01:432	Server	 		Tomm gets 2 sheep.	 	 
+140	16:49:08:347	Tomm	clay=1; ore=0; sheep=3; wheat=3; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86]; settlements=[69,103]	Sheep!	 	 
+141	16:50:13:679	Dave	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	uh	 	 
+142	16:50:15:309	Server	 		Tomm built a road.	 	 
+143	16:50:16:631	Dave	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	should we add time>?	 	 
+143.1	16:50:23:800	Markus	 	 	Yes,& sorry.	 	 
+144	16:50:29:628	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	ADDTIME	 	 
+145	16:50:31:007	Dave	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	*ADDTIME*	 	 
+146	16:50:41:906	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Wheat?& Sheep?	 	 
+147	16:50:58:120	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Anyone needy?	 	 
+148	16:50:59:504	Dave	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	I need sheep,& but I have nothing to trade,& possibly when my turn rolls around& I'll have something	 	 
+149	16:51:25:717	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	yeah,& ive nothing either	 	 
+150	16:51:27:709	Server	 		rennoc1 rolled a 5 and a 5.	 	 
+151	16:51:27:715	Server	 		Dave gets 1 ore, 1 wood.	 	 
+152	16:51:41:793	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	Ok& now I can trade you ore or wood,& need either?	 	 
+153	16:51:41:981	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Well looks like you have stuff now Dave& :P	 	 
+154	16:51:54:528	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Ore would be good.	 	 
+155	16:52:00:034	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	1 ore for 1 sheep it is	 	 
+156	16:52:05:390	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	can I have some wood dave?	 	 
+157	16:52:15:130	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	what have you got to trade?	 	 
+158	16:52:35:687	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	sheep	 	 
+159	16:52:45:618	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	I guess I can use two sheep	 	 
+160	16:52:54:867	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	yeah,& go ahead	 	 
+161	16:53:02:375	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	i only have one sheep	 	 
+162	16:53:02:672	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	well you have no way of getting them yourself yet	 	 
+163	16:53:06:291	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	true	 	 
+164	16:53:17:892	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	yeah,& i mean I'll still trade with tomm& after this trade	 	 
+165	16:53:21:400	Server	 		rennoc1 made an offer to trade 1 sheep for 1 wood.	 	 
+166	16:53:26:886	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=2; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	wrong person	 	 
+167	16:53:32:704	rennoc1	clay=1; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	...oh	 	 
+168	16:53:39:987	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	little colour ticky boxes	 	 
+169	16:53:48:706	Tomm	clay=0; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Really easy to miss,& I did that too.	 	 
+170	16:53:48:712	Server	 		rennoc1 made an offer to trade 1 sheep for 1 wood.	 	 
+171	16:53:54:923	Server	 		rennoc1 traded 1 sheep for 1 wood from Dave.	 	 
+172	16:53:55:184	rennoc1	clay=1; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[104,120]; settlements=[105,137]	cool, thanks& :)	 	 
+173	16:54:03:797	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	np	 	 
+174	16:54:14:577	Server	 		rennoc1 built a road.	 	 
+175	16:54:19:580	Server	 		Dave rolled a 5 and a 2.	 	 
+176	16:54:40:550	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	um	 	 
+177	16:54:46:370	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	pouty face.	 	 
+178	16:54:48:990	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	Still want to trade?	 	 
+179	16:54:57:157	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Yes, do you still want to?	 	 
+180	16:55:00:511	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	Only chose you& becasue you have three times the resources	 	 
+181	16:55:02:014	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	and yeah,& sure	 	 
+182	16:55:11:239	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	uuuh	 	 
+183	16:55:11:287	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	on you go then	 	 
+184	16:55:38:488	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	actually, instead of sheep,& do you have any wood or clay?	 	 
+185	16:55:44:115	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Ah, 'fraid not	 	 
+186	16:55:49:911	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	hmm	 	 
+187	16:55:50:165	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Until someone rolls a 4	 	 
+188	16:55:54:393	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	rennoc?	 	 
+189	16:56:03:035	rennoc1	clay=0; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	nope dont have either	 	 
+190	16:56:18:376	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[100,171; 171,170]; settlements=[116,171]	I'm actually going to hold off on the trade for now,& sorry	 	 
+191	16:56:25:557	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Fair enough,& thought you might!	 	 
+192	16:56:31:559	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	You did nick that sheep after all& :p	 	 
+193	16:56:40:969	Dave	clay=1; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170]; settlements=[116,171]	well, it was revenge for earlier ^_^	 	 
+194	16:56:52:374	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Which was revenge for you earlier.& Ah, how this game goes back& :p	 	 
+195	16:57:14:166	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Just gimmie the virtual dice,& hehe	 	 
+196	16:57:17:459	Dave	clay=1; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170]; settlements=[116,171]	I'm guessing there's no point in putting a city next to a desert	 	 
+197	16:57:35:546	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Not& unless the other hexes are very likely to come up	 	 
+198	16:57:43:343	Server	 		Dave built a road.	 	 
+199	16:57:51:699	Dave	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	:/	 	 
+200	16:57:52:219	Server	 		Tomm rolled a 3 and a 4.	 	 
+201	16:57:58:215	Tomm	clay=0; ore=0; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	7!	 	 
+202	16:58:00:187	Dave	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	I've laid out my things at the start really badly	 	 
+203	16:58:06:627	Dave	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	:D	 	 
+204	16:58:29:509	Tomm	clay=0; ore=1; sheep=2; wheat=3; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70]; settlements=[69,103]	Sorry Rennoc,& wanted your goods	 	 
+205	16:58:52:854	rennoc1	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	aargh! my precious ores	 	 
+206	16:58:58:925	Tomm	clay=0; ore=0; sheep=1; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	Delicious	 	 
+207	16:59:05:040	Server	 		rennoc1 rolled a 2 and a 4.	 	 
+208	16:59:05:044	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+209	16:59:25:026	Server	 		Dave rolled a 1 and a 6.	 	 
+210	16:59:30:438	Tomm	clay=0; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	It's okay Dave,& so did I.	 	 
+211	17:00:30:413	Server	 		Tomm rolled a 3 and a 4.	 	 
+212	17:00:35:208	Dave	clay=0; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	really	 	 
+213	17:00:36:415	Tomm	clay=0; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	oh...	 	 
+214	17:00:37:847	Dave	clay=0; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	reallllly	 	 
+215	17:00:50:662	Tomm	clay=0; ore=0; sheep=3; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	Oh great.& Sheep.& Don't have any of those.	 	 
+216	17:01:00:521	Server	 		rennoc1 rolled a 3 and a 2.	 	 
+217	17:01:00:526	Server	 		rennoc1 gets 2 clay. Dave gets 1 wheat.	 	 
+218	17:01:02:008	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	that was my favourite sheep!	 	 
+219	17:01:20:347	Tomm	clay=0; ore=0; sheep=3; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	Worrying...& >.>	 	 
+220	17:01:38:951	Server	 		Dave rolled a 2 and a 4.	 	 
+221	17:01:38:955	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+222	17:02:05:798	Tomm	clay=0; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	Sorry,& what did you roll Rennoc?	 	 
+223	17:02:24:123	rennoc1	clay=2; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	a 5 ( I think)	 	 
+
+224	17:02:48:084	Server	 		Tomm rolled a 1 and a 3.	 	 
+225	17:02:48:089	Server	 		rennoc1 gets 1 clay. Dave gets 1 clay. Tomm gets 1 ore.	 	 
+226	17:02:58:399	Tomm	clay=0; ore=1; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	ORE!& :D	 	 
+227	17:03:04:904	Tomm	clay=0; ore=1; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70]; settlements=[69,103]	Also... you're all gonna hate me	 	 
+228	17:03:17:180	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	oh no	 	 
+229	17:03:25:060	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=2	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	well, that wasn't too bad	 	 
+230	17:03:44:132	rennoc1	clay=0; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	oh dear...	 	 
+231	17:03:49:050	Server	 		Tomm traded 4 sheep for 1 wood from the bank.	 	 
+232	17:04:06:230	Server	 		Tomm built a road.	 	 
+233	17:04:28:750	Server	 		rennoc1 rolled a 2 and a 1.	 	 
+234	17:04:28:754	Server	 		Tomm gets 2 sheep.	 	 
+235	17:04:48:029	Tomm	clay=3; ore=1; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Sorry,& need me some clay& and I can't get it	 	 
+236	17:05:23:765	Server	 		Dave rolled a 6 and a 5.	 	 
+237	17:05:23:769	Server	 		rennoc1 gets 1 wheat. Tomm gets 1 wheat.	 	 
+238	17:06:27:921	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	wheat for ore anyone?	 	 
+239	17:06:40:318	Tomm	clay=3; ore=1; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	You just nicked my wheat& :P	 	 
+240	17:06:46:485	Tomm	clay=3; ore=1; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Not going to buy it back	 	 
+241	17:06:49:187	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	Want to buy it back?& :D	 	 
+242	17:06:51:385	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	aw	 	 
+243	17:07:05:056	Server	 		Tomm rolled a 2 and a 5.	 	 
+244	17:07:15:986	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	discard?	 	 
+245	17:07:42:074	Tomm	clay=3; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Well that was upsetting.	 	 
+246	17:07:49:459	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	did you just lose four resources?	 	 
+247	17:07:51:961	Tomm	clay=3; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	yes	 	 
+248	17:07:54:395	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	how?	 	 
+249	17:07:58:578	rennoc1	clay=0; ore=0; sheep=2; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	rolled a 7	 	 
+250	17:08:01:686	Tomm	clay=3; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Had too many cards when a 7 came up	 	 
+251	17:08:02:155	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	yeah, but	 	 
+252	17:08:04:507	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	oh	 	 
+253	17:08:09:707	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	didn't know that was a thing	 	 
+254	17:08:11:835	Tomm	clay=3; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	I think it's over 7?	 	 
+255	17:08:18:410	Tomm	clay=3; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Anyway. Bah.	 	 
+256	17:08:31:945	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	My wheat!	 	 
+257	17:08:35:292	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	I didn't want that wheat anyway	 	 
+258	17:08:43:531	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Anyone want anything for wood?	 	 
+259	17:08:55:097	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	seeing as no one is rolling 8's despite it being really likely.	 	 
+260	17:09:24:022	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	equally likely for all numbers?& Although I guess it depends on how the rolls are simulated	 	 
+261	17:09:30:484	rennoc1	clay=0; ore=0; sheep=2; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	dont have any, sorry	 	 
+262	17:09:41:999	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Nah& it isn't if& it follows the proper game.	 	 
+263	17:09:56:191	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	You are rolling 2 dice...& so there are more ways of rolling say an 8, rather than a 2	 	 
+264	17:10:05:855	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	Yeah,& I mean if it's actually rolling two dice& then there are more 8's tha- well, yeha	 	 
+265	17:10:16:365	Tomm	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	So no wood anyone?& okay	 	 
+266	17:10:19:767	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	nope, sorry	 	 
+
+267	17:10:28:309	Server	 		rennoc1 rolled a 1 and a 5.	 	 
+268	17:10:28:314	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+269	17:10:30:535	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	10 10 10	 	 
+270	17:10:37:999	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	never a 10	 	 
+271	17:10:39:960	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	:9	 	 
+272	17:10:43:360	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	*:(	 	 
+273	17:10:56:152	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Yeah.& Also 8 should be as likely as a 6...& but looads of 6's no 8's& :p	 	 
+274	17:11:09:417	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	also 7's,& we've had about half the rolls as sevens	 	 
+275	17:11:20:384	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	7 is the most likely to be fair	 	 
+276	17:11:25:399	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	from what I remember	 	 
+277	17:11:37:673	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	it is, yeah, even so	 	 
+278	17:11:43:630	rennoc1	clay=0; ore=0; sheep=3; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	so anyone have any ore?& I have sheep to spare	 	 
+279	17:11:50:401	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	I have wheat	 	 
+280	17:11:51:803	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	fraid not	 	 
+281	17:12:08:343	Server	 		Dave rolled a 5 and a 4.	 	 
+282	17:12:08:347	Server	 		Dave gets 1 wheat.	 	 
+283	17:12:13:778	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	more wheat,& great	 	 
+284	17:12:20:386	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	anyone need wheat?	 	 
+285	17:12:27:895	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Really not,& sorry.	 	 
+286	17:12:41:524	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	rennoc?	 	 
+287	17:12:55:848	rennoc1	clay=0; ore=0; sheep=3; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	I'm fine for wheat at the mo	 	 
+288	17:13:07:901	Server	 		Tomm rolled a 6 and a 1.	 	 
+289	17:13:14:370	Tomm	clay=3; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	well... sigh.	 	 
+290	17:13:36:301	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	least you didn't have to lose half your resrouces this time	 	 
+291	17:13:41:408	Tomm	clay=3; ore=1; sheep=2; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	true.	 	 
+292	17:13:49:212	Tomm	clay=3; ore=1; sheep=2; wheat=1; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	I'd rather like to roll an 8 though& :P	 	 
+293	17:14:31:530	Server	 		rennoc1 rolled a 3 and a 5.	 	 
+294	17:14:31:534	Server	 		Dave gets 1 wheat. Tomm gets 1 wood.	 	 
+295	17:14:40:863	Dave	clay=0; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	No more wheat!	 	 
+296	17:14:43:089	Tomm	clay=3; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Well thank you Rennoc& :D	 	 
+297	17:15:02:823	Server	 		Dave rolled a 5 and a 1.	 	 
+298	17:15:02:829	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+299	17:15:04:672	Dave	clay=0; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	anyone need wheat?	 	 
+300	17:15:13:272	Tomm	clay=3; ore=0; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	What for?	 	 
+301	17:15:25:047	Dave	clay=0; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	clay, I guess, or ore	 	 
+302	17:15:32:599	Dave	clay=0; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	or wood	 	 
+303	17:15:38:811	rennoc1	clay=0; ore=0; sheep=3; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	you know if you have more than 4,& I think you can trade them into the bank,	 	 
+304	17:15:44:880	Dave	clay=0; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	yeah& but it's not ideal	 	 
+305	17:15:48:995	Tomm	clay=3; ore=0; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	That's true...& 4 -> 1	 	 
+306	17:15:55:422	Tomm	clay=3; ore=0; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71]; settlements=[69,103]	Well, I might do,& but depends on my roll, I'm afraid	 	 
+307	17:16:34:089	Server	 		Tomm built a road.	 	 
+308	17:16:36:669	Server	 		Tomm built a road.	 	 
+309	17:16:41:877	Server	 		Tomm rolled a 3 and a 6.	 	 
+310	17:16:41:881	Server	 		Dave gets 1 wheat.	 	 
+311	17:17:03:832	Tomm	clay=3; ore=0; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73]; settlements=[69,103]	Dave: Wheat for a clay?	 	 
+312	17:17:18:059	Dave	clay=0; ore=0; sheep=0; wheat=5; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	sure, can you do 2 for 2,& or do you just want 1 for 1	 	 
+313	17:17:29:473	Tomm	clay=3; ore=0; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73]; settlements=[69,103]	Just 1-4-1 I'm afraid	 	 
+314	17:17:33:715	Dave	clay=0; ore=0; sheep=0; wheat=5; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	fair enough	 	 
+315	17:17:40:948	Server	 		Tomm made an offer to trade 1 clay for 1 wheat.	 	 
+316	17:17:45:177	Server	 		Tomm traded 1 clay for 1 wheat from Dave.	 	 
+317	17:18:10:036	Server	 		Tomm built a road.	 	 
+318	17:18:33:159	Server	 		rennoc1 rolled a 5 and a 6.	 	 
+319	17:18:33:164	Server	 		rennoc1 gets 1 wheat. Tomm gets 1 wheat.	 	 
+320	17:18:41:467	Tomm	clay=1; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Oh... now I get wheat&(!)	 	 
+321	17:18:52:997	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	heh	 	 
+322	17:19:10:504	rennoc1	clay=0; ore=0; sheep=3; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	any spare ores anyone?	 	 
+323	17:19:19:534	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	afraid not, sorry	 	 
+324	17:19:24:218	Tomm	clay=1; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	None here either& :(	 	 
+
+325	17:19:46:419	Server	 		Dave rolled a 2 and a 4.	 	 
+326	17:19:46:423	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+327	17:20:06:743	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	wheat for wood anyone?	 	 
+328	17:20:19:104	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	or a sheep	 	 
+329	17:20:33:852	Tomm	clay=1; ore=0; sheep=3; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	sorry :/	 	 
+330	17:21:05:067	Server	 		Dave traded 4 wheat for 1 sheep from the bank.	 	 
+331	17:21:16:631	Server	 		Tomm rolled a 3 and a 6.	 	 
+332	17:21:16:635	Server	 		Dave gets 1 wheat.	 	 
+333	17:23:18:540	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	how do those resource tiles in the water work	 	 
+334	17:23:20:034	Server	 		rennoc1 rolled a 5 and a 1.	 	 
+335	17:23:20:038	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+336	17:23:36:598	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	If you have a settlement on them& you can get better trades	 	 
+337	17:23:48:565	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	I thought that was the number ones	 	 
+338	17:23:49:001	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	the 3:1 means you can trade 3 of anything to 1 of anything	 	 
+339	17:23:55:862	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	what about the other ones	 	 
+340	17:24:11:789	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	The resource ones -I think- mean you can trade 2 of any of that item to 1 of anything else	 	 
+341	17:24:19:222	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	ah, that's pretty good	 	 
+342	17:24:20:249	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	But I might have that the wrong way around	 	 
+343	17:25:05:040	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	anyone have any wood?	 	 
+344	17:25:10:664	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	nope, sorry	 	 
+345	17:25:15:968	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	I think we are all looking for it!	 	 
+346	17:25:47:315	Server	 		Dave rolled a 1 and a 1.	 	 
+347	17:25:47:318	Server	 		No player gets anything.	 	 
+348	17:25:51:406	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Oh.	 	 
+349	17:26:00:313	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	can anyone trade clay for ore	 	 
+350	17:26:08:929	Dave	clay=1; ore=0; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	as in, I give you the clay	 	 
+351	17:26:18:995	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	No ore,& sorry.	 	 
+352	17:26:23:049	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	me neither	 	 
+353	17:26:32:130	Server	 		Tomm rolled a 4 and a 6.	 	 
+354	17:26:32:133	Server	 		Dave gets 1 ore, 1 wood.	 	 
+355	17:27:30:140	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	good roll that	 	 
+356	17:27:30:900	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	thanks	 	 
+357	17:30:28:931	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Sorry,& boss walked in	 	 
+358	17:30:33:977	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	np	 	 
+359	17:30:35:029	Tomm	clay=1; ore=0; sheep=4; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Yes, that was a good roll for you.	 	 
+360	17:31:12:424	Server	 		rennoc1 rolled a 1 and a 2.	 	 
+361	17:31:12:428	Server	 		Tomm gets 2 sheep.	 	 
+362	17:31:25:324	Tomm	clay=1; ore=0; sheep=6; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Ah. Sheep.	 	 
+363	17:31:35:228	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	You basically control the sheep	 	 
+364	17:31:49:265	Tomm	clay=1; ore=0; sheep=6; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	That's not as handy or as sinister as it sounds	 	 
+365	17:31:52:599	Tomm	clay=1; ore=0; sheep=6; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Unfortunately.	 	 
+366	17:32:00:772	Dave	clay=1; ore=1; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[100,171; 171,170; 170,154]; settlements=[116,171]	Still cooler than being a wheat baron	 	 
+367	17:32:07:521	Server	 		Dave rolled a 1 and a 4.	 	 
+368	17:32:07:525	Server	 		Dave gets 1 wheat.	 	 
+369	17:32:19:817	Server	 		Dave built a road.	 	 
+370	17:32:20:791	Tomm	clay=1; ore=0; sheep=6; wheat=2; wood=0; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	I don't know, you've got 'baron' right there in the title	 	 
+371	17:32:38:629	Dave	clay=0; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	That is actually the only good thing about this job	 	 
+372	17:33:19:931	Server	 		Tomm rolled a 3 and a 5.	 	 
+373	17:33:19:935	Server	 		Dave gets 1 wheat. Tomm gets 1 wood.	 	 
+374	17:33:30:249	Tomm	clay=1; ore=0; sheep=6; wheat=2; wood=1; unknown=0; knights=1; dev-cards=0	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]	Thank god.& I was going to scream& if I rolled a 7	 	 
+375	17:33:33:974	Dave	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	haha	 	 
+376	17:33:47:788	Server	 		Tomm built a settlement.	 	 
+377	17:34:12:199	Server	 		Tomm traded 2 sheep for 1 ore from a port.	 	 
+
+378	17:34:44:621	Server	 		rennoc1 rolled a 4 and a 5.	 	 
+379	17:34:44:624	Server	 		Dave gets 1 wheat. Tomm gets 1 clay.	 	 
+380	17:34:53:522	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Woo!& Clay!& Hard-earned clay!	 	 
+381	17:34:58:520	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	anyone got clay or ore they can swap for wheat?	 	 
+382	17:35:07:544	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	clay or wood, rather	 	 
+383	17:36:00:454	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Only got that one	 	 
+384	17:36:15:811	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	could you, by any chance, use some fine high quality wheat	 	 
+385	17:36:30:315	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	guaranteed to be 100% more edible than clay	 	 
+386	17:36:39:533	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	If I get more clay,& perhaps...& I can eat the sheep for now.	 	 
+387	17:36:52:804	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Cook them in my lovely new tandoor oven I made out of the clay!	 	 
+388	17:36:52:832	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	maybe& but I have almost nothing but wheat to trade back	 	 
+389	17:37:08:213	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	clay or wood rennoc?	 	 
+390	17:37:11:021	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	either one	 	 
+391	17:37:22:408	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	unfortunately, neither one	 	 
+392	17:38:32:369	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	tomm, could I give you 3 sheep for a clay and an ore?	 	 
+393	17:38:56:184	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	I don't have ore, I'm afraid!	 	 
+394	17:39:03:532	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Plus... I'm basically rolling in sheep	 	 
+395	17:40:07:492	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Really need to move that robber blocking your clay, eh?& :/	 	 
+396	17:40:24:860	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	but if I gave you some sheep,& you could trade them back for the resources you'd need	 	 
+397	17:40:43:593	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Well, as I say, don't have any ore at all	 	 
+398	17:41:04:101	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	ok,& cool.	 	 
+399	17:41:07:129	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	I think Dave is the only one who does	 	 
+400	17:41:16:309	Tomm	clay=1; ore=0; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	*whispers*horder!	 	 
+401	17:41:28:085	rennoc1	clay=0; ore=0; sheep=5; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[104,120; 120,88]; settlements=[105,137]	do you have any ores, dave?	 	 
+402	17:41:31:532	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	lo	 	 
+403	17:41:34:140	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I don't, no	 	 
+404	17:41:36:124	Dave	clay=0; ore=0; sheep=0; wheat=3; wood=0; unknown=0; knights=1; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I have wheat	 	 
+405	17:42:16:368	Server	 		rennoc1 traded 4 sheep for 1 ore from the bank.	 	 
+406	17:43:23:836	Server	 		Dave rolled a 2 and a 2.	 	 
+407	17:43:23:840	Server	 		rennoc1 gets 1 clay. Dave gets 1 clay. Tomm gets 1 ore.	 	 
+408	17:43:28:047	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	wheat	 	 
+409	17:43:31:727	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I stole your wheat	 	 
+410	17:43:52:498	Server	 		Tomm rolled a 1 and a 1.	 	 
+411	17:43:52:501	Server	 		No player gets anything.	 	 
+412	17:43:54:656	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	aand, I didn't mean to end that	 	 
+413	17:43:54:918	Tomm	clay=1; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Wait, who'd you steam from?	 	 
+414	17:43:58:552	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	rennoc	 	 
+415	17:44:00:656	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	wwait	 	 
+416	17:44:03:393	rennoc1	clay=1; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	so i see.& i am now utterly wheatless	 	 
+417	17:44:03:504	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	maybe you?	 	 
+418	17:44:06:525	Tomm	clay=1; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Oh, that's harsh.	 	 
+419	17:44:07:987	Tomm	clay=1; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	one sec	 	 
+420	17:44:09:776	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	nah, it was rennoc	 	 
+421	17:44:19:721	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	hey, I know where you can get some good wheat	 	 
+422	17:44:38:301	Server	 		Tomm traded 2 sheep for 1 wood from a port.	 	 
+423	17:45:39:695	Server	 		rennoc1 rolled a 5 and a 2.	 	 
+424	17:46:22:420	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	but seriously, want to trade for some wheat?	 	 
+425	17:46:26:447	Tomm	clay=1; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	where goes the robber?	 	 
+426	17:46:38:860	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	hasn't been moved yet	 	 
+427	17:46:50:451	Tomm	clay=0; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	bah, phone, brb.	 	 
+428	17:46:57:481	Tomm	clay=0; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Hey!	 	 
+429	17:46:59:134	Tomm	clay=0; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	:p	 	 
+430	17:47:04:061	Dave	clay=1; ore=0; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	heh	 	 
+431	17:47:16:988	Server	 		Dave rolled a 2 and a 1.	 	 
+432	17:47:16:991	Server	 		No player gets anything.	 	 
+433	17:47:25:977	Server	 		Dave traded 4 wheat for 1 ore from the bank.	 	 
+434	17:47:39:614	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	...	 	 
+435	17:47:41:166	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	noooo	 	 
+436	17:47:46:606	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I just bought the wrong resource	 	 
+
+437	17:47:55:255	Server	 		Tomm rolled a 1 and a 5.	 	 
+438	17:47:55:258	Server	 		rennoc1 gets 1 sheep. Tomm gets 1 sheep.	 	 
+439	17:48:06:438	rennoc1	clay=2; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	so you have ore to spare then...?	 	 
+440	17:48:14:303	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I do	 	 
+441	17:48:16:759	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	ore for wood?	 	 
+442	17:48:33:350	rennoc1	clay=2; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	if only...& I have clay?	 	 
+443	17:48:54:904	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	that is more useful	 	 
+444	17:48:58:161	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	yeah, go ahead	 	 
+445	17:50:29:695	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Sorry, back	 	 
+446	17:50:31:585	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	what did I miss?	 	 
+447	17:50:35:243	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	not much	 	 
+448	17:50:43:172	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	ADDTIME	 	 
+449	17:50:54:732	Dave	clay=1; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	we play this to the end, not until the time runs out, yeah?	 	 
+450	17:51:00:400	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	yeah, we'll see	 	 
+451	17:51:29:903	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Right, anyway...& so I have bugger all... annnnd... yes.	 	 
+452	17:51:39:427	Server	 		rennoc1 rolled a 4 and a 1.	 	 
+453	17:51:39:430	Server	 		rennoc1 gets 2 clay. Dave gets 1 wheat.	 	 
+454	17:51:59:595	rennoc1	clay=4; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	so dave, what did you have to trade for clay?	 	 
+455	17:52:01:174	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	I covert rennoc's clay.	 	 
+456	17:52:09:092	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	I could offer things?	 	 
+457	17:52:18:653	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	wood?	 	 
+458	17:52:24:222	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Ore?	 	 
+459	17:52:34:398	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	clay rennoc	 	 
+460	17:52:44:630	Dave	clay=1; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I have ore to trade (or wheat, always wheat)	 	 
+461	17:52:59:020	rennoc1	clay=4; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	tomm, do you have ore?	 	 
+462	17:53:02:861	Tomm	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Yes, yes I do	 	 
+463	17:53:23:412	rennoc1	clay=4; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	ok	 	 
+464	17:53:38:557	Server	 		rennoc1 made an offer to trade 1 clay for 1 wheat.	 	 
+465	17:53:45:382	Server	 		rennoc1 traded 1 clay for 1 wheat from Dave.	 	 
+466	17:53:53:276	Server	 		rennoc1 made an offer to trade 1 clay for 1 ore.	 	 
+467	17:54:01:498	Server	 		rennoc1 traded 1 clay for 1 ore from Tomm.	 	 
+468	17:54:16:266	Tomm	clay=1; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	8!	 	 
+469	17:54:17:639	Tomm	clay=1; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	8!	 	 
+470	17:54:17:756	Server	 		Dave rolled a 6 and a 5.	 	 
+471	17:54:17:759	Server	 		rennoc1 gets 1 wheat. Tomm gets 1 wheat.	 	 
+472	17:54:20:358	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Not 8.	 	 
+473	17:54:35:874	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	any wood around?	 	 
+474	17:55:01:919	rennoc1	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=2	roads=[104,120; 120,88]; settlements=[105,137]	nope	 	 
+475	17:55:11:262	Server	 		Tomm rolled a 1 and a 2.	 	 
+476	17:55:11:265	Server	 		No player gets anything.	 	 
+477	17:55:27:496	Tomm	clay=1; ore=0; sheep=1; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Damn robber.& He stole my sheep	 	 
+478	17:55:46:726	Server	 		Tomm built a settlement.	 	 
+479	17:56:06:695	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Woo! Poor!	 	 
+480	17:56:19:825	Server	 		rennoc1 rolled a 3 and a 1.	 	 
+481	17:56:19:828	Server	 		rennoc1 gets 1 clay. Dave gets 1 clay. Tomm gets 2 ore.	 	 
+482	17:57:08:675	Server	 		Dave rolled a 1 and a 6.	 	 
+483	17:57:35:493	Server	 		Tomm rolled a 4 and a 5.	 	 
+484	17:57:35:497	Server	 		Dave gets 1 wheat. Tomm gets 1 clay.	 	 
+485	17:58:11:183	Dave	clay=3; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	has anyone got a sheep,& I can trade wheat or clay	 	 
+486	17:58:34:026	Tomm	clay=1; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Surprisingly I am bereft of sheep.	 	 
+487	17:58:39:265	Dave	clay=3; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	:(	 	 
+488	17:58:40:296	Dave	clay=3; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	rennoc?	 	 
+489	17:58:50:771	Server	 		rennoc1 rolled a 1 and a 3.	 	 
+490	17:58:50:774	Server	 		rennoc1 gets 1 clay. Dave gets 1 clay. Tomm gets 2 ore.	 	 
+491	17:59:01:835	rennoc1	clay=5; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	sorry, no sheep	 	 
+
+492	17:59:19:527	Server	 		Dave rolled a 5 and a 4.	 	 
+493	17:59:19:530	Server	 		Dave gets 1 wheat. Tomm gets 1 clay.	 	 
+494	17:59:20:612	rennoc1	clay=5; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	brb	 	 
+495	17:59:39:528	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Fancy some tasty ore?	 	 
+496	17:59:47:450	Dave	clay=3; ore=1; sheep=0; wheat=3; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I do not& ^_^	 	 
+497	17:59:56:760	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	But... you can... you know... smelt it?	 	 
+498	17:59:59:509	Server	 		Tomm rolled a 1 and a 4.	 	 
+499	17:59:59:513	Server	 		rennoc1 gets 2 clay. Dave gets 1 wheat.	 	 
+500	18:00:23:361	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	How about clay?	 	 
+501	18:00:39:083	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	nope, sorry,& I'm good for clay	 	 
+502	18:00:40:208	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	For... you know... sculpture?	 	 
+503	18:00:45:347	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	and pots	 	 
+504	18:00:55:331	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Bah. Philistine :P	 	 
+505	18:01:11:936	Server	 		rennoc1 rolled a 6 and a 2.	 	 
+506	18:01:11:941	Server	 		Tomm gets 1 wood.	 	 
+507	18:01:13:444	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	hey, the people of Davetopia make very nice pots	 	 
+508	18:01:27:397	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	ooh, wood	 	 
+509	18:01:29:093	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	trade?	 	 
+510	18:01:56:983	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	ok im back	 	 
+511	18:01:58:516	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Oh, so now Davetopia makes with the niceties?	 	 
+512	18:02:05:718	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	we are a fickle people	 	 
+513	18:02:18:106	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Where was all this decorum when we talked before?	 	 
+514	18:02:25:942	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	well you didn't have wood then	 	 
+515	18:02:32:629	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Snigger.	 	 
+516	18:03:05:156	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Tommville is amused by such base humour. Anyway, what will you offer for wood?	 	 
+517	18:03:13:615	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	wheat?&:D	 	 
+518	18:03:17:536	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	or clay	 	 
+519	18:03:22:913	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	anone have sheep	 	 
+520	18:03:26:855	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Pfft, your pots are of no use.	 	 
+521	18:03:30:382	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Sadly still no sheep :(	 	 
+522	18:03:35:560	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	wheat then?	 	 
+523	18:03:44:825	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Talk to rennoc first,& it's his go :p	 	 
+524	18:03:48:921	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	yeah sure, could do with some wheat	 	 
+525	18:03:52:640	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	got wood?	 	 
+526	18:03:59:839	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Still snigger.	 	 
+527	18:04:11:058	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	nope	 	 
+528	18:04:11:833	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	heh	 	 
+529	18:04:31:874	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	that's all I'm interested in, sorry :(	 	 
+530	18:04:37:769	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Dave - how many wheat would you give for 1 wood?	 	 
+531	18:04:45:491	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I will give you one whole wheat	 	 
+532	18:04:53:786	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	I must demand 2.	 	 
+533	18:04:58:987	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	i would give you 2 clay?	 	 
+534	18:04:59:077	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	For the good of my people you understand	 	 
+535	18:05:00:931	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	I must refuse, on principle	 	 
+536	18:05:06:459	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	well, it depends	 	 
+537	18:05:09:245	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	we'll see	 	 
+538	18:05:16:772	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Rennoc, full of clay I'm afraid.	 	 
+539	18:05:31:455	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	although I could offer you ore, Rennoc?	 	 
+540	18:05:38:779	Tomm	clay=2; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	depending on what you have	 	 
+541	18:05:55:437	Dave	clay=3; ore=1; sheep=0; wheat=4; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99]; settlements=[116,171]	also if anyone rolls a seven I will never forgive them	 	 
+542	18:05:59:620	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	well... I've got some really good quality clay.	 	 
+543	18:06:13:961	Server	 		Dave rolled a 3 and a 6.	 	 
+544	18:06:13:965	Server	 		Dave gets 1 wheat. Tomm gets 1 clay.	 	 
+545	18:06:21:527	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Ah... we'll see when we get around to me, can bid for the wood.	 	 
+546	18:06:38:224	Server	 		Dave traded 4 wheat for 1 wood from the bank.	 	 
+547	18:06:41:210	Server	 		Dave built a road.	 	 
+
+548	18:06:51:248	Server	 		Tomm rolled a 3 and a 5.	 	 
+549	18:06:51:251	Server	 		Tomm gets 1 wood.	 	 
+550	18:07:06:653	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=2; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	You crafty gender non-specific pronoun!	 	 
+551	18:07:22:862	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	I can give you one wheat and ore for wood	 	 
+552	18:07:44:555	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=2; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Don't want ore.	 	 
+553	18:07:51:485	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=2; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Rennoc what can you offer me for wood?	 	 
+554	18:08:19:223	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	how about 4 clay for 1 wood and 1 ore?	 	 
+555	18:08:28:400	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	don't do it!& it's a trap	 	 
+556	18:08:51:540	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=2; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Wow, you are clay tastic, eh?	 	 
+557	18:09:11:624	rennoc1	clay=7; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	yep, I speak to you from a bath of clay!	 	 
+558	18:09:30:858	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	(make sure it's not the bath clay he gives you)	 	 
+559	18:09:45:023	Tomm	clay=3; ore=4; sheep=0; wheat=0; wood=2; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	eww. Fair point. Fresh clay if you please	 	 
+560	18:10:02:745	Server	 		Tomm made an offer to trade 1 ore, 1 wood for 4 clay.	 	 
+561	18:10:06:690	Server	 		Tomm traded 1 ore, 1 wood for 4 clay from rennoc1.	 	 
+562	18:10:16:530	Server	 		Tomm traded 4 clay for 1 wheat from the bank.	 	 
+563	18:10:29:600	Tomm	clay=3; ore=3; sheep=0; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	Dave... wood for a wheat?	 	 
+564	18:10:31:138	rennoc1	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	my bath has been demoted to a sink	 	 
+565	18:10:34:475	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	sure	 	 
+566	18:10:48:462	Server	 		Tomm made an offer to trade 1 wood for 1 wheat.	 	 
+567	18:10:54:004	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	wrong player	 	 
+568	18:11:01:895	Server	 		Tomm made an offer to trade 1 wood for 1 wheat.	 	 
+569	18:11:06:602	Tomm	clay=3; ore=3; sheep=0; wheat=1; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	bah	 	 
+570	18:11:06:682	Server	 		Tomm traded 1 wood for 1 wheat from Dave.	 	 
+571	18:11:11:276	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	thanks	 	 
+572	18:11:18:858	Tomm	clay=3; ore=3; sheep=0; wheat=2; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107; 107,71]	No... thank you all!	 	 
+573	18:11:36:113	Server	 		Tomm built a city.	 	 
+574	18:12:17:078	Tomm	clay=3; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Tommville is now Tommopolis!	 	 
+575	18:12:23:713	Server	 		rennoc1 rolled a 3 and a 1.	 	 
+576	18:12:23:716	Server	 		rennoc1 gets 1 clay. Dave gets 1 clay. Tomm gets 3 ore.	 	 
+577	18:12:28:143	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	:O	 	 
+578	18:12:38:812	Tomm	clay=3; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Wow, nice roll Rennoc& :D	 	 
+579	18:12:53:657	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	ok, rennoc, listen to me	 	 
+580	18:12:58:832	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	don't give tomm wheat	 	 
+581	18:13:02:275	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	sorry tomm	 	 
+582	18:13:09:072	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	but he can win the game& if he gets wheat	 	 
+583	18:13:09:134	Tomm	clay=3; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Aww. :(	 	 
+584	18:13:15:173	rennoc1	clay=4; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	can you give wheat to me, dave?	 	 
+585	18:13:19:562	Tomm	clay=3; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Sadly, the man does have a point.	 	 
+586	18:13:27:848	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	uh, I might get some on my turn, so maybe	 	 
+587	18:14:15:918	rennoc1	clay=4; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	for clay?	 	 
+588	18:14:22:914	Dave	clay=3; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82]; settlements=[116,171]	I'm good for clay, thanks	 	 
+589	18:14:39:927	rennoc1	clay=4; ore=1; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	any one have sheep?	 	 
+590	18:14:58:565	Tomm	clay=3; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	That's a fair point, I've not had sheep for ages.	 	 
+591	18:15:19:040	Server	 		Dave rolled a 2 and a 6.	 	 
+592	18:15:19:044	Server	 		Tomm gets 1 wood.	 	 
+593	18:15:30:738	Server	 		Dave built a road.	 	 
+594	18:15:37:366	Server	 		Tomm rolled a 5 and a 1.	 	 
+595	18:15:37:369	Server	 		rennoc1 gets 1 sheep. Tomm gets 3 sheep.	 	 
+596	18:15:43:188	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	3 sheep	 	 
+597	18:15:44:076	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	really	 	 
+598	18:15:52:501	Tomm	clay=3; ore=3; sheep=3; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Rennoc... I have sheep now?	 	 
+599	18:15:56:273	Tomm	clay=3; ore=3; sheep=3; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	Got any wheat?& :P	 	 
+600	18:16:06:670	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	nooooooo	 	 
+601	18:16:30:229	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	don't give him wheat,& also, if you get the robber& put it on that wheat tile in the middle	 	 
+602	18:16:38:025	rennoc1	clay=4; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	nope sorry.& I could spare some clay though	 	 
+603	18:17:05:579	Tomm	clay=3; ore=3; sheep=3; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	1 clay for 1 sheep?	 	 
+604	18:17:38:989	Server	 		Tomm made an offer to trade 1 sheep for 1 clay.	 	 
+605	18:17:43:756	Server	 		Tomm traded 1 sheep for 1 clay from rennoc1.	 	 
+606	18:17:48:523	rennoc1	clay=3; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	thanks	 	 
+607	18:17:57:723	Server	 		Tomm traded 4 clay for 1 wheat from the bank.	 	 
+608	18:18:06:088	Server	 		Tomm traded 2 sheep for 1 wheat from a port.	 	 
+609	18:18:12:974	Tomm	clay=0; ore=3; sheep=0; wheat=2; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,107]	muhaha!	 	 
+610	18:18:17:960	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	uh no	 	 
+611	18:18:21:355	rennoc1	clay=3; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	we're doomed	 	 
+612	18:18:28:633	Server	 		Tomm built a city.	 	 
+613	18:18:42:402	Dave	clay=2; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	that got you less points than I thought	 	 
+
+614	18:18:44:916	Server	 		rennoc1 rolled a 3 and a 2.	 	 
+615	18:18:44:919	Server	 		rennoc1 gets 2 clay. Dave gets 1 wheat.	 	 
+616	18:18:57:733	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	Settlement is worth 2, city 3	 	 
+617	18:19:01:249	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	anyone got wood or sheep to trade?	 	 
+618	18:20:11:454	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	well, I am going to have to go in 5-10 mins, so before I do does anyone want any of my resources	 	 
+619	18:20:26:851	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	you have to go?	 	 
+620	18:20:49:441	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	I'm confused...& I think I should have won?	 	 
+621	18:21:00:031	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	unfortunately,& yes.	 	 
+622	18:21:20:518	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	I'll add time shall I?& We can always end it when we want anyway	 	 
+623	18:21:25:807	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	if we dont add time& i could play till then though!	 	 
+624	18:21:31:671	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	or that.	 	 
+625	18:21:48:982	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	do you have any wood or sheep rennoc?	 	 
+626	18:22:11:104	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	both	 	 
+627	18:22:24:527	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	1 ore and 1 wheat for 1 wood and 1 sheep?	 	 
+628	18:22:50:705	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	how about this.	 	 
+629	18:22:57:446	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	addtime	 	 
+630	18:23:16:042	Server	 		rennoc1 made an offer to trade 1 clay, 1 sheep, 1 wood for 1 ore, 2 wheat.	 	 
+631	18:23:28:225	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	don't have 2 wheat	 	 
+632	18:23:31:834	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	oh	 	 
+633	18:23:32:385	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	would have offered it otherwise	 	 
+634	18:24:24:551	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	bugger, I can't add up, that's why.	 	 
+635	18:24:32:594	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	heh	 	 
+636	18:25:35:238	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	?	 	 
+637	18:25:42:555	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	rennoc, you there?	 	 
+638	18:25:44:877	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	I really need to head off, what do you need guys? i have 5 clay, 1 ore, 2 sheep, 1 wood.	 	 
+639	18:25:52:060	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	sheep, wood	 	 
+640	18:25:58:301	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	sorry for cutting things short on my part	 	 
+641	18:26:21:734	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	how about you tomm?	 	 
+642	18:26:28:667	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	Feel free to fire me the clay	 	 
+643	18:27:26:815	rennoc1	clay=5; ore=1; sheep=2; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	ok it turns out you have to give me something in a trade	 	 
+644	18:27:33:200	Dave	clay=2; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	a clay?	 	 
+645	18:27:54:360	Server	 		rennoc1 made an offer to trade 2 sheep, 1 wood for 1 clay.	 	 
+646	18:27:57:655	Server	 		rennoc1 traded 2 sheep, 1 wood for 1 clay from Dave.	 	 
+647	18:28:49:617	rennoc1	clay=6; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	have anything you can spare for the trade tomm?	 	 
+648	18:29:02:907	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	not realy, just ditch it	 	 
+649	18:29:30:282	rennoc1	clay=6; ore=1; sheep=0; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[104,120; 120,88]; settlements=[105,137]	ok , thanks guys and good luck!	 	 
+650	18:29:50:998	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	cheers, was good playing!	 	 
+651	18:30:12:123	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	so what happens if he quits?	 	 
+652	18:30:17:412	Dave	clay=1; ore=1; sheep=2; wheat=1; wood=1; unknown=0; knights=2; dev-cards=1	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171]	will the game remove him?	 	 
+652.1	18:30:23:257	Markus	 	 	You two just continue	 	 
+653	18:30:23:941	Tomm	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	press done on his go& :P	 	 
+654	18:30:32:666	Server	 		Dave rolled a 1 and a 5.	 	 
+655	18:30:32:669	Server	 		rennoc1 gets 1 sheep. Tomm gets 3 sheep.	 	 
+656	18:30:34:561	Tomm	clay=0; ore=0; sheep=3; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	lets finish this up!	 	 
+657	18:30:36:241	Tomm	clay=0; ore=0; sheep=3; wheat=0; wood=1; unknown=0; knights=1; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	SHEEP!	 	 
+658	18:30:41:763	Server	 		Dave built a settlement.	 	 
+659	18:30:54:219	Server	 		Tomm rolled a 3 and a 1.	 	 
+660	18:30:54:222	Server	 		Dave gets 1 clay. Tomm gets 3 ore.	 	 
+661	18:31:07:697	Server	 		Tomm traded 2 sheep for 1 wheat from a port.	 	 
+662	18:31:18:499	Server	 		Dave rolled a 3 and a 6.	 	 
+663	18:31:18:501	Server	 		Dave gets 1 wheat. Tomm gets 2 clay.	 	 
+664	18:32:49:455	Server	 		Tomm rolled a 6 and a 1.	 	 
+665	18:33:02:457	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	null needs to discard?	 	 
+666	18:33:06:897	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	I'm guessing that's rennoc	 	 
+667	18:33:30:417	Tomm	clay=3; ore=2; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	Oh... I can't move the robber?	 	 
+668	18:33:42:250	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	you've moved it already?	 	 
+669	18:33:56:920	Tomm	clay=3; ore=2; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	No, that was for a soldier card	 	 
+670	18:34:01:114	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	oh	 	 
+671	18:34:13:834	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	it says null needs to discard,& I think it's a bug	 	 
+672	18:34:24:707	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	it's still counting rennoc as having over 7 resources	 	 
+672.1	18:35:32:959	Markus	 	 	Does it work now?	 	 
+673	18:35:54:299	Tomm	clay=3; ore=2; sheep=0; wheat=0; wood=1; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103]; cities=[71,107]	yes, fixed	 	 
+
+674	18:37:13:804	Server	 		Dave rolled a 3 and a 2.	 	 
+675	18:37:13:807	Server	 		Dave gets 1 wheat.	 	 
+676	18:37:29:629	Server	 		Tomm rolled a 2 and a 4.	 	 
+677	18:37:29:631	Server	 		Tomm gets 3 sheep.	 	 
+678	18:38:21:329	Server	 		Tomm traded 2 sheep for 1 wheat from a port.	 	 
+679	18:38:30:092	Server	 		Tomm built a settlement.	 	 
+680	18:38:35:386	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	wwwhat	 	 
+681	18:38:36:946	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	oh, right	 	 
+682	18:38:39:011	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	^_^	 	 
+683	18:38:43:301	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Woo! Settlement!	 	 
+684	18:38:46:754	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	ha, congrats	 	 
+685	18:38:52:826	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	good game	 	 
+686	18:38:58:537	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Hehe, it was fun, thanks.	 	 
+687	18:39:09:499	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	I think I got very lucky getting to the sheep port	 	 
+688	18:39:34:612	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	I spent far too long at the start building pointless roads,& I wasn't 100% sure where I could build s	 	 
+689	18:39:41:280	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	24 sheep :o	 	 
+690	18:39:44:723	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	haha	 	 
+691	18:40:07:653	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Yeah, that is a problem...& Rennoc had lost about half way through to be honest	 	 
+692	18:40:10:779	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	I sort of cut him out >.>	 	 
+693	18:40:17:370	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	and ore is more important in the later game too	 	 
+694	18:40:19:549	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	Yeah, I noticed, he couldn't really expand	 	 
+695	18:40:36:557	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	I had just managed to take a wheat port,& which would have been very helpful	 	 
+696	18:40:43:050	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Yes!	 	 
+697	18:40:51:279	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Ports are great& if you get them	 	 
+698	18:40:52:446	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Anyway, was a pleasure,& should do it again sometime, outside of the experiment!	 	 
+698.1	18:40:59:884	Markus	 	 	Thanks for participating.	 	 
+699	18:41:00:094	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	Yeah, it's a good game	 	 
+699.1	18:41:08:093	Markus	 	 	Glad you enjoyed it.	 	 
+699.2	18:41:22:285	Markus	 	 	Please take a minute to fill in the questionnaire.	 	 
+700	18:41:29:991	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	No problem, I'll send in the questionare in 10 minutes	 	 
+701	18:41:35:939	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	I'll get you your questionaire back tomorrow& if that is okay, Markus,& have to go myself	 	 
+701.1	18:41:42:612	Markus	 	 	Also, for your £5 &you'll have to come by my office.	 	 
+701.2	18:41:47:621	Markus	 	 	Unfortunately.	 	 
+702	18:41:49:631	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	sure, where is your office?	 	 
+702.1	18:41:58:596	Markus	 	 	Informatics Forum 3.24.	 	 
+702.2	18:42:19:236	Markus	 	 	I'll be in and out tomorrow &but should be there most of Wednesday.	 	 
+703	18:42:23:300	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	If you were to email me the form,& could I send a surrogate with my signed form?	 	 
+704	18:42:49:601	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	I have most of wednesday off,& so I'll come in then,& any particular time you'd prefer?	 	 
+705	18:43:00:109	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Have a friend who works there	 	 
+705.1	18:43:06:732	Markus	 	 	Hm, I guess you could scan it in an send it back.	 	 
+705.2	18:43:11:236	Markus	 	 	Or send it by post.	 	 
+705.3	18:43:24:588	Markus	 	 	Sorry &it's the necessary paper trail ...	 	 
+705.4	18:43:32:091	Markus	 	 	I'll send you the form.	 	 
+706	18:43:40:342	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	It's okay,& I understand	 	 
+706.1	18:43:50:220	Markus	 	 	I've no preference for Wednesday	 	 
+706.2	18:43:56:995	Markus	 	 	Should be there most of the day.	 	 
+707	18:44:35:467	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Cheers if you email me the form now,& I'll give it to my friend tonight,& I'm heading to see him.	 	 
+707.1	18:45:04:635	Markus	 	 	Already working on it.	 	 
+708	18:45:31:366	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	Right,& I'll go fill in the form,& about 2 on wednesday then?	 	 
+709	18:45:59:456	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Perfect,& thanks Markus.& I'll email you my response tomorrow	 	 
+709.1	18:46:04:115	Markus	 	 	OK,& that's good for me.	 	 
+709.2	18:46:50:666	Markus	 	 	Wed @ 2 or so; &good.	 	 
+710	18:47:03:015	Dave	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=2	roads=[100,171; 171,170; 170,154; 154,99; 99,82; 82,66]; settlements=[116,171; 171,67]	ok,& well I'm going to head off now	 	 
+710.1	18:47:34:386	Markus	 	 	OK;& thanks again for participating!	 	 
+711	18:48:07:972	Tomm	clay=2; ore=2; sheep=0; wheat=0; wood=0; unknown=0; knights=2; dev-cards=1	roads=[69,86; 86,70; 70,71; 71,72; 72,73; 73,90]; settlements=[69,103; 103,73]; cities=[71,107]	Thanks!	 	 

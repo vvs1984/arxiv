@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<annotations>
+<metadata corpusHashcode="49-86471352"/>
+<unit id="stac_-4">
+<metadata>
+<author>stac</author>
+<creation-date>-4</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1364461734">
+<metadata>
+<author>stac</author>
+<creation-date>1364461734</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=4;  cities=2</feature>
+<feature name="Emitter">Carina</feature>
+<feature name="Identifier">90</feature>
+<feature name="Timestamp">19:49:25:464</feature>
+<feature name="Resources">clay=1; ore=2; sheep=2; wheat=1; wood=2</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1364501730">
+<metadata>
+<author>stac</author>
+<creation-date>1364501730</creation-date>
+<lastModifier>jhunter</lastModifier>
+<lastModificationDate>1459328810512</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Other</type>
+<featureSet>
+<feature name="Addressee">?</feature>
+<feature name="Surface_act">Question</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="15"/>
+</start>
+<end>
+<singlePosition index="16"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-5">
+<metadata>
+<author>stac</author>
+<creation-date>-5</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="17"/>
+</start>
+<end>
+<singlePosition index="48"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1364461735">
+<metadata>
+<author>stac</author>
+<creation-date>1364461735</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=6;  settlements=3</feature>
+<feature name="Emitter">inca</feature>
+<feature name="Identifier">91</feature>
+<feature name="Timestamp">19:49:48:690</feature>
+<feature name="Resources">clay=0; ore=1; sheep=0; wheat=3; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="17"/>
+</start>
+<end>
+<singlePosition index="48"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1364511730">
+<metadata>
+<author>stac</author>
+<creation-date>1364511730</creation-date>
+<lastModifier>jhunter</lastModifier>
+<lastModificationDate>1459328814799</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Other</type>
+<featureSet>
+<feature name="Addressee">yiin</feature>
+<feature name="Surface_act">Question</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="29"/>
+</start>
+<end>
+<singlePosition index="48"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1365061732">
+<metadata>
+<author>stac</author>
+<creation-date>1365061732</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Dialogue</type>
+<featureSet>
+<feature name="Trades">yiin traded 4 wheat for 1 wood from the bank. inca traded 3 sheep for 1 wood from a port.</feature>
+<feature name="Dice_rolling">Carina rolled a 3 and a 1. inca rolled a 3 and a 2. yiin rolled a 3 and a 6. Carina rolled a 2 and a 5. inca rolled a 1 and a 6. yiin rolled a 5 and a 5. Carina rolled a 2 and a 3. inca rolled a 1 and a 5. yiin rolled a 2 and a 3.</feature>
+<feature name="Gets">inca gets 1 ore. Carina gets 1 wheat. inca gets 1 wheat. inca gets 1 clay. Carina gets 2 ore. inca gets 2 wood. yiin gets 1 wood. inca gets 1 wheat. Carina gets 2 wood. inca gets 1 wheat. yiin gets 1 wheat. Carina gets 2 sheep. inca gets 1 wheat. Carina gets 2 wood.</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="48"/>
+</end>
+</positioning>
+</unit>
+</annotations>

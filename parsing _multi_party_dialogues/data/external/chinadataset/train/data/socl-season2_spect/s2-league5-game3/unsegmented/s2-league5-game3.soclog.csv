@@ -1,0 +1,460 @@
+ID	Timestamp	Emitter	Resources	Buildups	Text	Annotation	Comment
+1	01:01:05:211	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		excellent!	 	 
+2	01:01:44:892	Ghettoette	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		hey everyone	 	 
+3	01:01:53:001	gramos	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		Sorry I'm late	 	 
+4	01:02:10:117	catanstrophe	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		hello!	 	 
+5	01:02:41:390	Server	 		zorburt built a settlement.	 	 
+6	01:02:44:318	Server	 		zorburt built a road.	 	 
+7	01:03:13:002	Server	 		Ghettoette built a settlement.	 	 
+8	01:03:14:538	Server	 		Ghettoette built a road.	 	 
+9	01:03:20:856	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		np.  did the wheat colour load properly for everyone?	 	 
+10	01:03:34:523	gramos	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		it looks golden and wheaty from here	 	 
+11	01:03:41:461	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		ok just mine then.	 	 
+12	01:03:44:430	catanstrophe	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		damn those were some awesome spots	 	 
+13	01:03:53:709	Ghettoette	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		same here, but last time my bricks looked wierd	 	 
+14	01:05:56:754	catanstrophe	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0		sorry, this is tough	 	 
+15	01:06:06:989	Server	 		catanstrophe built a settlement.	 	 
+16	01:06:16:954	Server	 		catanstrophe built a road.	 	 
+17	01:06:28:697	Server	 		gramos built a settlement.	 	 
+18	01:06:31:787	Server	 		gramos built a road.	 	 
+19	01:06:41:241	Server	 		gramos built a settlement.	 	 
+20	01:06:43:501	Server	 		gramos built a road.	 	 
+21	01:07:12:763	Server	 		catanstrophe built a settlement.	 	 
+22	01:07:25:645	Server	 		catanstrophe built a road.	 	 
+23	01:07:43:666	Server	 		Ghettoette built a settlement.	 	 
+24	01:07:46:071	Server	 		Ghettoette built a road.	 	 
+25	01:07:54:550	Server	 		zorburt built a settlement.	 	 
+26	01:08:04:106	Server	 		zorburt built a road.	 	 
+27	01:08:07:006	Server	 		zorburt rolled a 5 and a 2.	 	 
+28	01:08:15:370	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[86,135]; settlements=[86,152]	oh great	 	 
+29	01:08:30:833	zorburt	clay=2; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71]; settlements=[116,88]	i hate when it rolls a 7 right away.	 	 
+30	01:08:40:938	Server	 		zorburt built a road.	 	 
+31	01:08:50:911	Ghettoette	clay=1; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104]; settlements=[171,120]	sorry, best place left	 	 
+32	01:08:51:996	Server	 		Ghettoette rolled a 5 and a 2.	 	 
+33	01:09:12:616	zorburt	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82]; settlements=[116,88]	lol	 	 
+34	01:09:30:530	Server	 		Ghettoette built a road.	 	 
+35	01:09:41:127	Server	 		catanstrophe rolled a 1 and a 4.	 	 
+36	01:09:41:141	Server	 		zorburt gets 1 wood. Ghettoette gets 1 clay. catanstrophe gets 1 clay.	 	 
+37	01:09:57:077	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122]; settlements=[184,139]	does anyone have wood?	 	 
+38	01:09:58:931	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122]; settlements=[184,139]	will give brick	 	 
+39	01:10:07:934	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[86,135]; settlements=[86,152]	sorry no	 	 
+40	01:10:10:095	zorburt	clay=0; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82]; settlements=[116,88]	no	 	 
+41	01:10:26:892	Ghettoette	clay=2; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	nope	 	 
+42	01:10:30:935	Server	 		gramos rolled a 6 and a 2.	 	 
+43	01:10:30:938	Server	 		Ghettoette gets 1 wheat.	 	 
+44	01:10:54:180	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[86,135]; settlements=[86,152]	anyone want to give a wheat?	 	 
+45	01:10:58:866	zorburt	clay=0; ore=0; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82]; settlements=[116,88]	no	 	 
+46	01:11:03:577	Ghettoette	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	nope	 	 
+47	01:11:08:131	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122]; settlements=[184,139]	i can	 	 
+48	01:11:10:432	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122]; settlements=[184,139]	i want wood though	 	 
+49	01:11:17:227	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[86,135]; settlements=[86,152]	yeah, I know...	 	 
+50	01:11:37:121	Server	 		gramos made an offer to trade 1 wood for 1 wheat.	 	 
+51	01:11:40:980	Server	 		gramos traded 1 wood for 1 wheat from catanstrophe.	 	 
+52	01:11:49:539	Server	 		zorburt rolled a 4 and a 1.	 	 
+53	01:11:49:541	Server	 		zorburt gets 1 wood. Ghettoette gets 1 clay. catanstrophe gets 1 clay.	 	 
+54	01:12:07:694	Server	 		Ghettoette rolled a 1 and a 3.	 	 
+55	01:12:07:695	Server	 		Ghettoette gets 1 ore. gramos gets 1 ore, 1 sheep.	 	 
+56	01:12:35:061	Ghettoette	clay=3; ore=1; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	anyone want to give me wood for brick?	 	 
+57	01:12:46:608	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	none in stock	 	 
+58	01:12:58:571	Server	 		catanstrophe rolled a 1 and a 4.	 	 
+59	01:12:58:573	Server	 		zorburt gets 1 wood. Ghettoette gets 1 clay. catanstrophe gets 1 clay.	 	 
+60	01:13:02:944	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	5 again!	 	 
+61	01:13:15:417	Server	 		catanstrophe built a road.	 	 
+62	01:13:25:549	Server	 		gramos rolled a 4 and a 3.	 	 
+63	01:14:16:566	Server	 		zorburt rolled a 6 and a 5.	 	 
+64	01:14:16:568	Server	 		zorburt gets 1 sheep. Ghettoette gets 1 wood. gramos gets 1 wood.	 	 
+65	01:14:29:021	gramos	clay=1; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	great, NOW I get the wood	 	 
+66	01:14:44:447	zorburt	clay=0; ore=0; sheep=2; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82]; settlements=[116,88]	LOL i was going to say, i'll give someone a wood for a brick.	 	 
+67	01:15:00:398	Ghettoette	clay=3; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	i'll do that	 	 
+68	01:15:10:619	catanstrophe	clay=4; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	i can do it too	 	 
+69	01:15:13:207	Server	 		zorburt made an offer to trade 1 wood for 1 clay.	 	 
+70	01:15:22:392	Server	 		zorburt traded 1 wood for 1 clay from gramos.	 	 
+71	01:15:33:660	zorburt	clay=1; ore=0; sheep=2; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82]; settlements=[116,88]	sorry ghettoette got there first.	 	 
+72	01:15:45:803	catanstrophe	clay=4; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	yeah no worries	 	 
+73	01:15:50:811	catanstrophe	clay=4; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	well if you wanted to do the trade again..	 	 
+74	01:16:07:441	Server	 		zorburt built a road.	 	 
+75	01:16:14:843	Server	 		Ghettoette rolled a 5 and a 5.	 	 
+76	01:16:14:844	Server	 		zorburt gets 1 wood. Ghettoette gets 1 wheat. catanstrophe gets 1 wheat.	 	 
+77	01:16:55:826	Server	 		catanstrophe rolled a 4 and a 1.	 	 
+78	01:16:55:828	Server	 		zorburt gets 1 wood.	 	 
+79	01:17:02:127	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	yay 5	 	 
+80	01:17:23:952	catanstrophe	clay=4; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	i'll trade you a brick for a wood gramos	 	 
+81	01:17:30:047	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	deal	 	 
+82	01:17:39:578	Server	 		catanstrophe made an offer to trade 1 clay for 1 wood.	 	 
+83	01:17:42:775	Server	 		catanstrophe traded 1 clay for 1 wood from gramos.	 	 
+84	01:18:19:286	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	does anyone have sheep?	 	 
+85	01:18:26:049	zorburt	clay=0; ore=0; sheep=2; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54]; settlements=[116,88]	what do you have to trade?	 	 
+86	01:18:28:916	gramos	clay=1; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	not to spare	 	 
+87	01:18:29:430	catanstrophe	clay=3; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139]	brick	 	 
+88	01:18:38:002	zorburt	clay=0; ore=0; sheep=2; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54]; settlements=[116,88]	yeah ok.	 	 
+89	01:18:57:733	Server	 		catanstrophe made an offer to trade 1 clay for 1 sheep.	 	 
+90	01:19:01:206	Server	 		catanstrophe traded 1 clay for 1 sheep from zorburt.	 	 
+91	01:19:07:778	Server	 		catanstrophe built a settlement.	 	 
+92	01:19:13:588	Server	 		gramos rolled a 4 and a 1.	 	 
+93	01:19:13:590	Server	 		zorburt gets 1 wood.	 	 
+94	01:19:22:315	gramos	clay=1; ore=1; sheep=1; wheat=0; wood=1; unknown=0; knights=0; dev-cards=1	roads=[86,135]; settlements=[86,152]	*sigh*	 	 
+95	01:19:28:680	Server	 		gramos built a road.	 	 
+96	01:19:33:965	Server	 		zorburt rolled a 6 and a 1.	 	 
+97	01:20:29:771	zorburt	clay=2; ore=0; sheep=1; wheat=0; wood=4; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54]; settlements=[116,88]	does anyoen have wheat to trade?	 	 
+98	01:20:41:033	Ghettoette	clay=3; ore=1; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	for a sheep	 	 
+99	01:20:48:968	gramos	clay=0; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[86,135; 135,118]; settlements=[86,152]	none, sorry	 	 
+100	01:20:55:827	zorburt	clay=2; ore=0; sheep=1; wheat=0; wood=4; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54]; settlements=[116,88]	i don't have sheep... what about a wood or a brick?	 	 
+101	01:21:21:271	Ghettoette	clay=3; ore=1; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188]; settlements=[171,120]	nah, sorry	 	 
+102	01:21:34:105	Server	 		zorburt built a road.	 	 
+103	01:21:46:722	Server	 		Ghettoette rolled a 2 and a 1.	 	 
+104	01:21:46:724	Server	 		catanstrophe gets 1 ore. gramos gets 1 wheat.	 	 
+105	01:22:00:278	Server	 		catanstrophe rolled a 2 and a 5.	 	 
+106	01:22:08:598	zorburt	clay=1; ore=0; sheep=1; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88]	a lot of 7s coming up this game.	 	 
+107	01:22:17:388	gramos	clay=0; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[86,135; 135,118]; settlements=[86,152]	and 5's, I've noticed	 	 
+108	01:22:58:502	Server	 		gramos rolled a 2 and a 6.	 	 
+109	01:22:58:504	Server	 		zorburt gets 1 wheat. Ghettoette gets 1 wheat.	 	 
+110	01:23:12:935	Server	 		zorburt rolled a 1 and a 2.	 	 
+111	01:23:12:937	Server	 		catanstrophe gets 1 ore. gramos gets 1 wheat.	 	 
+112	01:23:26:448	Server	 		zorburt built a settlement.	 	 
+113	01:23:34:216	Server	 		Ghettoette rolled a 3 and a 1.	 	 
+114	01:23:34:219	Server	 		Ghettoette gets 1 ore. gramos gets 1 ore, 1 sheep.	 	 
+115	01:23:51:780	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82]	damnit if only i built my city at the 4. ahwell.	 	 
+116	01:24:06:492	Server	 		Ghettoette built a road.	 	 
+117	01:24:15:139	Server	 		catanstrophe rolled a 4 and a 4.	 	 
+118	01:24:15:140	Server	 		zorburt gets 2 wheat. Ghettoette gets 1 wheat.	 	 
+119	01:24:39:480	Server	 		gramos rolled a 2 and a 4.	 	 
+120	01:24:39:483	Server	 		zorburt gets 1 clay. Ghettoette gets 1 clay. catanstrophe gets 1 ore. gramos gets 1 clay.	 	 
+121	01:25:03:183	gramos	clay=2; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118]; settlements=[86,152]	I could use wood if anyone has to spare	 	 
+122	01:25:10:199	catanstrophe	clay=0; ore=3; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	i will trade	 	 
+123	01:25:13:695	catanstrophe	clay=0; ore=3; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	i want grain	 	 
+124	01:25:31:549	gramos	clay=2; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118]; settlements=[86,152]	ok	 	 
+125	01:25:43:091	Server	 		gramos made an offer to trade 1 wheat for 1 wood.	 	 
+126	01:25:48:043	Server	 		gramos traded 1 wheat for 1 wood from catanstrophe.	 	 
+127	01:25:57:792	Server	 		gramos built a road.	 	 
+128	01:26:04:162	Server	 		zorburt rolled a 4 and a 1.	 	 
+129	01:26:04:164	Server	 		zorburt gets 1 wood.	 	 
+130	01:26:24:840	zorburt	clay=1; ore=0; sheep=0; wheat=2; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82]	no sheep on the board eh?	 	 
+131	01:26:29:176	catanstrophe	clay=0; ore=3; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	nope	 	 
+132	01:26:40:032	zorburt	clay=1; ore=0; sheep=0; wheat=2; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82]	does anyone want to give me a wheat and i give a wood?	 	 
+133	01:26:43:985	Ghettoette	clay=2; ore=2; sheep=0; wheat=4; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	yes	 	 
+134	01:27:07:910	Server	 		zorburt made an offer to trade 1 wood for 1 wheat.	 	 
+135	01:27:12:765	Server	 		zorburt traded 1 wood for 1 wheat from Ghettoette.	 	 
+136	01:27:23:259	Server	 		zorburt traded 2 wheat for 1 sheep from a port.	 	 
+137	01:27:27:543	Server	 		zorburt built a settlement.	 	 
+138	01:27:35:811	Server	 		Ghettoette rolled a 4 and a 4.	 	 
+139	01:27:35:814	Server	 		zorburt gets 2 wheat. Ghettoette gets 1 wheat.	 	 
+140	01:27:46:077	zorburt	clay=0; ore=0; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	thanks.	 	 
+141	01:27:50:941	Ghettoette	clay=2; ore=2; sheep=0; wheat=4; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	sure thing	 	 
+142	01:28:20:987	Server	 		Ghettoette traded 4 wheat for 1 sheep from the bank.	 	 
+143	01:28:30:329	Server	 		catanstrophe rolled a 1 and a 4.	 	 
+144	01:28:30:330	Server	 		zorburt gets 1 wood.	 	 
+145	01:28:43:672	Server	 		gramos rolled a 4 and a 4.	 	 
+146	01:28:43:673	Server	 		zorburt gets 2 wheat. Ghettoette gets 1 wheat.	 	 
+147	01:28:48:978	catanstrophe	clay=0; ore=3; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	man that robber onthe 5	 	 
+148	01:29:13:892	gramos	clay=1; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	yep, I put him there. Didn't think he'd stay THAT long.	 	 
+149	01:29:31:716	gramos	clay=1; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	anyone need ore?	 	 
+150	01:30:00:119	Server	 		zorburt rolled a 4 and a 3.	 	 
+151	01:30:10:186	zorburt	clay=0; ore=0; sheep=0; wheat=4; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	haha i knew i was going to roll that.	 	 
+152	01:31:04:208	Server	 		zorburt traded 2 wheat for 1 ore from a port.	 	 
+153	01:31:20:702	Server	 		Ghettoette rolled a 1 and a 5.	 	 
+154	01:31:20:704	Server	 		zorburt gets 1 clay. Ghettoette gets 1 clay. catanstrophe gets 1 ore. gramos gets 1 clay.	 	 
+155	01:31:31:827	Ghettoette	clay=3; ore=2; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	so, still no sheep to trade?	 	 
+156	01:31:43:859	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	No, sorry.	 	 
+157	01:31:49:145	zorburt	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	no	 	 
+158	01:31:51:201	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	no	 	 
+159	01:32:01:492	Server	 		catanstrophe rolled a 1 and a 6.	 	 
+160	01:32:32:703	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	i will trade an ore for a wheat	 	 
+161	01:32:41:950	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	ok, sounds good.	 	 
+162	01:32:55:299	Server	 		catanstrophe made an offer to trade 1 ore for 1 wheat.	 	 
+163	01:33:21:493	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	strange, I only get a Reject button	 	 
+164	01:33:26:828	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	I have an ore	 	 
+165	01:33:29:786	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	wait i give an ore	 	 
+166	01:33:34:712	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	you give me a wheat	 	 
+167	01:33:41:367	Server	 		catanstrophe made an offer to trade 1 ore for 1 wheat.	 	 
+168	01:33:49:696	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	uhh what is going on	 	 
+169	01:33:55:659	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	got it reversed.	 	 
+170	01:34:02:775	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	I have ore not wheat	 	 
+171	01:34:05:961	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	oh darn	 	 
+172	01:34:11:538	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	anyone else?	 	 
+173	01:34:13:963	gramos	clay=2; ore=1; sheep=1; wheat=0; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	sorry bout that	 	 
+174	01:34:17:413	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	no prob	 	 
+175	01:34:17:866	zorburt	clay=1; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=1	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	no	 	 
+176	01:34:27:222	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	ghettoette	 	 
+177	01:34:27:513	Ghettoette	clay=3; ore=2; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	nope	 	 
+178	01:34:28:427	catanstrophe	clay=0; ore=4; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	?	 	 
+179	01:34:34:193	Server	 		gramos rolled a 2 and a 5.	 	 
+180	01:35:22:560	gramos	clay=2; ore=1; sheep=1; wheat=1; wood=0; unknown=0; knights=1; dev-cards=1	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	nowhere else to put him, really	 	 
+181	01:35:36:504	Server	 		zorburt rolled a 1 and a 2.	 	 
+182	01:35:36:505	Server	 		catanstrophe gets 1 ore. gramos gets 1 wheat.	 	 
+183	01:36:00:436	Server	 		Ghettoette rolled a 6 and a 6.	 	 
+184	01:36:00:438	Server	 		zorburt gets 1 wood. catanstrophe gets 1 wood.	 	 
+185	01:36:11:887	Server	 		catanstrophe rolled a 3 and a 4.	 	 
+186	01:36:33:315	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	does anyone have wheat?	 	 
+187	01:36:49:205	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	only one that I need	 	 
+188	01:36:54:983	Ghettoette	clay=3; ore=2; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	no	 	 
+189	01:37:08:237	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	how about brick?	 	 
+190	01:37:15:836	Ghettoette	clay=3; ore=2; sheep=0; wheat=1; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	for a sheep	 	 
+191	01:37:20:048	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	for an ore?	 	 
+192	01:37:20:923	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	I can spare a brick	 	 
+193	01:37:24:941	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	for sheep	 	 
+194	01:37:28:996	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	in return	 	 
+195	01:37:35:696	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	i dont have any sheep	 	 
+196	01:37:42:068	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	i could do an ore or a wood	 	 
+197	01:37:44:753	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	for a brick	 	 
+198	01:37:46:824	zorburt	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	sheep is pretty rare right now.	 	 
+199	01:37:51:651	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	yeah and wheat	 	 
+200	01:37:55:001	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	what a board!	 	 
+201	01:37:55:636	catanstrophe	clay=0; ore=5; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106]; settlements=[184,139; 139,107]	;)	 	 
+202	01:37:58:230	zorburt	clay=1; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=1	roads=[99,71; 71,82; 82,54; 54,37]; settlements=[116,88; 88,82; 82,37]	lol	 	 
+203	01:38:04:130	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	"ok, I""ll take wood in exchange for your brick"	 	 
+204	01:38:05:180	Server	 		catanstrophe traded 4 ore for 1 clay from the bank.	 	 
+205	01:38:11:371	Server	 		catanstrophe built a road.	 	 
+206	01:38:24:367	catanstrophe	clay=0; ore=1; sheep=0; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167]; settlements=[184,139; 139,107]	wait	 	 
+207	01:38:31:330	catanstrophe	clay=0; ore=1; sheep=0; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167]; settlements=[184,139; 139,107]	you want wood, and can give brick?	 	 
+208	01:38:38:523	gramos	clay=2; ore=0; sheep=0; wheat=1; wood=0; unknown=0; knights=1; dev-cards=2	roads=[86,135; 135,118; 118,69]; settlements=[86,152]	yep	 	 
+209	01:38:46:249	Server	 		catanstrophe made an offer to trade 1 wood for 1 clay.	 	 
+210	01:38:48:554	Server	 		catanstrophe traded 1 wood for 1 clay from gramos.	 	 
+211	01:38:52:948	Server	 		catanstrophe built a road.	 	 
+212	01:38:58:286	Server	 		gramos rolled a 4 and a 6.	 	 
+213	01:38:58:287	Server	 		zorburt gets 1 wood. Ghettoette gets 1 wheat. catanstrophe gets 1 wheat.	 	 
+214	01:39:07:273	Server	 		gramos built a road.	 	 
+215	01:39:25:070	Server	 		zorburt rolled a 5 and a 2.	 	 
+216	01:40:07:191	Server	 		zorburt built a road.	 	 
+217	01:40:27:963	Server	 		zorburt built a road.	 	 
+218	01:40:39:339	Server	 		zorburt traded 2 wheat for 1 sheep from a port.	 	 
+219	01:40:55:904	Server	 		Ghettoette rolled a 1 and a 6.	 	 
+220	01:41:14:762	Server	 		catanstrophe rolled a 3 and a 6.	 	 
+221	01:41:14:764	Server	 		catanstrophe gets 2 clay, 1 sheep. gramos gets 1 sheep.	 	 
+222	01:41:37:421	Server	 		gramos rolled a 5 and a 6.	 	 
+223	01:41:37:423	Server	 		zorburt gets 1 sheep. Ghettoette gets 1 wood. gramos gets 1 wood.	 	 
+224	01:41:51:905	Server	 		zorburt rolled a 3 and a 2.	 	 
+225	01:41:51:907	Server	 		zorburt gets 1 wood. Ghettoette gets 1 clay. catanstrophe gets 1 clay.	 	 
+226	01:42:19:659	zorburt	clay=0; ore=0; sheep=2; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37]	does anyone want to give me a brick or wheat? i'll give you a sheep	 	 
+227	01:42:28:510	Ghettoette	clay=3; ore=2; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170]; settlements=[171,120]	yes, brick	 	 
+228	01:42:35:076	zorburt	clay=0; ore=0; sheep=2; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37]	excellent.	 	 
+229	01:42:44:251	Server	 		zorburt made an offer to trade 1 sheep for 1 clay.	 	 
+230	01:42:48:131	Server	 		zorburt traded 1 sheep for 1 clay from Ghettoette.	 	 
+231	01:42:53:697	Server	 		zorburt built a settlement.	 	 
+232	01:42:59:587	Server	 		Ghettoette rolled a 5 and a 3.	 	 
+233	01:42:59:588	Server	 		Ghettoette gets 1 wheat.	 	 
+234	01:43:11:271	Server	 		Ghettoette built a settlement.	 	 
+235	01:43:19:781	Server	 		catanstrophe rolled a 1 and a 2.	 	 
+236	01:43:19:783	Server	 		catanstrophe gets 1 ore. gramos gets 1 wheat.	 	 
+237	01:43:34:075	Server	 		gramos rolled a 3 and a 5.	 	 
+238	01:43:34:077	Server	 		Ghettoette gets 2 wheat.	 	 
+239	01:44:05:501	gramos	clay=0; ore=0; sheep=1; wheat=2; wood=1; unknown=0; knights=2; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102]; settlements=[86,152]	ok that was stupid	 	 
+240	01:44:11:435	Server	 		zorburt rolled a 3 and a 3.	 	 
+241	01:44:11:438	Server	 		zorburt gets 1 clay. Ghettoette gets 1 clay. catanstrophe gets 1 ore. gramos gets 1 clay.	 	 
+242	01:44:21:367	Server	 		Ghettoette rolled a 5 and a 6.	 	 
+243	01:44:21:369	Server	 		zorburt gets 1 sheep. Ghettoette gets 1 wood. gramos gets 1 wood.	 	 
+244	01:44:45:464	Server	 		Ghettoette built a road.	 	 
+245	01:44:51:841	Server	 		catanstrophe rolled a 4 and a 2.	 	 
+246	01:44:51:844	Server	 		zorburt gets 1 clay. Ghettoette gets 1 clay. catanstrophe gets 1 ore. gramos gets 1 clay.	 	 
+247	01:45:06:255	catanstrophe	clay=3; ore=4; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150]; settlements=[184,139; 139,107]	does anyone have wheat?	 	 
+248	01:45:13:017	Ghettoette	clay=2; ore=2; sheep=0; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[171,120; 120,205]	yes, for ore	 	 
+249	01:45:17:141	catanstrophe	clay=3; ore=4; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150]; settlements=[184,139; 139,107]	ok deal	 	 
+250	01:45:24:361	Server	 		catanstrophe made an offer to trade 1 ore for 1 wheat.	 	 
+251	01:45:28:282	Server	 		catanstrophe traded 1 ore for 1 wheat from Ghettoette.	 	 
+252	01:45:40:932	Server	 		catanstrophe traded 2 clay for 1 wheat from a port.	 	 
+253	01:45:46:646	Server	 		catanstrophe built a city.	 	 
+254	01:45:53:894	Server	 		gramos rolled a 2 and a 3.	 	 
+255	01:45:53:896	Server	 		Ghettoette gets 1 clay. catanstrophe gets 2 clay.	 	 
+256	01:46:00:134	zorburt	clay=2; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	damnit ;)	 	 
+257	01:46:14:285	Server	 		gramos built a settlement.	 	 
+258	01:46:18:712	Server	 		gramos built a road.	 	 
+259	01:46:23:116	Server	 		zorburt rolled a 5 and a 6.	 	 
+260	01:46:23:118	Server	 		zorburt gets 1 sheep. Ghettoette gets 1 wood. gramos gets 2 wood.	 	 
+261	01:46:35:969	Server	 		Ghettoette rolled a 6 and a 2.	 	 
+262	01:46:35:971	Server	 		zorburt gets 2 wheat. Ghettoette gets 2 wheat.	 	 
+263	01:46:47:007	Server	 		Ghettoette built a city.	 	 
+264	01:47:02:916	Ghettoette	clay=3; ore=0; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	anyone want to give a sheep?	 	 
+265	01:47:08:161	zorburt	clay=2; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	for?	 	 
+266	01:47:18:100	Ghettoette	clay=3; ore=0; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	brick or wheat	 	 
+267	01:47:44:311	zorburt	clay=2; ore=0; sheep=2; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	i'm ok.	 	 
+268	01:47:50:335	Ghettoette	clay=3; ore=0; sheep=0; wheat=2; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	ok	 	 
+269	01:47:58:092	Server	 		catanstrophe rolled a 6 and a 2.	 	 
+270	01:47:58:094	Server	 		zorburt gets 2 wheat. Ghettoette gets 3 wheat.	 	 
+271	01:48:07:099	Server	 		catanstrophe traded 2 clay for 1 wood from a port.	 	 
+272	01:48:11:376	Server	 		catanstrophe built a road.	 	 
+273	01:48:18:481	Server	 		gramos rolled a 6 and a 1.	 	 
+274	01:49:03:252	catanstrophe	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166]; settlements=[184,107]	i have a sheep	 	 
+275	01:49:07:020	catanstrophe	clay=0; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166]; settlements=[184,107]	oh wait	 	 
+276	01:49:23:987	Server	 		gramos built a road.	 	 
+277	01:49:29:484	Server	 		zorburt rolled a 2 and a 3.	 	 
+278	01:49:29:486	Server	 		zorburt gets 1 wood.	 	 
+279	01:50:01:903	Server	 		Ghettoette rolled a 1 and a 1.	 	 
+280	01:50:01:906	Server	 		zorburt gets 1 sheep.	 	 
+281	01:50:12:760	gramos	clay=0; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=2; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118]	was that our first 2?	 	 
+282	01:50:14:424	Server	 		catanstrophe rolled a 5 and a 6.	 	 
+283	01:50:14:426	Server	 		zorburt gets 1 sheep. Ghettoette gets 1 wood. gramos gets 2 wood.	 	 
+284	01:50:24:696	Server	 		gramos rolled a 4 and a 4.	 	 
+285	01:50:24:698	Server	 		zorburt gets 2 wheat. Ghettoette gets 3 wheat.	 	 
+286	01:50:26:758	zorburt	clay=1; ore=0; sheep=2; wheat=5; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	this game yeah!	 	 
+287	01:51:22:817	Server	 		zorburt rolled a 3 and a 3.	 	 
+288	01:51:22:819	Server	 		zorburt gets 1 clay. Ghettoette gets 1 clay. catanstrophe gets 1 ore. gramos gets 1 clay.	 	 
+289	01:51:39:016	zorburt	clay=2; ore=0; sheep=2; wheat=4; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	does anyone want to give me an ore?	 	 
+290	01:51:53:268	zorburt	clay=2; ore=0; sheep=2; wheat=4; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133]; settlements=[116,88; 88,82; 82,37; 37,150]	i have sheep.	 	 
+291	01:51:55:069	gramos	clay=1; ore=0; sheep=0; wheat=2; wood=3; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118]	I've had one the whole game and it's gone now	 	 
+292	01:52:06:077	Ghettoette	clay=1; ore=0; sheep=0; wheat=6; wood=2; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	sorry	 	 
+293	01:52:15:466	Server	 		zorburt traded 2 wheat for 1 ore from a port.	 	 
+294	01:52:44:539	Server	 		zorburt traded 2 wheat for 1 ore from a port.	 	 
+295	01:53:05:489	Server	 		zorburt built a road.	 	 
+296	01:53:14:060	Server	 		Ghettoette rolled a 3 and a 6.	 	 
+297	01:53:14:062	Server	 		zorburt gets 1 sheep. catanstrophe gets 3 clay, 1 sheep. gramos gets 1 sheep.	 	 
+298	01:53:33:607	zorburt	clay=1; ore=2; sheep=3; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38]; settlements=[116,88; 88,82; 82,37; 37,150]	you get 3 clays!?	 	 
+299	01:53:34:799	zorburt	clay=1; ore=2; sheep=3; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38]; settlements=[116,88; 88,82; 82,37; 37,150]	wow.	 	 
+300	01:53:36:625	Ghettoette	clay=1; ore=0; sheep=0; wheat=6; wood=2; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	now that a 9 is finally rolled, anyone want to trade a sheep?	 	 
+301	01:53:42:085	catanstrophe	clay=3; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166]; settlements=[184,107]	yes	 	 
+302	01:53:45:882	zorburt	clay=1; ore=2; sheep=3; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38]; settlements=[116,88; 88,82; 82,37; 37,150]	yes.	 	 
+303	01:53:47:833	catanstrophe	clay=3; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166]; settlements=[184,107]	i want graom	 	 
+304	01:53:49:179	catanstrophe	clay=3; ore=1; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166]; settlements=[184,107]	grain	 	 
+305	01:53:53:392	Ghettoette	clay=1; ore=0; sheep=0; wheat=6; wood=2; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186]; settlements=[120,205]	ok	 	 
+306	01:54:15:597	Server	 		Ghettoette made an offer to trade 1 wheat for 1 sheep.	 	 
+307	01:54:19:842	Server	 		Ghettoette traded 1 wheat for 1 sheep from catanstrophe.	 	 
+308	01:54:31:111	Server	 		Ghettoette built a settlement.	 	 
+309	01:54:49:227	Server	 		catanstrophe rolled a 5 and a 5.	 	 
+310	01:54:49:230	Server	 		zorburt gets 2 wood. Ghettoette gets 2 wheat. catanstrophe gets 2 wheat. gramos gets 1 wood.	 	 
+311	01:55:10:252	Server	 		catanstrophe traded 2 clay for 1 wood from a port.	 	 
+312	01:55:14:065	Server	 		catanstrophe built a settlement.	 	 
+313	01:55:24:575	Server	 		gramos rolled a 6 and a 3.	 	 
+314	01:55:24:578	Server	 		zorburt gets 1 sheep. catanstrophe gets 3 clay, 1 sheep. gramos gets 1 sheep.	 	 
+315	01:55:33:991	Server	 		gramos built a settlement.	 	 
+316	01:55:41:310	Server	 		zorburt rolled a 3 and a 5.	 	 
+317	01:55:41:312	Server	 		zorburt gets 2 wheat. Ghettoette gets 4 wheat.	 	 
+318	01:56:26:279	Server	 		zorburt traded 3 sheep for 1 ore from a port.	 	 
+319	01:56:32:200	Server	 		zorburt built a city.	 	 
+320	01:56:49:576	Server	 		zorburt built a road.	 	 
+321	01:56:54:205	Server	 		Ghettoette rolled a 5 and a 3.	 	 
+322	01:56:54:208	Server	 		zorburt gets 3 wheat. Ghettoette gets 4 wheat.	 	 
+323	01:57:31:463	Server	 		Ghettoette traded 9 wheat for 3 ore from a port.	 	 
+324	01:57:37:994	Server	 		Ghettoette built a city.	 	 
+325	01:57:47:488	Server	 		catanstrophe rolled a 3 and a 3.	 	 
+326	01:57:47:490	Server	 		zorburt gets 1 clay. Ghettoette gets 2 clay. catanstrophe gets 2 ore. gramos gets 1 clay.	 	 
+327	01:58:06:750	Server	 		catanstrophe traded 2 clay for 1 wood from a port.	 	 
+328	01:58:09:561	Server	 		catanstrophe built a road.	 	 
+329	01:58:13:306	Server	 		catanstrophe built a city.	 	 
+330	01:58:17:737	Server	 		gramos rolled a 4 and a 2.	 	 
+331	01:58:17:740	Server	 		zorburt gets 1 clay. Ghettoette gets 2 clay. catanstrophe gets 3 ore. gramos gets 1 clay.	 	 
+332	01:58:39:111	gramos	clay=2; ore=0; sheep=1; wheat=1; wood=3; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	I would love some ore	 	 
+333	01:58:45:118	gramos	clay=2; ore=0; sheep=1; wheat=1; wood=3; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	you probably could have guessed that	 	 
+334	01:58:49:278	gramos	clay=2; ore=0; sheep=1; wheat=1; wood=3; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	I can trade clay and wood	 	 
+335	01:58:54:537	catanstrophe	clay=0; ore=3; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; settlements=[107,182]; cities=[139,184]	yeah you also have 8 pts	 	 
+336	01:58:57:912	zorburt	clay=2; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150]	for someone with 8 points!?	 	 
+337	01:58:59:059	zorburt	clay=2; ore=0; sheep=1; wheat=3; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150]	hahaha	 	 
+338	01:59:08:517	gramos	clay=2; ore=0; sheep=1; wheat=1; wood=3; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	well, it's worth asking...	 	 
+339	01:59:19:225	Server	 		zorburt rolled a 1 and a 6.	 	 
+340	02:00:55:040	Server	 		zorburt built a settlement.	 	 
+341	02:01:07:589	Server	 		zorburt traded 2 wheat for 1 ore from a port.	 	 
+342	02:01:12:287	Server	 		Ghettoette rolled a 4 and a 6.	 	 
+343	02:01:12:288	Server	 		zorburt gets 3 wood. Ghettoette gets 2 wheat. catanstrophe gets 2 wheat. gramos gets 1 wood.	 	 
+344	02:01:21:709	Server	 		Ghettoette built a road.	 	 
+345	02:01:28:932	Server	 		catanstrophe rolled a 1 and a 2.	 	 
+346	02:01:28:933	Server	 		Ghettoette gets 1 ore. catanstrophe gets 2 ore. gramos gets 2 wheat.	 	 
+347	02:01:38:987	zorburt	clay=2; ore=1; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	the only place worth robbering gramos was 11 and that doesn't come up enough..	 	 
+348	02:01:41:276	Server	 		catanstrophe built a city.	 	 
+349	02:01:50:589	Ghettoette	clay=0; ore=1; sheep=0; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	i know, i saw that	 	 
+350	02:01:55:826	Server	 		gramos rolled a 3 and a 4.	 	 
+351	02:02:04:571	Ghettoette	clay=0; ore=1; sheep=0; wheat=3; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	i figured my wheat factory was a target	 	 
+352	02:02:19:894	zorburt	clay=2; ore=1; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	that or catanstrophe's brick magnet.	 	 
+353	02:02:28:409	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	strangely ther 9 has come up like once	 	 
+354	02:02:41:993	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	that was one of those start moves that never panned out like i hoped :0	 	 
+355	02:02:47:254	gramos	clay=1; ore=0; sheep=1; wheat=2; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	Does the game log the dice rolled each turn? I'd like to see it.	 	 
+356	02:02:53:020	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	yeah i would to	 	 
+357	02:02:54:579	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	o	 	 
+358	02:02:54:808	zorburt	clay=2; ore=1; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	lol.  yeah your 2 for 1 is key.	 	 
+359	02:03:06:353	zorburt	clay=2; ore=1; sheep=0; wheat=0; wood=3; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	yeah i think it logs everything.	 	 
+360	02:03:09:400	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	it would be aweome if i got to use it a lot :)	 	 
+361	02:03:26:245	gramos	clay=1; ore=0; sheep=1; wheat=2; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	catanstrophe, didn't that happen to you last game, too?	 	 
+362	02:03:47:210	catanstrophe	clay=0; ore=2; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107]	hmm can't remember	 	 
+363	02:03:47:385	Server	 		zorburt rolled a 5 and a 1.	 	 
+364	02:03:47:387	Server	 		zorburt gets 1 clay. Ghettoette gets 2 clay. catanstrophe gets 3 ore. gramos gets 1 clay.	 	 
+365	02:04:45:204	Server	 		zorburt traded 3 clay, 3 wood for 2 ore from a port.	 	 
+366	02:04:51:281	Server	 		Ghettoette rolled a 3 and a 6.	 	 
+367	02:04:51:284	Server	 		zorburt gets 1 sheep. catanstrophe gets 4 clay, 2 sheep. gramos gets 1 sheep.	 	 
+368	02:05:05:629	Server	 		catanstrophe rolled a 1 and a 5.	 	 
+369	02:05:05:631	Server	 		zorburt gets 1 clay. Ghettoette gets 2 clay. catanstrophe gets 3 ore. gramos gets 1 clay.	 	 
+370	02:05:53:994	Server	 		catanstrophe traded 4 clay for 2 wheat from a port.	 	 
+371	02:06:11:274	Server	 		catanstrophe traded 3 ore for 1 wheat from a port.	 	 
+372	02:06:15:054	Server	 		catanstrophe built a city.	 	 
+373	02:06:27:116	Server	 		gramos rolled a 5 and a 4.	 	 
+374	02:06:27:118	Server	 		zorburt gets 1 sheep. catanstrophe gets 4 clay, 2 sheep. gramos gets 1 sheep.	 	 
+375	02:06:54:053	gramos	clay=3; ore=0; sheep=3; wheat=3; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35]; settlements=[86,152; 152,118; 118,35]	"ok, now that I""m not the only one with 8 points, can anyone spare wood or ore?"	 	 
+376	02:07:06:277	zorburt	clay=1; ore=3; sheep=2; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	lol  no	 	 
+377	02:07:12:330	Ghettoette	clay=4; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	nope	 	 
+378	02:07:19:056	Server	 		gramos built a road.	 	 
+379	02:07:26:595	Server	 		zorburt rolled a 2 and a 3.	 	 
+380	02:07:26:597	Server	 		zorburt gets 2 wood.	 	 
+381	02:07:28:531	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	allrighty	 	 
+382	02:07:57:262	zorburt	clay=1; ore=3; sheep=2; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	ghettoette, do you have any wheat you want to pass along my way?	 	 
+383	02:08:13:105	Ghettoette	clay=4; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	for a sheep?	 	 
+384	02:08:25:682	zorburt	clay=1; ore=3; sheep=2; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	for a brick and a wood?	 	 
+385	02:08:39:782	Ghettoette	clay=4; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	don't have wood	 	 
+386	02:08:46:576	zorburt	clay=1; ore=3; sheep=2; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	no as in i give you a brick and a wood.	 	 
+387	02:08:49:032	zorburt	clay=1; ore=3; sheep=2; wheat=0; wood=2; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	you give me a wheat.	 	 
+388	02:08:59:925	Ghettoette	clay=4; ore=1; sheep=0; wheat=2; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	oh yeah ... yes, that works	 	 
+389	02:09:10:856	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	I feel neglected over here.	 	 
+390	02:09:11:123	Server	 		zorburt made an offer to trade 1 clay, 1 wood for 1 wheat.	 	 
+391	02:09:16:182	Server	 		zorburt traded 1 clay, 1 wood for 1 wheat from Ghettoette.	 	 
+392	02:09:18:898	zorburt	clay=0; ore=3; sheep=2; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,150; 150,39]	lol you also have 8 points	 	 
+393	02:09:29:242	Server	 		zorburt traded 2 sheep for 1 wheat from a port.	 	 
+394	02:09:32:128	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	DOn't have me because (my points) are beautiful	 	 
+395	02:09:40:751	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	that was HATE, btw, not HAVE	 	 
+396	02:09:45:120	Server	 		zorburt built a city.	 	 
+397	02:09:45:207	catanstrophe	clay=4; ore=1; sheep=4; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165]; cities=[139,184; 184,107; 107,182]	i think we are all pretty close	 	 
+398	02:09:55:071	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	that's the truth, in fact	 	 
+399	02:10:00:102	gramos	clay=2; ore=0; sheep=3; wheat=3; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	"I""ve hit hte Catan wall"	 	 
+400	02:10:00:610	Server	 		Ghettoette rolled a 2 and a 5.	 	 
+401	02:10:14:971	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,39]; cities=[116,150]	haha yay!	 	 
+402	02:10:19:191	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,39]; cities=[116,150]	ADDTIME	 	 
+403	02:10:27:877	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=1; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,39]; cities=[116,150]	i'm hte only one who did't have to discard. sorry guys.	 	 
+404	02:10:41:444	Ghettoette	clay=1; ore=1; sheep=0; wheat=1; wood=1; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172]; settlements=[205,203]; cities=[171,120]	well that trade backfired	 	 
+405	02:10:49:630	gramos	clay=1; ore=0; sheep=1; wheat=2; wood=0; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35]	ouch	 	 
+406	02:11:08:642	Server	 		catanstrophe rolled a 5 and a 3.	 	 
+407	02:11:08:643	Server	 		Ghettoette gets 4 wheat.	 	 
+408	02:11:24:200	zorburt	clay=0; ore=0; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,39]; cities=[116,150]	damnit. and catanstrophe i think has a vic point...	 	 
+409	02:11:25:490	Server	 		catanstrophe traded 2 clay for 1 wood from a port.	 	 
+410	02:11:32:099	Server	 		catanstrophe built a road.	 	 
+411	02:11:35:793	catanstrophe	clay=1; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	no i dont	 	 
+412	02:11:40:535	Server	 		gramos rolled a 6 and a 5.	 	 
+413	02:11:40:537	Server	 		zorburt gets 2 sheep. Ghettoette gets 2 wood. gramos gets 2 wood.	 	 
+414	02:11:45:737	Server	 		gramos built a settlement.	 	 
+415	02:11:50:456	catanstrophe	clay=1; ore=0; sheep=1; wheat=0; wood=0; unknown=0; knights=0; dev-cards=1	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	soldier	 	 
+416	02:11:55:731	Server	 		zorburt rolled a 3 and a 2.	 	 
+417	02:11:55:733	Server	 		zorburt gets 2 wood. Ghettoette gets 2 clay. catanstrophe gets 2 clay.	 	 
+418	02:11:59:779	gramos	clay=0; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	sure you do *wink*	 	 
+419	02:12:21:690	Server	 		zorburt traded 2 sheep for 1 ore from a port.	 	 
+420	02:12:28:483	Server	 		Ghettoette rolled a 4 and a 4.	 	 
+421	02:12:28:485	Server	 		Ghettoette gets 4 wheat.	 	 
+422	02:13:04:778	Server	 		Ghettoette traded 3 wood for 1 sheep from a port.	 	 
+423	02:13:12:259	Server	 		Ghettoette built a settlement.	 	 
+424	02:13:27:136	Server	 		Ghettoette traded 6 wheat for 2 ore from a port.	 	 
+425	02:13:36:133	Server	 		Ghettoette built a city.	 	 
+426	02:13:43:284	gramos	clay=0; ore=0; sheep=0; wheat=1; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	makin good use of that port	 	 
+427	02:14:10:232	Server	 		catanstrophe rolled a 3 and a 6.	 	 
+428	02:14:10:234	Server	 		zorburt gets 2 sheep. catanstrophe gets 4 clay, 2 sheep. gramos gets 1 sheep.	 	 
+429	02:14:24:723	Server	 		catanstrophe made an offer to trade 2 clay for 1 wood.	 	 
+430	02:14:39:386	Server	 		catanstrophe traded 2 clay for 1 wood from a port.	 	 
+431	02:14:48:292	gramos	clay=0; ore=0; sheep=1; wheat=1; wood=1; unknown=0; knights=3; dev-cards=0	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	"I""ve got wood I'll trade to you"	 	 
+432	02:14:52:393	Server	 		catanstrophe traded 2 clay for 1 wheat from a port.	 	 
+433	02:14:59:200	Server	 		catanstrophe built a settlement.	 	 
+434	02:15:13:216	Server	 		catanstrophe traded 2 clay for 1 wheat from a port.	 	 
+435	02:15:21:642	Server	 		gramos rolled a 5 and a 6.	 	 
+436	02:15:21:645	Server	 		zorburt gets 2 sheep. Ghettoette gets 2 wood. gramos gets 2 wood.	 	 
+437	02:15:44:810	Server	 		zorburt rolled a 1 and a 3.	 	 
+438	02:15:44:812	Server	 		zorburt gets 1 sheep. Ghettoette gets 2 ore. gramos gets 1 ore, 1 sheep.	 	 
+439	02:16:13:886	Server	 		zorburt traded 4 sheep for 1 ore, 1 wheat from a port.	 	 
+440	02:16:23:699	Server	 		Ghettoette rolled a 6 and a 6.	 	 
+441	02:16:23:701	Server	 		zorburt gets 1 wood. catanstrophe gets 2 wood.	 	 
+442	02:16:29:408	Server	 		Ghettoette built a road.	 	 
+443	02:16:32:938	Server	 		Ghettoette built a road.	 	 
+444	02:17:09:470	Server	 		catanstrophe rolled a 2 and a 2.	 	 
+445	02:17:09:472	Server	 		zorburt gets 1 sheep. Ghettoette gets 2 ore. gramos gets 1 ore, 1 sheep.	 	 
+446	02:17:20:889	Server	 		gramos rolled a 6 and a 2.	 	 
+447	02:17:20:891	Server	 		zorburt gets 3 wheat. gramos gets 1 wheat.	 	 
+448	02:17:35:963	zorburt	clay=0; ore=0; sheep=1; wheat=3; wood=3; unknown=0; knights=0; dev-cards=1	roads=[99,71; 71,82; 82,54; 54,37; 37,116; 116,133; 133,38; 38,66]; settlements=[88,82; 82,37; 37,39]; cities=[116,150]	good game.	 	 
+449	02:17:40:399	gramos	clay=0; ore=1; sheep=2; wheat=1; wood=3; unknown=0; knights=3; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	whoa, dev card came through	 	 
+450	02:17:44:199	gramos	clay=0; ore=1; sheep=2; wheat=1; wood=3; unknown=0; knights=3; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	thanks, guys	 	 
+451	02:17:47:664	Ghettoette	clay=0; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172; 172,156; 156,140]; settlements=[205,173]; cities=[171,120; 120,203]	good game everyone	 	 
+452	02:17:49:489	catanstrophe	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=2; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	congrats	 	 
+453	02:17:54:570	catanstrophe	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=2; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	when is the next one	 	 
+454	02:17:58:949	gramos	clay=0; ore=1; sheep=2; wheat=1; wood=3; unknown=0; knights=3; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	I dunno	 	 
+455	02:17:58:970	catanstrophe	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=2; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	we each play four right	 	 
+456	02:18:04:129	Ghettoette	clay=0; ore=3; sheep=0; wheat=0; wood=0; unknown=0; knights=0; dev-cards=0	roads=[171,104; 104,188; 188,170; 170,186; 186,172; 172,156; 156,140]; settlements=[205,173]; cities=[171,120; 120,203]	yes	 	 
+457	02:18:09:317	catanstrophe	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=2; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	ok well we can discuss over email	 	 
+458	02:18:18:288	gramos	clay=0; ore=1; sheep=2; wheat=1; wood=3; unknown=0; knights=3; dev-cards=1	roads=[86,135; 135,118; 118,69; 69,102; 102,52; 52,35; 35,68]; settlements=[86,152; 152,118; 118,35; 35,84]	yep, sounds good. ttyl	 	 
+459	02:18:21:482	catanstrophe	clay=0; ore=1; sheep=1; wheat=0; wood=2; unknown=0; knights=2; dev-cards=0	roads=[184,122; 122,106; 106,167; 167,150; 150,166; 166,165; 165,148]; cities=[139,184; 184,107; 107,182]	bye	 	 

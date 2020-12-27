@@ -1,0 +1,15 @@
+
+filter rules
+
+vine_filtererd = vine[(vine['citric acid'] < 0.75) & (vine['residual sugar'] < 20) &
+                      (vine['chlorides'] < 0.4) & 
+                      (vine['free sulfur dioxide'] < 125) & 
+                      (vine['total sulfur dioxide'] < 300) &
+                      ~((vine['type'] == 'red') & ((vine['total sulfur dioxide'] > 220))) &
+                      ~((vine['type'] == 'red') & ((vine['residual sugar'] > 10))) &
+                      (vine['density'] < 1.05) &
+                      (vine['sulphates'] <  1.5) &
+                      (vine['alcohol'] !=  8) &
+                      (vine['alcohol'] <  14)
+                     ]
+vine_filtererd.reset_index(drop=True,inplace = True)

@@ -1,0 +1,7 @@
+factors list:
+'Factor_1': ['fixed acidity', 'density'],
+ 'Factor_2': ['volatile acidity','citric acid','chlorides','total sulfur dioxide'],
+ 'Factor_3': ['residual sugar','free sulfur dioxide','total sulfur dioxide','density'],
+ 'Factor_4': ['chlorides', 'density'],
+ 'Factor_5': ['free sulfur dioxide', 'total sulfur dioxide'],
+ 'Factor_6': ['density', 'alcohol']

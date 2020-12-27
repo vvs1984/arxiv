@@ -1,0 +1,3894 @@
+vvs@vvs-ThinkPad-E490:~$ cd /home/vvs/Downloads/d_parse/china
+vvs@vvs-ThinkPad-E490:~/Downloads/d_parse/china$ python main.py
+Loading data: /home/vvs/Downloads/d_parse/chinadataset/train_spect.json
+1086 dialogs, 11898 edus, 11527 relations, 140 backward relations
+758 edus have multiple parents
+Loading data: /home/vvs/Downloads/d_parse/chinadataset/TEST_spect.json
+111 dialogs, 1156 edus, 1126 relations, 8 backward relations
+77 edus have multiple parents
+Loading word vectors...
+Pre-trained vectors: 2694/2739
+Dataset sizes: 1086/111
+2020-09-07 13:52:15.821470: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2020-09-07 13:52:15.821527: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2020-09-07 13:52:15.821539: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2020-09-07 13:52:15.821547: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2020-09-07 13:52:15.821554: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Reading model parameters from dev_model
+0
+0 0 : erm . how do accept a trade ?
+1 1 : do you have wheat ?
+2 2 : UNK(ehh) i am not sure as well
+3 0 : yeah , can do the trade
+4 0 : but can only see a " reject " button
+5 1 : weird
+6 1 : usually UNK(suggests) one
+7 1 : you doesn ' t have what is offered
+8 2 : UNK(technical) error i think
+9 0 : i ' ll try and trade with you next turn . see if that works .
+10 2 : thank you
+11 0 : so was it wood you were after ?
+12 2 : wheat that i am after
+13 2 : i mean i am after wheat
+14 1 : yeah think there ' s been a misunderstanding
+15 0 : oh , i thought you had some wheat to trade .
+16 0 : yeah misunderstanding : )
+ground truth:
+0 1 Q-Elab
+0 2 Parallel
+1 3 Question-answer_pair
+3 4 Contrast
+3 5 Comment
+3 6 Elaboration
+6 7 Continuation
+6 8 Comment
+3 9 Result
+8 9 Result
+9 10 Acknowledgement
+10 11 Clarification_question
+11 12 Question-answer_pair
+12 13 Elaboration
+11 14 Acknowledgement
+12 14 Acknowledgement
+14 15 Acknowledgement
+14 16 Acknowledgement
+15 16 Elaboration
+predicted:
+0 1 Q-Elab
+0 2 Question-answer_pair
+1 3 Question-answer_pair
+3 4 Contrast
+3 5 Comment
+5 6 Elaboration
+6 7 Explanation
+0 8 Question-answer_pair
+8 9 Contrast
+9 10 Acknowledgement
+9 11 Clarification_question
+11 12 Question-answer_pair
+12 13 Explanation
+12 14 Comment
+12 15 Result
+15 16 Result
+f1: 0.342857142857
+
+1
+0 0 : can anyone spare ore ?
+1 1 : yeah
+2 0 : sorry , sheep
+3 2 : i got ore
+4 0 : anyone have sheep ?
+5 0 : i can give ore or wheat
+6 1 : i ' ve got sheep UNK(aswell)
+7 0 : need ore or wheat ?
+8 2 : i need wheat
+9 1 : wheat
+10 0 : no trade ?
+11 2 : you have the UNK(highest) point
+12 1 : i think the resources were UNK(backwards) ( me getting ore ) might be wrong
+13 0 : i ' ll try again
+14 1 : cool : )
+15 0 : i ' m definitely giving wheat
+16 0 : i have no sheep : )
+ground truth:
+0 1 Question-answer_pair
+0 2 Correction
+0 3 Question-answer_pair
+0 4 Narration
+4 5 Elaboration
+4 6 Question-answer_pair
+6 7 Q-Elab
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+8 10 Clarification_question
+9 10 Clarification_question
+10 11 Question-answer_pair
+10 12 Question-answer_pair
+11 12 Contrast
+12 13 Result
+13 14 Acknowledgement
+13 15 Continuation
+15 16 Elaboration
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Parallel
+4 5 Elaboration
+0 6 Question-answer_pair
+6 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Question-answer_pair
+8 10 Q-Elab
+10 11 Question-answer_pair
+8 12 Parallel
+12 13 Acknowledgement
+13 14 Acknowledgement
+13 15 Explanation
+15 16 Elaboration
+f1: 0.470588235294
+
+2
+0 0 : anyone have clay ? : )
+1 0 : i have wheat and wood
+2 1 : no sorry
+3 2 : not any more ,
+4 2 : sorry
+5 3 : nope ,
+6 3 : no clay
+7 0 : oh well
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+5 6 Elaboration
+2 7 Acknowledgement
+3 7 Acknowledgement
+5 7 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+5 6 Elaboration
+2 7 Acknowledgement
+f1: 0.875
+
+3
+0 0 : if only someone can roll a [num]
+1 1 : so true
+2 0 : oop
+3 1 : i ' ve made that mistake UNK(numerous) times . : p
+4 2 : i ' m guessing nobody has any clay ?
+5 1 : not me anyway
+6 3 : sorry ,
+7 3 : nope
+8 0 : i think this is the problem with the game
+9 1 : why can ' t a [num] be rolled ? : (
+10 3 : anyone got sheep ?
+11 3 : i can give anything but clay
+12 1 : sorry ,
+13 1 : i don ' t .
+14 2 : sorry
+15 0 : i got one
+16 0 : i can give you
+17 0 : but i need wheat
+18 3 : too late now ,
+19 3 : cheers anyway
+20 0 : finally
+21 1 : haha
+ground truth:
+0 1 Acknowledgement
+2 3 Comment
+0 4 Continuation
+4 5 Question-answer_pair
+7 6 Explanation
+4 7 Question-answer_pair
+4 8 Comment
+4 9 Continuation
+7 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+12 13 Explanation
+10 14 Question-answer_pair
+10 15 Question-answer_pair
+15 16 Elaboration
+16 17 Elaboration
+15 18 Question-answer_pair
+15 19 Comment
+18 19 Contrast
+9 20 Narration
+20 21 Comment
+predicted:
+0 1 Acknowledgement
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Continuation
+4 5 Question-answer_pair
+0 6 Question-answer_pair
+4 7 Question-answer_pair
+3 8 Comment
+8 9 Clarification_question
+7 10 Parallel
+10 11 Elaboration
+10 12 Question-answer_pair
+12 13 Explanation
+10 14 Question-answer_pair
+10 15 Question-answer_pair
+15 16 Continuation
+16 17 Contrast
+17 18 Parallel
+18 19 Comment
+18 20 Acknowledgement
+20 21 Comment
+f1: 0.47619047619
+
+4
+0 0 : anyone got wheat
+1 0 : and need wood ?
+2 1 : not me , sorry
+3 2 : me neither
+4 0 : ok , thanks anyway
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 3 Parallel
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+f1: 0.8
+
+5
+0 0 : anyone have ore .
+1 0 : i have some wood to trade
+2 1 : no sorry
+3 2 : nope , sorry
+4 3 : no , sorry
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+f1: 1.0
+
+6
+0 0 : [num] more clay
+1 1 : anyone got clay ?
+2 0 : our UNK(peruvian) friend
+3 2 : haha
+4 1 : what do you need
+5 2 : yeah i ' ve got a little bit of clay
+6 2 : got sheep ?
+7 1 : yes plenty of it
+8 2 : cheers
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Acknowledgement
+3 4 Q-Elab
+3 5 Elaboration
+4 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Acknowledgement
+predicted:
+0 1 Parallel
+1 2 Question-answer_pair
+2 3 Comment
+2 4 Q-Elab
+0 5 Question-answer_pair
+5 6 Continuation
+6 7 Question-answer_pair
+7 8 Comment
+f1: 0.25
+
+7
+0 0 : any one have any ore ?
+1 1 : nope , sorry
+2 2 : i have nothing at the moment : )
+3 3 : i UNK(ahve)
+4 3 : but i need wheat
+5 3 : have
+6 0 : ok
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Contrast
+3 5 Correction
+3 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Contrast
+3 5 Correction
+5 6 Acknowledgement
+f1: 0.833333333333
+
+8
+0 0 : hey
+1 1 : hi
+2 2 : evening
+3 0 : hey
+4 2 : how are you today ?
+5 1 : hi
+6 0 : not bad thanks ,
+7 0 : you ?
+8 2 : yeah , pretty good
+9 2 : : )
+10 0 : getting a bit of a UNK(deja) UNK(vu) here .
+11 2 : UNK(yin) we ' re waiting for , i suppose .
+12 0 : indeed
+13 2 : great minds , inca .
+14 0 : ah he says he ' s coming
+15 0 : hey
+16 3 : yes
+17 3 : finally
+18 0 : good luck all
+19 2 : you too
+ground truth:
+0 1 Acknowledgement
+0 2 Acknowledgement
+1 2 Acknowledgement
+2 3 Continuation
+3 4 Clarification_question
+2 5 Acknowledgement
+3 5 Acknowledgement
+4 6 Question-answer_pair
+6 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Continuation
+6 10 Comment
+10 11 Elaboration
+11 12 Acknowledgement
+12 13 Comment
+12 14 Narration
+14 15 Continuation
+15 16 Acknowledgement
+16 17 Elaboration
+14 18 Narration
+18 19 Continuation
+predicted:
+0 1 Acknowledgement
+0 2 Comment
+1 3 Acknowledgement
+0 4 Clarification_question
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Comment
+6 10 Explanation
+8 11 Elaboration
+11 12 Acknowledgement
+12 13 Comment
+13 14 Contrast
+13 15 Acknowledgement
+13 16 Acknowledgement
+16 17 Elaboration
+15 18 Continuation
+18 19 Parallel
+f1: 0.35
+
+9
+0 0 : ?
+1 1 : build road
+2 2 : think we ' re meant to negotiate trades in the chat before offering
+3 1 : oop
+4 1 : ok then
+5 2 : part of the guys ' experiment
+6 1 : oh i see
+ground truth:
+0 1 Question-answer_pair
+1 2 Contrast
+2 3 Comment
+2 4 Acknowledgement
+2 5 Elaboration
+5 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Comment
+2 3 Comment
+3 4 Narration
+2 5 Continuation
+5 6 Acknowledgement
+f1: 0.5
+
+10
+0 0 : do anyone have clay or wheat
+1 1 : nope
+2 2 : sorry , nope
+3 3 : nope sorry
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+f1: 1.0
+
+11
+0 0 : anyone have wood ?
+1 0 : i can spare sheep , ore or wheat ?
+2 1 : i ' ve got wood ,
+3 1 : trade for ore ?
+4 2 : nope sry
+5 0 : deal
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Q-Elab
+0 4 Question-answer_pair
+3 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Q-Elab
+0 4 Question-answer_pair
+4 5 Acknowledgement
+f1: 0.8
+
+12
+0 0 : does anyone have any clay to trade ?
+1 1 : none , sorry
+2 2 : no , sorry
+3 3 : no sry
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+f1: 1.0
+
+13
+0 0 : do anyone need ore
+1 1 : i ' ll trade for sheep ?
+2 0 : yes thank you
+3 1 : cool
+4 2 : i ' m ok for ore at the mo .
+5 2 : could do with some wheat though
+6 2 : if anyone has any
+7 3 : sorry , i ' m no help
+8 0 : yes
+9 0 : i also need wheat : )
+10 1 : no wheat here , sorry
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Acknowledgement
+0 4 Question-answer_pair
+6 5 Conditional
+4 6 Contrast
+0 7 Question-answer_pair
+6 8 Acknowledgement
+6 9 Parallel
+8 9 Elaboration
+6 10 Question-answer_pair
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Acknowledgement
+0 4 Question-answer_pair
+4 5 Contrast
+4 6 Result
+6 7 Question-answer_pair
+4 8 Question-answer_pair
+8 9 Elaboration
+9 10 Question-answer_pair
+f1: 0.47619047619
+
+14
+0 0 : anyone have wood to trade . i have sheep
+1 1 : no
+2 2 : sorry ,
+3 2 : i need wood too
+4 2 : i have wheat
+5 2 : if you want
+6 3 : do you have wheat kieran ?
+7 3 : if so
+8 3 : i can trade wood
+9 0 : sorry ,
+10 0 : plenty of sheep though : )
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+5 4 Conditional
+3 5 Contrast
+0 6 Q-Elab
+6 7 Explanation
+7 8 Conditional
+6 9 Question-answer_pair
+9 10 Contrast
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+3 5 Comment
+4 6 Q-Elab
+6 7 Elaboration
+7 8 Elaboration
+6 9 Question-answer_pair
+9 10 Explanation
+f1: 0.3
+
+15
+0 0 : anyone have clay or sheep ?
+1 0 : i can give wheat .
+2 1 : i ' ll trade sheep for wheat
+3 2 : me too
+4 0 : deal
+5 2 : .
+6 0 : sorry !
+7 2 : : )
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 3 Parallel
+2 4 Acknowledgement
+4 5 Comment
+5 6 Comment
+6 7 Comment
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Comment
+3 6 Comment
+4 7 Comment
+f1: 0.533333333333
+
+16
+0 0 : anyone got any wood ? i can give clay or wheat
+1 1 : yep plenty
+2 2 : i got wood
+3 0 : would you prefer clay or wheat kieran ?
+4 1 : can give you [num] wood for one of each
+5 2 : clay
+6 0 : deal kieran
+7 0 : sorry UNK(yin)
+8 2 : no problem
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Acknowledgement
+5 7 Comment
+6 7 Contrast
+7 8 Comment
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Q-Elab
+0 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Comment
+6 8 Acknowledgement
+f1: 0.352941176471
+
+17
+0 0 : anyone got clay
+1 1 : not any more , sorry
+2 2 : i have some ,
+3 2 : do you have any ore
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Q-Elab
+2 3 Continuation
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Result
+f1: 0.571428571429
+
+18
+0 0 : anyone have ore or sheep ?
+1 0 : i can UNK(borrow) wheat and wood
+2 0 : spare wheat and wood
+3 1 : i ' ve got ore , trade for wheat ?
+4 0 : deal
+ground truth:
+0 1 Elaboration
+1 2 Correction
+0 3 Q-Elab
+3 4 Question-answer_pair
+predicted:
+0 1 Elaboration
+1 2 Continuation
+0 3 Q-Elab
+3 4 Question-answer_pair
+f1: 0.75
+
+19
+0 0 : well played
+1 1 : cheers , good game
+2 2 : nice . good game
+3 0 : talk soon
+4 1 : shall we say wednesday for the one without kieran ?
+5 0 : sounds fine to me
+6 0 : time ?
+7 1 : cool , any time ' s fine for me , [num] again ?
+8 0 : yay
+9 0 : can ' t wait
+10 1 : cool , see you then !
+ground truth:
+0 1 Acknowledgement
+1 2 Acknowledgement
+0 3 Continuation
+3 4 Clarification_question
+4 5 Question-answer_pair
+4 6 Q-Elab
+6 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Continuation
+8 10 Acknowledgement
+predicted:
+0 1 Acknowledgement
+1 2 Acknowledgement
+1 3 Acknowledgement
+1 4 Clarification_question
+4 5 Question-answer_pair
+5 6 Clarification_question
+4 7 Continuation
+7 8 Comment
+8 9 Continuation
+8 10 Continuation
+f1: 0.4
+
+20
+0 0 : thanks
+1 1 : no prob mate
+2 2 : anyone got clay or wheat
+3 0 : wow inca . must be UNK(bathing) in clay now
+4 3 : haha , yep
+5 2 : what do you need
+6 1 : want some ore for clay , inca ?
+7 1 : : p
+8 3 : do you have sheep yiin ?
+9 1 : i do !
+10 3 : i ' ll trad with both of you
+11 3 : if so
+12 3 : sorry , UNK(gaeil) offered ore first i guess
+13 1 : it ' s ok
+14 3 : got sheep ?
+15 1 : i have sheep too
+16 1 : take his trade
+17 2 : i got sheep
+18 3 : ok , i ' ll trade with you for sheep briain
+19 3 : cheers
+20 1 : cheers
+ground truth:
+0 1 Comment
+1 2 Continuation
+2 3 Comment
+2 4 Question-answer_pair
+3 4 Acknowledgement
+4 5 Q-Elab
+4 6 Q-Elab
+6 7 Comment
+5 8 Q-Elab
+8 9 Question-answer_pair
+11 10 Conditional
+8 11 Result
+9 11 Result
+11 12 Correction
+12 13 Acknowledgement
+12 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Contrast
+14 17 Question-answer_pair
+15 18 Acknowledgement
+18 19 Comment
+18 20 Acknowledgement
+predicted:
+0 1 Acknowledgement
+0 2 Continuation
+0 3 Continuation
+0 4 Acknowledgement
+2 5 Q-Elab
+5 6 Q-Elab
+6 7 Comment
+6 8 Clarification_question
+8 9 Question-answer_pair
+8 10 Elaboration
+9 11 Acknowledgement
+11 12 Comment
+12 13 Acknowledgement
+11 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Result
+14 17 Question-answer_pair
+15 18 Result
+18 19 Comment
+18 20 Acknowledgement
+f1: 0.333333333333
+
+21
+0 0 : anyone have wheat to trade ?
+1 1 : not a bit ,
+2 1 : sorry
+3 2 : no sry
+4 3 : do you have wood ?
+5 0 : yep
+6 3 : cheers
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.833333333333
+
+22
+0 0 : can anyone trade ore . i have more wood to trade
+1 1 : do you have clay , by any chance ?
+2 0 : sorry , no
+3 2 : i can do that kieran
+4 0 : how many can you trade .
+5 0 : [num] for [num] ?
+6 2 : just got one , sorry
+7 0 : ok cool
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Q-Elab
+4 5 Continuation
+4 6 Question-answer_pair
+6 7 Acknowledgement
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Clarification_question
+4 5 Elaboration
+5 6 Question-answer_pair
+6 7 Acknowledgement
+f1: 0.571428571429
+
+23
+0 0 : anyone have sheep ?
+1 0 : i have wood and ore .
+2 1 : nope , sorry
+3 2 : yes
+4 2 : i have lot of sheeps
+5 3 : yeah
+6 3 : can do that
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+0 5 Question-answer_pair
+5 6 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+3 5 Acknowledgement
+5 6 Continuation
+f1: 0.666666666667
+
+24
+0 0 : addtime
+1 1 : UNK(hallelujah)
+2 2 : hehe
+3 2 : anyone got some ore to trade ?
+4 1 : sorry , nope
+5 3 : yes i have .
+6 3 : you got clay ?
+7 3 : or wheat ?
+8 2 : nope don ' t have either unfortunately ,
+9 2 : plenty of wood though
+10 3 : oh ok
+11 3 : then UNK(nvm)
+12 2 : UNK(gaeilgeoir) , feel like trading that ore ?
+13 0 : if you have sheep ,
+14 0 : i can .
+ground truth:
+0 1 Comment
+1 2 Comment
+2 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Q-Elab
+5 6 Continuation
+6 7 Alternation
+6 8 Question-answer_pair
+8 9 Contrast
+8 10 Acknowledgement
+10 11 Result
+3 12 Q-Elab
+12 13 Question-answer_pair
+13 14 Conditional
+predicted:
+0 1 Comment
+0 2 Comment
+2 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Q-Elab
+6 7 Alternation
+6 8 Question-answer_pair
+8 9 Contrast
+8 10 Acknowledgement
+10 11 Result
+3 12 Q-Elab
+12 13 Question-answer_pair
+13 14 Conditional
+f1: 0.896551724138
+
+25
+0 0 : does anyone have clay
+1 1 : i need mine ,
+2 1 : sorry
+3 2 : nope ,
+4 2 : looking for the same thing
+5 3 : no sorry
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+0 5 Question-answer_pair
+f1: 0.8
+
+26
+0 0 : i can give a sheep or wood for a wheat .
+1 0 : any takers ?
+2 1 : sheep would be good
+3 2 : not here
+4 0 : okay
+ground truth:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+f1: 0.666666666667
+
+27
+0 0 : does anyone have clay they can trade ?
+1 1 : none at all ,
+2 1 : sorry
+3 2 : likewise
+4 0 : same request again .
+5 0 : i might be interested in an ore also though
+6 1 : still not got any clay ,
+7 1 : sorry
+8 2 : still have no clay .
+9 0 : okay ,
+10 0 : thanks anyway
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+1 3 Parallel
+0 4 Continuation
+4 5 Contrast
+4 6 Question-answer_pair
+6 7 Comment
+4 8 Question-answer_pair
+6 8 Parallel
+4 9 Acknowledgement
+9 10 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+1 4 Parallel
+4 5 Contrast
+5 6 Question-answer_pair
+6 7 Comment
+0 8 Question-answer_pair
+6 9 Acknowledgement
+9 10 Continuation
+f1: 0.454545454545
+
+28
+0 0 : what were you offering again dmm ?
+1 0 : i have clay now
+2 0 : and tons of ore
+3 1 : i don ' t need ore now .
+4 1 : i could offer wood
+5 0 : that would be good ,
+6 0 : [num] clay for [num] wood ?
+7 1 : alright
+ground truth:
+0 1 Explanation
+1 2 Continuation
+0 3 Question-answer_pair
+3 4 Contrast
+4 5 Question-answer_pair
+4 6 Q-Elab
+5 6 Continuation
+6 7 Question-answer_pair
+predicted:
+0 1 Elaboration
+1 2 Continuation
+0 3 Question-answer_pair
+3 4 Continuation
+3 5 Comment
+5 6 Elaboration
+5 7 Acknowledgement
+f1: 0.266666666667
+
+29
+0 0 : inca , are you still interested in wood for ore ?
+1 1 : yep i ' m up for that
+2 0 : i could do [num] for [num] or [num] for [num] ?
+3 1 : [num] for [num]
+4 1 : if that ' s ok
+5 0 : cool
+ground truth:
+0 1 Question-answer_pair
+0 2 Q-Elab
+4 3 Conditional
+2 4 Question-answer_pair
+4 5 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Q-Elab
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Acknowledgement
+f1: 0.6
+
+30
+0 0 : thought that would happen : p
+1 0 : well done
+2 1 : bravo !
+3 2 : cheers !
+4 2 : good game guys
+5 1 : good if UNK(brief) game !
+6 2 : exciting last game now ,
+7 2 : three of you on [num] win
+8 1 : right ,
+9 1 : UNK(toodle) UNK(pip)
+10 2 : ok ,
+11 2 : cheers for the games guys ,
+12 2 : i ' ve had fun
+13 0 : when did we decide on for the final game ?
+14 0 : did we pick a date ?
+15 2 : i don ' t think you did
+16 0 : okay ,
+17 0 : we ' ll leave that to the emails
+18 0 : bye !
+19 2 : see you later !
+ground truth:
+0 1 Comment
+1 2 Parallel
+1 3 Acknowledgement
+2 3 Acknowledgement
+3 4 Continuation
+4 5 Acknowledgement
+4 6 Continuation
+6 7 Elaboration
+6 8 Acknowledgement
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Continuation
+11 12 Elaboration
+6 13 Clarification_question
+13 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Acknowledgement
+16 17 Continuation
+17 18 Continuation
+18 19 Acknowledgement
+predicted:
+0 1 Contrast
+0 2 Comment
+0 3 Comment
+3 4 Elaboration
+2 5 Elaboration
+0 6 Contrast
+6 7 Elaboration
+6 8 Acknowledgement
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Continuation
+11 12 Comment
+6 13 Clarification_question
+13 14 Clarification_question
+14 15 Question-answer_pair
+11 16 Acknowledgement
+16 17 Continuation
+15 18 Acknowledgement
+18 19 Acknowledgement
+f1: 0.461538461538
+
+31
+0 0 : hey
+1 1 : hi !
+2 0 : hello , shall we just start ?
+3 2 : hello
+4 2 : indeed , UNK(sounded) like lj wasn ' t playing
+5 0 : ok ,
+6 0 : good luck guys !
+7 2 : and to you !
+ground truth:
+0 1 Acknowledgement
+1 2 Continuation
+1 3 Acknowledgement
+2 3 Acknowledgement
+2 4 Question-answer_pair
+4 5 Acknowledgement
+5 6 Continuation
+6 7 Continuation
+predicted:
+0 1 Acknowledgement
+1 2 Clarification_question
+2 3 Question-answer_pair
+3 4 Correction
+3 5 Acknowledgement
+5 6 Continuation
+6 7 Continuation
+f1: 0.4
+
+32
+0 0 : does anyone have spare wood ?
+1 0 : i could give ore or wheat
+2 1 : wood for wheat ?
+3 1 : [num] for [num]
+4 0 : sounds good
+5 0 : cheers
+6 1 : : )
+ground truth:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Elaboration
+2 4 Question-answer_pair
+4 5 Comment
+5 6 Comment
+predicted:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Elaboration
+3 4 Acknowledgement
+4 5 Comment
+5 6 Acknowledgement
+f1: 0.666666666667
+
+33
+0 0 : i ' d try to trade but there are too many different things i need :
+1 1 : fair enough ,
+2 1 : early days
+ground truth:
+0 1 Comment
+1 2 Explanation
+predicted:
+0 1 Acknowledgement
+1 2 Continuation
+f1: 0
+
+34
+0 0 : does anyone have clay ?
+1 1 : afraid not
+2 2 : nope
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+f1: 1.0
+
+35
+0 0 : anyone got sheep ?
+1 0 : can give wheat or wood
+2 1 : nope
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+f1: 1.0
+
+36
+0 0 : too many [num] .
+1 1 : agreed
+ground truth:
+0 1 Acknowledgement
+predicted:
+0 1 Comment
+f1: 0
+
+37
+0 0 : any chance of a sheep and a wheat ?
+1 0 : i can offer ores
+2 1 : i ' ve got wheat but no sheep i ' m afraid
+3 2 : i have no sheep , and only one wheat which i need
+4 0 : oh well
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+f1: 0.888888888889
+
+38
+0 0 : any sheep and wheat now ?
+1 1 : still no sheep ,
+2 1 : sorry
+3 2 : none to spare , sadly
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+f1: 1.0
+
+39
+0 0 : now i need a wheat or a sheep
+1 0 : i can offer ore or wood
+2 1 : ore for wheat ?
+3 0 : sure
+4 2 : i ' m in same situation as last time ,
+5 2 : need what i have .
+ground truth:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Question-answer_pair
+0 4 Question-answer_pair
+4 5 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Question-answer_pair
+0 4 Question-answer_pair
+4 5 Explanation
+f1: 0.8
+
+40
+0 0 : does anyone need ore or wheat ?
+1 1 : no
+2 1 : thanks
+3 2 : wheat
+4 0 : can you give me sheep or wood ?
+5 2 : i can give you one wood
+6 0 : k
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.833333333333
+
+41
+0 0 : anyone for ore ?
+1 0 : i ' d like clay
+2 1 : sorry
+3 2 : sry
+4 0 : or sheep
+5 2 : nope
+6 1 : can ' t
+7 1 : have plenty of ore
+8 1 : for anything
+9 2 : wheat ?
+10 1 : [num] ore for a wheat ?
+11 0 : ok
+12 2 : ^^
+13 0 : sorry ,
+14 0 : misunderstood
+15 1 : ok
+16 2 : i will do it
+17 1 : UNK(thaks)
+18 2 : addtime
+ground truth:
+0 1 Elaboration
+1 2 Question-answer_pair
+1 3 Question-answer_pair
+1 4 Alternation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Elaboration
+7 8 Elaboration
+8 9 Clarification_question
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Comment
+12 13 Comment
+13 14 Explanation
+13 15 Acknowledgement
+10 16 Question-answer_pair
+16 17 Acknowledgement
+16 18 Continuation
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+1 4 Alternation
+0 5 Question-answer_pair
+0 6 Question-answer_pair
+6 7 Elaboration
+7 8 Elaboration
+8 9 Question-answer_pair
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Comment
+9 13 Question-answer_pair
+13 14 Explanation
+11 15 Acknowledgement
+13 16 Acknowledgement
+15 17 Continuation
+17 18 Comment
+f1: 0.444444444444
+
+42
+0 0 : i need clay
+1 0 : i can give wheat
+2 1 : na
+3 2 : sorry nope
+4 0 : can someone give me a sheep ?
+5 1 : nope
+6 2 : n
+7 1 : there is just no market for sheep .
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Continuation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+5 7 Explanation
+6 7 Explanation
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Continuation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+5 7 Elaboration
+f1: 0.666666666667
+
+43
+0 0 : where do i see what i rolled ?
+1 1 : on the arrow
+2 0 : ok ,
+3 0 : so if it had been [num]
+4 0 : i could move the robber
+5 0 : and can i do other things depending on the numbers ?
+6 1 : yup
+7 0 : ooops ,
+8 0 : i didn ' t know
+9 0 : sorry ,
+10 0 : which things ?
+11 1 : no every other number just UNK(produces) UNK(ressources)
+12 2 : robber is the only UNK(exception)
+13 0 : ok ,
+14 0 : so i don ' t need to play special UNK(actions)
+15 0 : anyone would like to receive a wood for an ore ?
+16 1 : no ,
+17 1 : dev . cards are the only other special action
+18 1 : no
+19 2 : yes please
+20 1 : i will take anyone ' s sheep though
+21 0 : don ' t have a sheep
+22 2 : none here either
+23 0 : anyone wants wood ?
+24 2 : n
+25 1 : [num] wood ?
+26 0 : one wood for clay
+27 1 : hmm , no sorry
+28 0 : or ore
+29 1 : i will only take two wood ,
+30 1 : and give [num] ore
+31 0 : no
+32 0 : sorry
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+2 3 Q-Elab
+3 4 Conditional
+3 5 Continuation
+3 6 Question-answer_pair
+6 7 Acknowledgement
+7 8 Elaboration
+6 9 Q-Elab
+9 10 Continuation
+3 11 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Continuation
+11 13 Acknowledgement
+13 14 Result
+14 15 Continuation
+14 16 Acknowledgement
+16 17 Elaboration
+15 18 Question-answer_pair
+15 19 Question-answer_pair
+18 20 Contrast
+20 21 Contrast
+20 22 Contrast
+21 22 Parallel
+15 23 Continuation
+23 24 Question-answer_pair
+23 25 Q-Elab
+25 26 Question-answer_pair
+23 27 Question-answer_pair
+26 27 Question-answer_pair
+26 28 Alternation
+27 29 Elaboration
+29 30 Continuation
+29 31 Question-answer_pair
+31 32 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Acknowledgement
+2 3 Continuation
+3 4 Conditional
+4 5 Continuation
+3 6 Acknowledgement
+6 7 Comment
+7 8 Explanation
+7 9 Comment
+7 10 Clarification_question
+10 11 Question-answer_pair
+10 12 Question-answer_pair
+11 13 Acknowledgement
+13 14 Result
+14 15 Continuation
+15 16 Question-answer_pair
+16 17 Elaboration
+16 18 Elaboration
+15 19 Question-answer_pair
+16 20 Contrast
+20 21 Contrast
+15 22 Question-answer_pair
+15 23 Continuation
+23 24 Question-answer_pair
+23 25 Q-Elab
+25 26 Question-answer_pair
+23 27 Question-answer_pair
+26 28 Alternation
+27 29 Elaboration
+29 30 Continuation
+29 31 Question-answer_pair
+31 32 Comment
+f1: 0.537313432836
+
+44
+0 0 : anyone would like to give me an ore ?
+1 1 : cant
+2 2 : what for ?
+3 0 : wood ?
+4 2 : no
+5 2 : thanks
+6 1 : well ?
+7 0 : anyone can give me ore ?
+8 0 : ( for wood )
+9 2 : no
+ground truth:
+0 1 Question-answer_pair
+0 2 Q-Elab
+2 3 Q-Elab
+0 4 Question-answer_pair
+3 4 Question-answer_pair
+4 5 Comment
+0 6 Clarification_question
+6 7 Result
+7 8 Elaboration
+7 9 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Question-answer_pair
+4 5 Comment
+2 6 Q-Elab
+3 7 Continuation
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+f1: 0.526315789474
+
+45
+0 0 : how do we do an exchange ?
+1 1 : first we chat about it
+2 1 : when we actually want to exchange .
+3 2 : register a trade '
+4 1 : we click " register a trade
+5 0 : okay ,
+6 0 : let ' s do an exchange
+7 1 : what kind ?
+8 0 : wood for wheat
+9 2 : which do you want ?
+10 1 : yup i saw it
+11 1 : already traded , tom
+12 2 : ok
+13 0 : thanks
+14 0 : what else can i do during the turn ?
+15 0 : ( i am new to this )
+16 1 : build ,
+17 1 : trade ,
+18 1 : " done "
+ground truth:
+0 1 Question-answer_pair
+1 2 Narration
+2 3 Elaboration
+2 4 Conditional
+1 5 Acknowledgement
+5 6 Result
+6 7 Elaboration
+7 8 Question-answer_pair
+8 9 Clarification_question
+8 10 Acknowledgement
+9 11 Correction
+11 12 Acknowledgement
+10 13 Acknowledgement
+13 14 Continuation
+14 15 Explanation
+14 16 Question-answer_pair
+16 17 Narration
+17 18 Narration
+predicted:
+0 1 Question-answer_pair
+1 2 Continuation
+0 3 Question-answer_pair
+1 4 Elaboration
+3 5 Acknowledgement
+5 6 Continuation
+4 7 Q-Elab
+7 8 Question-answer_pair
+7 9 Clarification_question
+9 10 Question-answer_pair
+10 11 Continuation
+10 12 Acknowledgement
+10 13 Acknowledgement
+13 14 Clarification_question
+14 15 Elaboration
+14 16 Question-answer_pair
+16 17 Elaboration
+17 18 Elaboration
+f1: 0.222222222222
+
+46
+0 0 : anyone want wood ?
+1 0 : sorry clay
+2 1 : no
+ground truth:
+0 1 Correction
+0 2 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+f1: 0.5
+
+47
+0 0 : so if i build a road
+1 0 : do i get the resources next to it ?
+2 1 : no , you need a settlement
+3 1 : roads lead to settlements
+4 1 : all settlements must have a min distance of [num]
+5 0 : okay
+ground truth:
+0 1 Conditional
+0 2 Question-answer_pair
+2 3 Continuation
+3 4 Continuation
+2 5 Acknowledgement
+predicted:
+0 1 Conditional
+1 2 Question-answer_pair
+2 3 Explanation
+2 4 Contrast
+2 5 Acknowledgement
+f1: 0.4
+
+48
+0 0 : i can exchange wood
+1 0 : one wood though
+2 1 : no thx
+3 0 : ok
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Acknowledgement
+predicted:
+0 1 Contrast
+0 2 Question-answer_pair
+2 3 Acknowledgement
+f1: 0.666666666667
+
+49
+0 0 : anyone would give me clay ?
+1 1 : none here
+2 2 : no
+3 0 : i have one wood to exchange
+4 0 : any takers ?
+5 2 : no
+6 0 : for sheep , wheat or UNK(clary)
+7 1 : can i buy a sheep for two ore ?
+8 2 : have none
+9 1 : kk
+10 0 : no sheep
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Elaboration
+3 4 Q-Elab
+4 5 Question-answer_pair
+3 6 Elaboration
+3 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Acknowledgement
+7 10 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Elaboration
+3 4 Clarification_question
+4 5 Question-answer_pair
+3 6 Elaboration
+4 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Acknowledgement
+7 10 Question-answer_pair
+f1: 0.8
+
+50
+0 0 : [num] ore for a wheat ?
+1 1 : are you UNK(givinig) [num] ore ?
+2 1 : then yes
+3 0 : yes
+4 1 : k
+5 0 : can i buy wood for [num] ore ?
+6 1 : hav none
+7 2 : no
+8 2 : sorry
+9 0 : kk
+ground truth:
+0 1 Clarification_question
+1 2 Conditional
+1 3 Question-answer_pair
+3 4 Acknowledgement
+0 5 Continuation
+5 6 Question-answer_pair
+5 7 Question-answer_pair
+7 8 Comment
+6 9 Acknowledgement
+7 9 Acknowledgement
+predicted:
+0 1 Q-Elab
+1 2 Result
+1 3 Question-answer_pair
+3 4 Acknowledgement
+3 5 Continuation
+5 6 Question-answer_pair
+5 7 Question-answer_pair
+7 8 Comment
+6 9 Acknowledgement
+f1: 0.631578947368
+
+51
+0 0 : theres your wood
+1 0 : does someone need clay ?
+2 0 : i will take sheep or ore
+3 1 : i can trade wood
+4 2 : nope
+5 1 : for clay
+6 0 : k
+7 1 : or ore
+ground truth:
+0 1 Continuation
+1 2 Elaboration
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+3 5 Elaboration
+5 6 Question-answer_pair
+5 7 Alternation
+predicted:
+0 1 Continuation
+1 2 Elaboration
+1 3 Question-answer_pair
+0 4 Question-answer_pair
+3 5 Elaboration
+4 6 Acknowledgement
+5 7 Alternation
+f1: 0.714285714286
+
+52
+0 0 : so to move the robber
+1 0 : i need to roll the dice ?
+2 0 : i can offer ore for sheep or clay
+3 0 : or UNK(wheet) for the same
+4 1 : UNK(thomas) , can you continue from where you left the game ?
+5 2 : yes
+6 2 : sorry about that
+7 2 : but it ' s working now
+8 0 : np
+9 0 : anyone for ore or what ?
+10 1 : no
+11 2 : i have ore
+12 2 : i need sheep
+13 2 : or clay
+14 0 : i mean i have those to offer
+15 0 : i need sheep
+16 0 : or UNK(clary)
+17 2 : no
+18 2 : thanks
+19 0 : clay
+20 0 : then anyone wants a wood for an ore ?
+21 1 : no
+22 0 : okay
+ground truth:
+0 1 Conditional
+0 2 Continuation
+2 3 Alternation
+2 4 Continuation
+4 5 Question-answer_pair
+5 6 Comment
+6 7 Contrast
+7 8 Comment
+2 9 Continuation
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Contrast
+12 13 Alternation
+9 14 Elaboration
+14 15 Continuation
+15 16 Alternation
+9 17 Question-answer_pair
+17 18 Comment
+15 19 Correction
+9 20 Narration
+17 20 Result
+20 21 Question-answer_pair
+21 22 Acknowledgement
+predicted:
+0 1 Conditional
+1 2 Elaboration
+2 3 Alternation
+1 4 Clarification_question
+4 5 Question-answer_pair
+5 6 Comment
+6 7 Contrast
+4 8 Question-answer_pair
+8 9 Continuation
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Elaboration
+12 13 Alternation
+11 14 Parallel
+14 15 Contrast
+15 16 Alternation
+15 17 Question-answer_pair
+17 18 Comment
+18 19 Correction
+9 20 Continuation
+20 21 Question-answer_pair
+21 22 Acknowledgement
+f1: 0.533333333333
+
+53
+0 0 : can i get a sheep or a wheat ?
+1 0 : i have too much wood
+2 1 : n
+3 2 : i can give you a wheat
+4 0 : good
+5 2 : thx
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+f1: 1.0
+
+54
+0 0 : so if i want to put a settlement down
+1 0 : where can i do so ?
+2 1 : on one of your roads
+3 2 : on any corner that has distance at least two to all other settlements
+4 2 : connected yes
+5 0 : thx
+6 0 : well done
+7 1 : [num] knights ?
+8 2 : thanks for playing
+9 1 : gg
+10 2 : UNK(yiu)
+11 2 : yup
+12 3 : wow , that was fast .
+13 3 : well done .
+14 3 : please remember to send me your questionnaires .
+15 2 : k
+16 1 : ok
+17 0 : ok
+18 0 : bye then
+19 3 : for your [num] you ' ll have to sign a UNK(receipt) .
+20 0 : ok
+21 3 : i ' m in if [num] . [num] .
+22 3 : should be there most of the time this week .
+23 3 : thanks again !
+24 0 : ok , i ' ll come by
+25 1 : ok , thanks
+ground truth:
+0 1 Conditional
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Continuation
+2 5 Acknowledgement
+3 5 Acknowledgement
+5 6 Comment
+6 7 Clarification_question
+6 8 Acknowledgement
+8 9 Comment
+9 10 Acknowledgement
+10 11 Correction
+6 12 Comment
+8 12 Comment
+9 12 Comment
+6 13 Comment
+8 13 Comment
+9 13 Comment
+13 14 Continuation
+14 15 Acknowledgement
+14 16 Acknowledgement
+14 17 Acknowledgement
+15 18 Comment
+16 18 Comment
+17 18 Continuation
+14 19 Continuation
+19 20 Acknowledgement
+19 21 Continuation
+21 22 Elaboration
+21 23 Comment
+21 24 Acknowledgement
+19 25 Acknowledgement
+predicted:
+0 1 Clarification_question
+1 2 Question-answer_pair
+1 3 Question-answer_pair
+3 4 Alternation
+3 5 Acknowledgement
+5 6 Continuation
+2 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Acknowledgement
+9 10 Comment
+10 11 Comment
+8 12 Comment
+12 13 Result
+12 14 Result
+14 15 Acknowledgement
+14 16 Acknowledgement
+16 17 Acknowledgement
+17 18 Continuation
+14 19 Continuation
+19 20 Acknowledgement
+19 21 Elaboration
+21 22 Elaboration
+22 23 Continuation
+21 24 Acknowledgement
+24 25 Acknowledgement
+f1: 0.315789473684
+
+55
+0 0 : would anyone like wheat ?
+1 1 : yes please
+2 0 : i need clay or ore
+3 1 : i can give an ore
+4 1 : or a clay
+5 0 : or a sheep !
+6 1 : impossible .
+7 0 : let ' s do the clay
+8 1 : k
+9 0 : would you like one more what for an ore ?
+10 1 : one more wheat ?
+11 0 : one wheat
+12 1 : kk
+ground truth:
+0 1 Question-answer_pair
+0 2 Elaboration
+2 3 Question-answer_pair
+3 4 Alternation
+2 5 Alternation
+5 6 Question-answer_pair
+2 7 Result
+6 7 Result
+7 8 Acknowledgement
+7 9 Continuation
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Elaboration
+0 3 Question-answer_pair
+3 4 Alternation
+3 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Contrast
+7 8 Acknowledgement
+3 9 Clarification_question
+9 10 Clarification_question
+10 11 Question-answer_pair
+11 12 Acknowledgement
+f1: 0.48
+
+56
+0 0 : anyone can give me a sheep ?
+1 0 : for ore
+2 1 : if you give me wood
+3 2 : not me
+4 0 : for two ore ?
+5 1 : k
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Q-Elab
+4 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Question-answer_pair
+2 4 Q-Elab
+4 5 Question-answer_pair
+f1: 0.8
+
+57
+0 0 : can i buy a sheep ?
+1 1 : none
+2 2 : no sorry
+3 0 : ok
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Acknowledgement
+2 3 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Acknowledgement
+f1: 0.857142857143
+
+58
+0 0 : i ' ve got too much wheat !
+1 1 : sheep again anyone ?
+2 1 : or clay
+3 0 : no
+4 0 : n
+5 2 : no
+ground truth:
+0 1 Continuation
+1 2 Alternation
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+3 4 Parallel
+1 5 Question-answer_pair
+4 5 Parallel
+predicted:
+0 1 Continuation
+1 2 Alternation
+1 3 Question-answer_pair
+3 4 Comment
+1 5 Question-answer_pair
+f1: 0.666666666667
+
+59
+0 0 : is the robber UNK(robbing) me ?
+1 0 : can i move him ?
+2 1 : if you roll a [num]
+3 2 : the robber UNK(prevents) you from getting that stuff while he ' s there
+4 2 : can someone give me an ore ?
+5 0 : what for ?
+6 2 : wheat or wood
+7 1 : sure
+8 2 : which ?
+9 0 : how about sheep or UNK(clar) ?
+10 1 : wheat please
+11 2 : k
+12 1 : sorry
+13 1 : retry
+14 1 : couldn ' t see it
+15 2 : if you move another window on top of the speech bubble
+16 2 : you will see it
+17 2 : like " UNK(whiping) " over it
+18 1 : thanks
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Continuation
+4 5 Q-Elab
+5 6 Question-answer_pair
+4 7 Question-answer_pair
+6 8 Q-Elab
+7 8 Q-Elab
+6 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Acknowledgement
+11 12 Correction
+12 13 Continuation
+13 14 Explanation
+14 15 Comment
+15 16 Conditional
+15 17 Explanation
+15 18 Acknowledgement
+predicted:
+0 1 Clarification_question
+0 2 Question-answer_pair
+2 3 Question-answer_pair
+3 4 Continuation
+4 5 Q-Elab
+5 6 Question-answer_pair
+4 7 Question-answer_pair
+6 8 Q-Elab
+8 9 Q-Elab
+9 10 Question-answer_pair
+9 11 Acknowledgement
+10 12 Comment
+12 13 Explanation
+13 14 Explanation
+4 15 Elaboration
+15 16 Conditional
+16 17 Continuation
+17 18 Acknowledgement
+f1: 0.378378378378
+
+60
+0 0 : hi markus .
+1 0 : how many people are we waiting for ?
+2 1 : think it ' s [num] more
+3 0 : ok
+4 2 : yes , one more
+5 2 : seems there ' s a UNK(hickup) UNK(logging) into the game .
+6 1 : that ' s ok , i not on a UNK(schedule)
+7 1 : i ' m
+8 2 : i guess you two had no problems joining the game ?
+9 0 : nope
+10 2 : ah great !
+11 2 : so , one of you can now start the game .
+12 2 : have fun !
+13 0 : the arrow is pointing at me
+14 0 : but i cant press roll
+15 0 : oh sorry
+16 1 : u can place a settlement
+17 1 : first
+18 1 : u roll later
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Acknowledgement
+2 4 Acknowledgement
+4 5 Comment
+5 6 Acknowledgement
+6 7 Correction
+5 8 Clarification_question
+8 9 Acknowledgement
+9 10 Acknowledgement
+10 11 Result
+11 12 Continuation
+11 13 Comment
+13 14 Contrast
+14 15 Comment
+13 16 Explanation
+16 17 Continuation
+17 18 Narration
+predicted:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Acknowledgement
+1 4 Question-answer_pair
+4 5 Continuation
+1 6 Question-answer_pair
+6 7 Comment
+5 8 Elaboration
+6 9 Question-answer_pair
+9 10 Acknowledgement
+10 11 Result
+11 12 Continuation
+9 13 Contrast
+13 14 Contrast
+14 15 Comment
+13 16 Contrast
+16 17 Continuation
+17 18 Continuation
+f1: 0.5
+
+61
+0 0 : i am offering a wheat for wood or clay
+1 1 : no
+2 1 : thanks
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+f1: 1.0
+
+62
+0 0 : so i ' d like to build a road .
+1 0 : where do i press ?
+2 1 : to build ?
+3 1 : at the bottom next to " road " etc .
+4 2 : if you have [num] wood , [num] clay ,
+5 2 : it is at the bottom of the screen
+6 0 : okay , i see .
+7 0 : anyone wants an ore ?
+8 2 : nope
+9 1 : no
+10 0 : for a wood
+11 1 : you need [num] victory points to win .
+12 1 : a settlement gives you [num] vp ,
+13 1 : a city gives you [num] vp
+14 0 : okay , thanks
+ground truth:
+0 1 Q-Elab
+1 2 Clarification_question
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+4 5 Conditional
+4 6 Acknowledgement
+6 7 Continuation
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+7 10 Elaboration
+0 11 Background
+11 12 Continuation
+12 13 Continuation
+11 14 Acknowledgement
+predicted:
+0 1 Elaboration
+1 2 Q-Elab
+2 3 Background
+1 4 Question-answer_pair
+4 5 Conditional
+4 6 Acknowledgement
+6 7 Narration
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+7 10 Elaboration
+9 11 Contrast
+11 12 Continuation
+12 13 Elaboration
+12 14 Acknowledgement
+f1: 0.5
+
+63
+0 0 : does someone have clay ?
+1 1 : none
+2 2 : yes
+3 0 : what do you want for it ?
+4 2 : hmm , not sure .
+5 2 : i ' d like wood ,
+6 2 : but i need clay too
+7 0 : i can give you wood !
+8 2 : i can UNK(echange) ore for wood though
+9 0 : give or want ore ?
+10 2 : give ore , receive wood
+11 0 : i ' m in
+12 2 : great
+13 0 : oh , sorry .
+14 0 : i thought you were talking about yourself when you said give ore
+15 2 : i mean i can offer ore
+16 0 : ? i am confused
+17 2 : if you can give me wood
+18 0 : ok .
+19 0 : i just got the speech bubble message wrong .
+20 0 : done
+21 2 : thanks
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Contrast
+5 7 Question-answer_pair
+7 8 Correction
+8 9 Clarification_question
+9 10 Question-answer_pair
+8 11 Acknowledgement
+10 11 Acknowledgement
+11 12 Acknowledgement
+11 13 Correction
+13 14 Explanation
+17 15 Conditional
+14 16 Elaboration
+10 17 Elaboration
+17 18 Acknowledgement
+16 19 Explanation
+18 19 Explanation
+17 20 Acknowledgement
+20 21 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Elaboration
+5 6 Contrast
+5 7 Result
+5 8 Elaboration
+7 9 Q-Elab
+9 10 Question-answer_pair
+10 11 Question-answer_pair
+10 12 Comment
+10 13 Comment
+13 14 Explanation
+14 15 Question-answer_pair
+15 16 Acknowledgement
+14 17 Question-answer_pair
+17 18 Acknowledgement
+18 19 Contrast
+19 20 Continuation
+20 21 Acknowledgement
+f1: 0.409090909091
+
+64
+0 0 : have a clay now , anyone have a wood ?
+1 1 : yep
+2 1 : i have wood
+3 1 : [num] for [num]
+4 2 : yes please
+5 2 : too late i guess
+6 1 : soz bro
+7 0 : sorry ,
+8 0 : UNK(quickest) off the block
+9 1 : need that new laptop
+10 2 : what laptop ?
+11 1 : earlier .
+12 1 : how much wood for a new laptop .
+ground truth:
+0 1 Question-answer_pair
+1 2 Elaboration
+2 3 Elaboration
+0 4 Question-answer_pair
+4 5 Contrast
+5 6 Comment
+5 7 Comment
+7 8 Contrast
+6 9 Comment
+9 10 Clarification_question
+10 11 Question-answer_pair
+11 12 Elaboration
+predicted:
+0 1 Question-answer_pair
+1 2 Elaboration
+2 3 Elaboration
+0 4 Question-answer_pair
+4 5 Contrast
+5 6 Comment
+2 7 Question-answer_pair
+7 8 Explanation
+7 9 Comment
+6 10 Clarification_question
+10 11 Question-answer_pair
+11 12 Elaboration
+f1: 0.666666666667
+
+65
+0 0 : UNK(aahhhhhh) [num]
+1 0 : sorry .
+2 1 : UNK(ehhhh)
+3 1 : hope you like it UNK(bahhhh\)
+4 0 : it ' s random
+5 0 : but always UNK(lands) on me . ?
+6 1 : wood for ore . anyone ?
+7 0 : weird .
+8 0 : sorry
+9 2 : nope ,
+10 2 : sorry
+ground truth:
+0 1 Comment
+0 2 Comment
+2 3 Elaboration
+0 4 Elaboration
+4 5 Contrast
+2 6 Continuation
+5 7 Comment
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+9 10 Comment
+predicted:
+0 1 Comment
+0 2 Comment
+0 3 Comment
+3 4 Acknowledgement
+4 5 Contrast
+5 6 Q-Elab
+6 7 Comment
+7 8 Comment
+6 9 Question-answer_pair
+9 10 Comment
+f1: 0.5
+
+66
+0 0 : doing well there ztime .
+1 1 : lot of luck in this game .
+2 1 : not like UNK(peurto) UNK(rico)
+ground truth:
+0 1 Explanation
+1 2 Contrast
+predicted:
+0 1 Comment
+0 2 Contrast
+f1: 0
+
+67
+0 0 : [num] !
+1 1 : yeah right .
+2 0 : what . is this a fix ?
+3 2 : hahaha
+4 0 : ok anyone want wheat ?
+5 2 : nope
+6 2 : just someone to roll [num] ' s .
+7 1 : yes
+8 1 : i can give you wood .
+9 0 : was that yes to a trade UNK(somdech) ?
+10 0 : ok . cool . for [num] wheat ?
+11 1 : and an ore . : )
+12 0 : err . don ' t have ore .
+13 0 : thanks .
+ground truth:
+0 1 Acknowledgement
+0 2 Result
+0 3 Comment
+0 4 Narration
+4 5 Question-answer_pair
+5 6 Elaboration
+4 7 Question-answer_pair
+7 8 Elaboration
+7 9 Clarification_question
+7 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Correction
+12 13 Contrast
+predicted:
+0 1 Acknowledgement
+0 2 Clarification_question
+2 3 Comment
+2 4 Narration
+4 5 Question-answer_pair
+5 6 Contrast
+4 7 Question-answer_pair
+7 8 Continuation
+8 9 Q-Elab
+9 10 Q-Elab
+10 11 Q-Elab
+10 12 Contrast
+12 13 Comment
+f1: 0.230769230769
+
+68
+0 0 : i need either ore or clay .
+1 0 : i can give wood or sheep .
+2 1 : no spare
+3 1 : sorry
+4 2 : i ' ll do [num] ore for [num] wood and [num] sheep
+5 0 : hmmm nah .
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Question-answer_pair
+4 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Question-answer_pair
+4 5 Acknowledgement
+f1: 0.8
+
+69
+0 0 : yer . not a [num] this time .
+1 1 : do you want sheep ?
+2 0 : ok .
+3 0 : for [num] wheat
+4 1 : [num] wood maybe
+5 0 : empty on wood
+6 2 : i could make that trade next turn .
+7 1 : what about ore
+8 0 : for ?
+9 1 : nevermind
+10 0 : ok
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Elaboration
+2 4 Q-Elab
+4 5 Question-answer_pair
+4 6 Comment
+5 7 Result
+7 8 Q-Elab
+8 9 Question-answer_pair
+9 10 Acknowledgement
+predicted:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Elaboration
+1 4 Elaboration
+1 5 Question-answer_pair
+1 6 Question-answer_pair
+6 7 Q-Elab
+7 8 Q-Elab
+8 9 Question-answer_pair
+9 10 Acknowledgement
+f1: 0.6
+
+70
+0 0 : where are the [num] when you need them ?
+1 1 : UNK(hee) UNK(hee)
+2 2 : hahaha
+3 0 : you better build nz . look at all those cards you ' re holding .
+4 1 : i can give wood or wheat for [num] sheeps .
+5 0 : sorry .
+6 2 : i need sheep . not got any .
+7 2 : ztime has UNK(monopolised) UNK(livestock)
+8 0 : i don ' t have any sheep .
+ground truth:
+0 1 Comment
+0 2 Comment
+0 3 Continuation
+3 4 Continuation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Explanation
+7 8 Correction
+predicted:
+0 1 Comment
+0 2 Comment
+1 3 Continuation
+1 4 Continuation
+4 5 Question-answer_pair
+0 6 Question-answer_pair
+6 7 Contrast
+4 8 Question-answer_pair
+f1: 0.375
+
+71
+0 0 : what do you need UNK(shawnus)
+1 1 : sheep
+2 0 : what can you give ?
+3 1 : wood or ore
+4 1 : damn
+5 2 : eh ?
+6 2 : ooo .
+7 2 : [num] .
+8 0 : wood would be nice
+9 0 : ho . no .
+10 1 : UNK(misprpressed) to end my go !
+11 2 : anyone want to give me wood .
+12 2 : i ' ll give wheat .
+13 0 : give me clay
+14 0 : and we might have a deal .
+15 2 : sorry
+16 2 : how about [num] wheat . for [num] wood ?
+17 0 : sorry .
+18 2 : how about [num] ore and [num] wheat for wood
+19 2 : ok .
+20 0 : still can ' t do it .
+21 1 : you want [num] wood ?
+22 2 : i did .
+23 2 : but just traded with bank .
+24 1 : damn
+25 1 : haha
+26 2 : yer . expensive banks . just like real life .
+27 1 : indeed it is
+ground truth:
+0 1 Question-answer_pair
+1 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Comment
+4 5 Clarification_question
+5 6 Question-answer_pair
+6 7 Elaboration
+3 8 Question-answer_pair
+8 9 Contrast
+4 10 Explanation
+5 10 Question-answer_pair
+9 10 Explanation
+6 11 Continuation
+11 12 Elaboration
+11 13 Q-Elab
+13 14 Conditional
+13 15 Question-answer_pair
+13 16 Q-Elab
+15 16 Continuation
+16 17 Question-answer_pair
+17 18 Q-Elab
+17 19 Acknowledgement
+18 20 Question-answer_pair
+18 21 Clarification_question
+21 22 Question-answer_pair
+22 23 Contrast
+23 24 Acknowledgement
+24 25 Comment
+24 26 Comment
+26 27 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Comment
+4 5 Clarification_question
+5 6 Comment
+6 7 Elaboration
+5 8 Comment
+8 9 Conditional
+9 10 Comment
+0 11 Continuation
+11 12 Elaboration
+11 13 Q-Elab
+13 14 Continuation
+13 15 Question-answer_pair
+11 16 Q-Elab
+16 17 Question-answer_pair
+16 18 Elaboration
+17 19 Acknowledgement
+17 20 Contrast
+11 21 Q-Elab
+21 22 Question-answer_pair
+22 23 Contrast
+22 24 Acknowledgement
+24 25 Comment
+22 26 Contrast
+26 27 Acknowledgement
+f1: 0.526315789474
+
+72
+0 0 : so . can anyone trade me a sheep for wood ?
+1 1 : you want sheep ?
+2 0 : yes
+3 1 : sorry .
+4 1 : nz is the place to go !
+5 2 : no sheep here mate .
+6 1 : look outside .
+7 2 : where is the other [num] ?
+8 1 : under robber
+9 1 : and top left
+10 2 : yes .
+11 2 : i know .
+12 1 : ahhh
+13 0 : still no sheep out there is there ?
+14 1 : nope .
+15 1 : sheep free here
+16 2 : good one UNK(shawnus) .
+ground truth:
+0 1 Clarification_question
+1 2 Question-answer_pair
+2 3 Question-answer_pair
+3 4 Contrast
+0 5 Question-answer_pair
+4 5 Correction
+5 6 Comment
+7 8 Question-answer_pair
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Continuation
+10 12 Comment
+0 13 Narration
+13 14 Question-answer_pair
+14 15 Elaboration
+13 16 Comment
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Comment
+3 4 Explanation
+0 5 Question-answer_pair
+2 6 Acknowledgement
+6 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Elaboration
+10 12 Acknowledgement
+7 13 Continuation
+13 14 Question-answer_pair
+14 15 Explanation
+14 16 Comment
+f1: 0.375
+
+73
+0 0 : morning .
+1 1 : hey
+2 1 : good morning
+3 0 : which part of the country are you in ?
+4 2 : nz bro .
+5 1 : london
+6 0 : edinburgh
+7 1 : lovely place
+8 0 : welcome nz
+9 1 : hello nz
+10 2 : UNK(yrahhh) hi all
+11 0 : right .
+12 0 : shall we .
+13 1 : i did the UNK(marathon) there this year ( UNK(scotland) , not nz )
+14 0 : wooo . impressive
+15 1 : UNK(penis) UNK(shaped) UNK(medal) for all .
+16 2 : wow . UNK(that;s) cool .
+17 0 : err .
+18 1 : indeed , . what i said when they gave it to me
+19 0 : impressive UNK(medal) ?
+20 1 : UNK(below) UNK(average) UNK(proportion) but was metal .
+21 2 : anyway .
+22 0 : i bet you all looked like a bunch of UNK(dicks) .
+23 1 : hahaha
+24 0 : yer . shall we .
+25 1 : go for it
+26 2 : yes .
+27 0 : go nz
+28 0 : damn
+29 1 : UNK(misplaced)
+30 1 : ?
+31 2 : need to UNK(undo) are you ?
+32 0 : no .
+33 0 : you took the spot i was looking at .
+34 0 : no it ' s fine .
+35 1 : hahaha
+36 2 : got to be mean here .
+ground truth:
+0 1 Acknowledgement
+1 2 Elaboration
+1 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Question-answer_pair
+6 7 Comment
+4 8 Comment
+4 9 Comment
+8 10 Comment
+9 10 Comment
+3 11 Continuation
+11 12 Continuation
+7 13 Continuation
+13 14 Comment
+13 15 Continuation
+15 16 Comment
+15 17 Comment
+17 18 Comment
+15 19 Q-Elab
+19 20 Question-answer_pair
+11 21 Continuation
+20 22 Comment
+22 23 Comment
+21 24 Continuation
+24 25 Question-answer_pair
+24 26 Question-answer_pair
+25 26 Question-answer_pair
+26 27 Result
+27 28 Comment
+28 29 Clarification_question
+29 30 Correction
+28 31 Clarification_question
+29 32 Question-answer_pair
+32 33 Explanation
+31 34 Question-answer_pair
+32 35 Comment
+32 36 Comment
+predicted:
+0 1 Acknowledgement
+1 2 Continuation
+2 3 Clarification_question
+0 4 Comment
+3 5 Question-answer_pair
+4 6 Comment
+4 7 Comment
+4 8 Acknowledgement
+8 9 Acknowledgement
+8 10 Acknowledgement
+10 11 Acknowledgement
+11 12 Clarification_question
+12 13 Contrast
+13 14 Comment
+13 15 Elaboration
+14 16 Comment
+15 17 Comment
+13 18 Contrast
+18 19 Contrast
+19 20 Question-answer_pair
+20 21 Acknowledgement
+20 22 Comment
+22 23 Comment
+22 24 Contrast
+24 25 Acknowledgement
+25 26 Acknowledgement
+25 27 Acknowledgement
+27 28 Comment
+27 29 Comment
+29 30 Clarification_question
+26 31 Clarification_question
+31 32 Question-answer_pair
+32 33 Elaboration
+33 34 Elaboration
+33 35 Comment
+33 36 Contrast
+f1: 0.216216216216
+
+74
+0 0 : nz is going for the sheep
+1 1 : haha
+ground truth:
+0 1 Comment
+predicted:
+0 1 Question-answer_pair
+f1: 0
+
+75
+0 0 : ahhh [num]
+1 1 : already
+2 0 : yer .
+3 2 : doesn ' t take long
+4 2 : hopefully not as many as last game
+5 0 : yer last time it came up a lot at the start .
+ground truth:
+0 1 Comment
+1 2 Acknowledgement
+1 3 Comment
+3 4 Continuation
+4 5 Elaboration
+predicted:
+0 1 Comment
+1 2 Acknowledgement
+2 3 Comment
+3 4 Explanation
+4 5 Comment
+f1: 0.4
+
+76
+0 0 : ok i can give sheep for clay
+1 1 : sorry
+2 2 : none
+3 2 : sorry
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+f1: 1.0
+
+77
+0 0 : [num] sheep for clay ztime
+1 1 : sorry
+2 2 : not got any
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+f1: 1.0
+
+78
+0 0 : anyone want wood .
+1 0 : i ' m after ore or clay
+2 1 : no
+3 1 : thanks
+4 0 : how about i give you a wood for a sheep ?
+5 2 : no thank you
+6 0 : ok
+7 1 : nah .
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Alternation
+4 5 Question-answer_pair
+5 6 Acknowledgement
+4 7 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+4 7 Question-answer_pair
+f1: 0.857142857143
+
+79
+0 0 : anyone want wheat ?
+1 1 : yes please
+2 0 : i ' m after wood
+3 0 : or sheep .
+4 0 : which do you want ?
+5 1 : i can give you ore
+6 0 : ore . ok .
+7 2 : : d
+8 2 : this is a UNK(major) trading game
+9 0 : yer .
+10 0 : anyone want to sell sheep ?
+11 0 : i can give wheat .
+12 2 : not got any : (
+13 1 : how about clay ?
+14 0 : [num] wheat .
+15 1 : i want clay .
+16 0 : sorry .
+17 2 : i want sheep too .
+18 2 : for ore .
+19 2 : if anyone gets some
+20 0 : ha . UNK(somdech) stole from me
+ground truth:
+0 1 Question-answer_pair
+0 2 Elaboration
+2 3 Alternation
+2 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Question-answer_pair
+6 7 Comment
+7 8 Continuation
+7 9 Acknowledgement
+0 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+11 13 Q-Elab
+11 14 Q-Elab
+13 14 Result
+14 15 Question-answer_pair
+15 16 Question-answer_pair
+10 17 Parallel
+19 18 Conditional
+17 19 Elaboration
+19 20 Comment
+predicted:
+0 1 Question-answer_pair
+0 2 Elaboration
+2 3 Alternation
+2 4 Clarification_question
+0 5 Question-answer_pair
+5 6 Acknowledgement
+5 7 Comment
+7 8 Elaboration
+8 9 Acknowledgement
+0 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+11 13 Q-Elab
+13 14 Question-answer_pair
+14 15 Contrast
+14 16 Comment
+13 17 Question-answer_pair
+17 18 Continuation
+17 19 Result
+19 20 Question-answer_pair
+f1: 0.341463414634
+
+80
+0 0 : i need a wheat
+1 0 : can give . wood or sheep
+2 1 : sorry
+3 1 : i spent it
+4 2 : sore
+5 2 : UNK(ry) .
+6 0 : haha wasnt UNK(sury) if that was
+7 0 : sorry or sure
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Explanation
+0 4 Question-answer_pair
+4 5 Continuation
+4 6 Comment
+6 7 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Explanation
+0 4 Question-answer_pair
+4 5 Comment
+4 6 Acknowledgement
+0 7 Question-answer_pair
+f1: 0.571428571429
+
+81
+0 0 : i ' m after clay .
+1 0 : i ' ll give an ore
+2 1 : nop
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+f1: 1.0
+
+82
+0 0 : i have give wood for wheat .
+1 1 : have none
+2 2 : need wheat
+3 0 : so do i .
+4 1 : so do i
+5 2 : we should cut down some forests and UNK(plant) UNK(crops) .
+6 1 : yer .
+7 1 : the bank always wins .
+8 0 : yep . bank always win .
+9 1 : ha well done .
+10 1 : i enjoyed it for a while .
+11 2 : haha
+12 1 : just seem to be stuck here .
+13 0 : that ' s good UNK(fo) us .
+14 1 : anyone want wood ?
+15 2 : it ' s a long close game
+16 2 : nope
+17 0 : nop
+18 1 : yer . it ' s close .
+19 1 : ok .
+20 0 : hey UNK(ehey) .
+21 1 : i ' m helping you out .
+22 1 : trying to get you under [num] cards .
+23 2 : hahaha
+24 0 : i can give wood for wheat .
+25 0 : or clay
+26 0 : clay would be better .
+27 1 : unless it ' s wood .
+28 1 : i can ' t help
+29 0 : nooo .
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Parallel
+2 4 Parallel
+3 4 Parallel
+2 5 Result
+3 5 Result
+4 5 Result
+5 6 Acknowledgement
+2 7 Comment
+3 7 Comment
+4 7 Comment
+7 8 Acknowledgement
+8 9 Comment
+8 10 Comment
+9 10 Contrast
+10 11 Comment
+10 12 Contrast
+12 13 Comment
+12 14 Continuation
+12 15 Comment
+14 16 Question-answer_pair
+14 17 Question-answer_pair
+15 18 Acknowledgement
+16 19 Acknowledgement
+17 19 Acknowledgement
+19 20 Comment
+20 21 Correction
+21 22 Explanation
+21 23 Comment
+21 24 Continuation
+24 25 Alternation
+24 26 Contrast
+28 27 Conditional
+24 28 Q-Elab
+28 29 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Acknowledgement
+3 4 Acknowledgement
+3 5 Comment
+5 6 Acknowledgement
+4 7 Elaboration
+5 8 Acknowledgement
+7 9 Comment
+9 10 Elaboration
+10 11 Comment
+10 12 Contrast
+12 13 Acknowledgement
+10 14 Narration
+14 15 Question-answer_pair
+14 16 Question-answer_pair
+14 17 Question-answer_pair
+17 18 Acknowledgement
+16 19 Acknowledgement
+18 20 Comment
+19 21 Continuation
+21 22 Explanation
+22 23 Comment
+14 24 Question-answer_pair
+24 25 Alternation
+25 26 Contrast
+24 27 Question-answer_pair
+27 28 Conditional
+27 29 Acknowledgement
+f1: 0.307692307692
+
+83
+0 0 : way to go .
+1 1 : UNK(industrial) round
+2 2 : must keep roads !
+ground truth:
+0 1 Comment
+0 2 Comment
+1 2 Comment
+predicted:
+0 1 Acknowledgement
+0 2 Comment
+f1: 0.4
+
+84
+0 0 : UNK(awwwhhhh) .
+1 1 : ahhhh . noooo . my UNK(woodpile) isn ' t so big now .
+2 2 : hahaha
+3 0 : how about the laptop
+4 2 : thought you were going to open an UNK(ikea)
+ground truth:
+0 1 Continuation
+1 2 Comment
+1 3 Clarification_question
+2 4 Elaboration
+predicted:
+0 1 Comment
+1 2 Comment
+1 3 Clarification_question
+3 4 Comment
+f1: 0.5
+
+85
+0 0 : random [num]
+1 1 : damn
+2 0 : doesn ' t happen like this in the real game does it . ?
+3 2 : wood for clay ?
+4 1 : two resources stolen !
+5 0 : sorry .
+ground truth:
+0 1 Comment
+0 2 Contrast
+1 4 Elaboration
+4 5 Comment
+predicted:
+0 1 Comment
+0 2 Clarification_question
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Comment
+f1: 0.444444444444
+
+86
+0 0 : anyone want to give me clay .
+1 1 : for ?
+2 2 : got none .
+3 1 : oh wait
+4 1 : no
+5 0 : wood
+6 1 : haha
+7 0 : ore
+8 1 : not got any wood
+9 0 : eh ?
+10 0 : ok .
+ground truth:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+1 3 Correction
+3 4 Elaboration
+1 5 Question-answer_pair
+3 6 Comment
+5 7 Alternation
+5 8 Question-answer_pair
+8 9 Clarification_question
+8 10 Acknowledgement
+predicted:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+3 5 Correction
+5 6 Acknowledgement
+5 7 Elaboration
+5 8 Question-answer_pair
+8 9 Clarification_question
+8 10 Acknowledgement
+f1: 0.666666666667
+
+87
+0 0 : take a wheat for one
+1 0 : when it ' s my turn
+2 1 : giving out wood for wheat .
+3 2 : sorry don ' t need wood
+4 2 : you have a big hand of cards there .
+5 0 : haha he does !
+6 1 : yeh . but no wheat .
+7 1 : hmmm
+8 2 : do you have clay ?
+9 2 : for wheat ?
+10 1 : no .
+11 2 : : ) worth a try
+12 1 : ore for wheat
+13 2 : no
+14 2 : thanks
+15 0 : nope
+16 2 : the bank again ?
+ground truth:
+0 1 Elaboration
+0 2 Continuation
+2 3 Question-answer_pair
+2 4 Comment
+4 5 Acknowledgement
+2 6 Explanation
+4 6 Contrast
+6 7 Comment
+2 8 Q-Elab
+8 9 Elaboration
+8 10 Question-answer_pair
+10 11 Comment
+8 12 Q-Elab
+10 12 Contrast
+12 13 Question-answer_pair
+13 14 Comment
+12 15 Question-answer_pair
+13 16 Clarification_question
+15 16 Clarification_question
+predicted:
+0 1 Background
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Contrast
+3 5 Acknowledgement
+3 6 Parallel
+6 7 Comment
+6 8 Continuation
+8 9 Elaboration
+8 10 Question-answer_pair
+9 11 Comment
+10 12 Elaboration
+12 13 Acknowledgement
+13 14 Comment
+12 15 Question-answer_pair
+12 16 Clarification_question
+f1: 0.285714285714
+
+88
+0 0 : need wheat
+1 0 : want . clay ?
+2 1 : you UNK(odo) ?
+3 1 : yer .
+4 1 : i need clay .
+5 1 : can give wheat
+6 0 : k
+7 0 : this might be where i lose my road card a ?
+8 1 : er .
+9 1 : i think the trade is wrong ?
+10 1 : did you want wheat ?
+11 0 : yes
+12 0 : for clay
+13 1 : it said you wanted clay .
+14 2 : we all want wheat man
+15 2 : and clay .
+16 1 : ok
+17 1 : thanks .
+18 0 : haha
+19 0 : thanks
+20 2 : that happens in the real game as well .
+ground truth:
+0 1 Elaboration
+0 2 Clarification_question
+0 3 Question-answer_pair
+3 4 Elaboration
+4 5 Continuation
+3 6 Acknowledgement
+3 7 Comment
+6 8 Clarification_question
+8 9 Continuation
+9 10 Elaboration
+8 11 Question-answer_pair
+11 12 Elaboration
+11 13 Contrast
+11 14 Comment
+14 15 Continuation
+11 16 Acknowledgement
+16 17 Comment
+14 18 Comment
+17 19 Acknowledgement
+8 20 Comment
+predicted:
+0 1 Continuation
+0 2 Clarification_question
+2 3 Alternation
+0 4 Question-answer_pair
+4 5 Elaboration
+4 6 Acknowledgement
+6 7 Continuation
+7 8 Acknowledgement
+8 9 Elaboration
+9 10 Elaboration
+10 11 Acknowledgement
+11 12 Elaboration
+12 13 Question-answer_pair
+13 14 Contrast
+14 15 Continuation
+14 16 Acknowledgement
+16 17 Comment
+17 18 Comment
+17 19 Acknowledgement
+14 20 Elaboration
+f1: 0.3
+
+89
+0 0 : anyone want wheat ?
+1 1 : no
+2 1 : thanks
+3 2 : for ?
+4 0 : sheep or ore or clay
+5 2 : hahaha dont have them
+6 0 : UNK(hahahaha)
+7 0 : nice
+8 0 : lol
+9 0 : laptop ?
+10 1 : sure
+11 2 : built out of wood sure
+12 1 : : )
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Elaboration
+7 8 Comment
+0 9 Alternation
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Question-answer_pair
+5 6 Comment
+6 7 Comment
+7 8 Comment
+6 9 Clarification_question
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Comment
+f1: 0.75
+
+90
+0 0 : wood - sheep
+1 0 : i need sheep here .
+2 1 : sorry
+3 2 : sorry ,
+4 2 : no sheep on my UNK(lands)
+5 1 : UNK(sheep-free)
+6 0 : [num] woods for anything but not wheat .
+7 1 : sorry
+8 1 : unless you ' d accept a wood in return ?
+9 2 : hahaha a ore ?
+10 0 : sure thing .
+11 1 : great . set it up !
+12 0 : ore would be good
+13 2 : you sound UNK(desperate) and i can ' t
+14 2 : so no
+15 0 : just want to get rid of the cards .
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Explanation
+2 5 Explanation
+2 6 Result
+3 6 Result
+6 7 Question-answer_pair
+7 8 Alternation
+6 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Acknowledgement
+9 12 Question-answer_pair
+12 13 Comment
+12 14 Question-answer_pair
+13 14 Result
+13 15 Explanation
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Explanation
+0 5 Question-answer_pair
+0 6 Elaboration
+6 7 Question-answer_pair
+0 8 Question-answer_pair
+8 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Acknowledgement
+8 12 Question-answer_pair
+12 13 Question-answer_pair
+13 14 Result
+13 15 Explanation
+f1: 0.5625
+
+91
+0 0 : : )
+1 1 : wish i had the wood port .
+ground truth:
+0 1 Comment
+predicted:
+0 1 Comment
+f1: 1.0
+
+92
+0 0 : ohhh my .
+1 1 : may as well .
+2 0 : [num] woods for [num] ore ?
+3 1 : sorry
+4 2 : nope
+5 2 : sorry
+ground truth:
+0 1 Comment
+0 2 Continuation
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Comment
+predicted:
+0 1 Comment
+1 2 Continuation
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Comment
+f1: 0.8
+
+93
+0 0 : anyone want to give me wheat for sheep ?
+1 1 : sorry
+2 2 : i got sheep
+3 0 : oh well
+4 1 : shakes fist at the robber .
+5 2 : UNK(shawnus) i got sheep . still want to UNK(trand) ?
+6 0 : haha
+7 0 : i need wheat
+8 2 : ohh i see .
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Acknowledgement
+2 3 Acknowledgement
+0 5 Continuation
+4 6 Comment
+5 7 Question-answer_pair
+7 8 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+1 4 Elaboration
+0 5 Q-Elab
+4 6 Comment
+5 7 Question-answer_pair
+7 8 Acknowledgement
+f1: 0.625
+
+94
+0 0 : [num] UNK(aagain) .
+1 1 : dude .
+2 2 : haha you are far ahead !
+3 0 : who whats sheep ?
+4 2 : nope
+5 1 : not really . when you get l road
+6 2 : dont have any of the resources for that
+ground truth:
+0 1 Comment
+0 2 Comment
+0 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Explanation
+predicted:
+0 1 Comment
+0 2 Comment
+0 3 Narration
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Comment
+f1: 0.666666666667
+
+95
+0 0 : ha . luck [num]
+1 1 : not again .
+2 2 : shakes fist
+3 0 : dog eat dog world .
+4 2 : literally took UNK(bread) from my UNK(mouth) there
+5 0 : hmm . what to do .
+ground truth:
+0 1 Comment
+0 2 Comment
+2 3 Comment
+2 4 Elaboration
+3 4 Elaboration
+0 5 Narration
+predicted:
+0 1 Comment
+0 2 Comment
+2 3 Comment
+3 4 Comment
+4 5 Acknowledgement
+f1: 0.545454545455
+
+96
+0 0 : [num] wheats ?
+1 0 : really ?
+2 1 : yer . man . too much .
+3 0 : pass it this way bro .
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+2 3 Result
+predicted:
+0 1 Clarification_question
+1 2 Question-answer_pair
+2 3 Comment
+f1: 0
+
+97
+0 0 : anyone want wheat ?
+1 1 : for ?
+2 0 : sheep ?
+3 2 : sheep ?
+4 1 : k
+5 0 : yer sheep
+6 1 : haha
+7 2 : [num] wheat
+8 1 : [num] !
+9 1 : UNK(undercut) .
+10 0 : : - )
+11 2 : UNK(goos) one .
+12 1 : UNK(ruthless)
+13 0 : anyone else want wheat ?
+14 2 : yes you r .
+15 2 : ok me
+16 2 : what do you want ?
+17 2 : sheep .
+18 0 : do you have clay or wood ?
+19 2 : i do have wood .
+20 2 : for [num] wheats .
+21 0 : addtime
+22 0 : ok
+23 2 : you are winning .
+24 2 : UNK(whay) i ' m UNK(tranding) with you ?
+25 2 : UNK(arrr) .
+26 1 : haha
+27 0 : na .
+28 0 : i ' m stuck here .
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Clarification_question
+2 4 Acknowledgement
+3 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Q-Elab
+5 8 Q-Elab
+7 8 Contrast
+8 9 Elaboration
+8 10 Comment
+8 11 Comment
+8 12 Comment
+11 12 Elaboration
+0 13 Narration
+12 14 Acknowledgement
+13 15 Question-answer_pair
+13 16 Q-Elab
+15 16 Q-Elab
+16 17 Elaboration
+16 18 Q-Elab
+18 19 Question-answer_pair
+19 20 Elaboration
+18 21 Continuation
+19 22 Acknowledgement
+22 23 Contrast
+23 24 Clarification_question
+24 25 Comment
+25 26 Acknowledgement
+23 27 Correction
+27 28 Elaboration
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Acknowledgement
+4 5 Acknowledgement
+5 6 Comment
+5 7 Question-answer_pair
+7 8 Comment
+8 9 Comment
+9 10 Comment
+9 11 Comment
+11 12 Comment
+0 13 Continuation
+13 14 Acknowledgement
+13 15 Question-answer_pair
+15 16 Clarification_question
+16 17 Elaboration
+16 18 Q-Elab
+18 19 Question-answer_pair
+19 20 Elaboration
+19 21 Result
+19 22 Acknowledgement
+19 23 Elaboration
+19 24 Q-Elab
+24 25 Comment
+23 26 Comment
+25 27 Acknowledgement
+27 28 Explanation
+f1: 0.305084745763
+
+98
+0 0 : : )
+1 1 : : - )
+2 1 : thanks !
+3 2 : damn !
+4 0 : nice one bro .
+5 2 : nice one
+6 1 : that was a close game .
+7 2 : yeah
+8 2 : UNK(hats) off to you
+9 0 : you should have won it long time ago .
+10 2 : and next time . all [num] of us ?
+11 1 : i was so stuck
+12 1 : yer . either all [num] .
+13 1 : or i drop out and you [num] play with wolfie
+14 1 : ( woodnsheep UNK(claire) )
+15 0 : UNK(sheepnwood) can ' t do weekend though .
+16 2 : UNK(urgh)
+17 1 : she ' ll have to fit in [num] or [num] .
+18 2 : we will sort something out maybe
+19 1 : she made one the other week with UNK(somdech) and me .
+20 1 : ok guys
+21 1 : thanks for the game .
+22 1 : i gotta dash off now .
+23 2 : well i want UNK(breakfast) !
+24 2 : so . see you guys on email : )
+25 1 : have a great weekend .
+26 2 : thanks for a really good game
+27 1 : cheers
+28 0 : i can stay late [num] night to do it .
+29 2 : you both too
+30 0 : we ' ll e-mail .
+31 1 : until next time .
+32 0 : ok guys . see u
+ground truth:
+0 1 Acknowledgement
+1 2 Continuation
+1 3 Comment
+1 4 Acknowledgement
+3 5 Elaboration
+1 6 Comment
+6 7 Acknowledgement
+6 8 Comment
+7 8 Continuation
+6 9 Comment
+8 10 Clarification_question
+9 11 Contrast
+10 12 Acknowledgement
+12 13 Alternation
+13 14 Elaboration
+12 15 Contrast
+15 16 Comment
+15 17 Contrast
+16 18 Contrast
+18 19 Elaboration
+9 20 Continuation
+10 20 Continuation
+20 21 Comment
+21 22 Continuation
+20 23 Continuation
+23 24 Result
+23 25 Continuation
+25 26 Continuation
+25 27 Continuation
+15 28 Contrast
+25 29 Comment
+28 30 Continuation
+27 31 Continuation
+29 32 Acknowledgement
+31 32 Acknowledgement
+predicted:
+0 1 Comment
+1 2 Continuation
+2 3 Acknowledgement
+2 4 Comment
+4 5 Comment
+4 6 Comment
+4 7 Acknowledgement
+7 8 Elaboration
+8 9 Contrast
+9 10 Continuation
+9 11 Comment
+11 12 Explanation
+12 13 Alternation
+13 14 Background
+13 15 Contrast
+15 16 Comment
+15 17 Contrast
+16 18 Result
+17 19 Background
+19 20 Comment
+20 21 Elaboration
+20 22 Elaboration
+18 23 Continuation
+23 24 Result
+22 25 Elaboration
+24 26 Comment
+26 27 Acknowledgement
+24 28 Continuation
+28 29 Contrast
+28 30 Continuation
+28 31 Continuation
+31 32 Acknowledgement
+f1: 0.208955223881
+
+99
+0 0 : and the [num] have started .
+1 1 : glad i got rid of some resources then .
+2 0 : anyone want wood .
+3 0 : i ' m after clay
+4 1 : got no clay
+5 2 : no clay from me my friend .
+6 0 : ok . ta
+ground truth:
+0 1 Result
+0 2 Continuation
+2 3 Question-answer_pair
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Acknowledgement
+5 6 Acknowledgement
+predicted:
+0 1 Comment
+0 2 Continuation
+2 3 Elaboration
+2 4 Question-answer_pair
+2 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.307692307692
+
+100
+0 0 : i can give wood for ore or wheat .
+1 1 : sorry .
+2 1 : trying to ship wood out .
+3 2 : [num] for [num] , ok
+4 0 : yep
+5 2 : ok
+6 0 : what can you give ?
+7 2 : wheat
+ground truth:
+0 1 Question-answer_pair
+1 2 Explanation
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+3 6 Q-Elab
+4 6 Continuation
+6 7 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+1 2 Explanation
+0 3 Question-answer_pair
+2 4 Acknowledgement
+2 5 Acknowledgement
+3 6 Q-Elab
+6 7 Question-answer_pair
+f1: 0.666666666667
+
+101
+0 0 : want to trade a wood for sheep ?
+1 1 : no
+2 1 : thanks .
+3 2 : sorry . still no sheep here
+4 0 : haha you are same as me .
+5 1 : nz got sheep .
+6 0 : want some more wood ?
+7 1 : need [num] wood for that though .
+8 2 : hard trading . nice .
+9 0 : hahaha
+10 0 : ok
+11 2 : tough deals in the UNK(modern) world .
+12 0 : yeah .
+13 0 : how much wood for a new laptop ?
+14 2 : : - )
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Comment
+3 5 Contrast
+4 5 Contrast
+0 6 Q-Elab
+5 6 Result
+6 7 Question-answer_pair
+7 8 Comment
+8 9 Comment
+7 10 Acknowledgement
+8 11 Elaboration
+8 12 Acknowledgement
+12 13 Comment
+13 14 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Parallel
+1 5 Elaboration
+0 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Comment
+8 9 Comment
+8 10 Acknowledgement
+8 11 Elaboration
+11 12 Acknowledgement
+12 13 Continuation
+13 14 Comment
+f1: 0.6
+
+102
+0 0 : ahh [num] again . sorry
+1 1 : really
+2 1 : sorry ?
+3 0 : yer . feel bad for you guys
+4 0 : look nz has to UNK(dump) all his card .
+5 2 : nooo .
+6 0 : anyone have clay ?
+7 0 : i can give wood
+8 2 : no .
+9 1 : nope
+10 0 : wheat
+11 0 : i give wheat
+12 0 : ok
+13 2 : nop
+ground truth:
+0 1 Clarification_question
+1 2 Elaboration
+1 3 Question-answer_pair
+3 4 Explanation
+4 5 Comment
+0 6 Continuation
+6 7 Elaboration
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+6 10 Q-Elab
+8 10 Result
+9 10 Result
+10 11 Elaboration
+11 12 Continuation
+10 13 Question-answer_pair
+predicted:
+0 1 Comment
+1 2 Continuation
+0 3 Elaboration
+0 4 Explanation
+4 5 Acknowledgement
+0 6 Narration
+6 7 Elaboration
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+7 10 Question-answer_pair
+10 11 Elaboration
+10 12 Continuation
+11 13 Comment
+f1: 0.285714285714
+
+103
+0 0 : i need wood , clay or ore , i can give sheep
+1 1 : i can trade wood
+2 2 : just spent it all
+3 2 : sorry
+4 0 : [num] sheep for [num] wood ?
+5 1 : [num] sheep [num] wood
+6 2 : sorry empty
+7 2 : tough times .
+8 1 : hopefully i dont roll a [num]
+9 1 : and that UNK(biotes) me in the arse
+10 1 : UNK(bites)
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+1 4 Q-Elab
+4 5 Question-answer_pair
+2 6 Elaboration
+6 7 Explanation
+5 8 Comment
+8 9 Continuation
+9 10 Correction
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+2 4 Q-Elab
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Explanation
+7 8 Comment
+8 9 Continuation
+8 10 Comment
+f1: 0.6
+
+104
+0 0 : UNK(drum) roll
+1 0 : [num] .
+2 0 : nice
+ground truth:
+0 1 Continuation
+1 2 Comment
+predicted:
+0 1 Elaboration
+1 2 Comment
+f1: 0.5
+
+105
+0 0 : UNK(hahahah)
+1 0 : this is kinda weird .
+2 1 : again !
+3 2 : phew
+4 0 : yer .
+5 0 : i know . comes up a lot in these games .
+6 0 : anyone want wheat ?
+7 2 : nope : (
+8 1 : nop
+ground truth:
+0 1 Elaboration
+0 2 Comment
+0 3 Comment
+2 4 Acknowledgement
+4 5 Elaboration
+0 6 Continuation
+6 7 Question-answer_pair
+6 8 Question-answer_pair
+predicted:
+0 1 Comment
+1 2 Comment
+1 3 Acknowledgement
+2 4 Acknowledgement
+1 5 Explanation
+5 6 Narration
+6 7 Question-answer_pair
+6 8 Question-answer_pair
+f1: 0.375
+
+106
+0 0 : wheat - ore ?
+1 1 : you want ore ?
+2 0 : yep .
+3 1 : sorry
+4 0 : or clay ?
+5 2 : none
+6 2 : sorry
+7 1 : sorry
+8 1 : too much wheat
+ground truth:
+0 1 Clarification_question
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Alternation
+4 5 Question-answer_pair
+5 6 Comment
+4 7 Question-answer_pair
+7 8 Explanation
+predicted:
+0 1 Clarification_question
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+1 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Comment
+4 7 Question-answer_pair
+7 8 Explanation
+f1: 0.875
+
+107
+0 0 : anyone want wood ?
+1 1 : nope
+ground truth:
+0 1 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+f1: 1.0
+
+108
+0 0 : anyone have ore to trade ?
+1 1 : no
+2 1 : sorry
+3 2 : no . , .
+4 0 : or . a clay UNK(foy) wheat or wood .
+5 1 : i can give wheat
+6 2 : no clay here UNK(iether) .
+7 1 : ahh sorry . no clay
+8 0 : ok
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Alternation
+4 5 Question-answer_pair
+3 6 Parallel
+4 6 Question-answer_pair
+4 7 Question-answer_pair
+5 7 Correction
+6 8 Acknowledgement
+7 8 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Alternation
+0 5 Question-answer_pair
+4 6 Question-answer_pair
+4 7 Question-answer_pair
+6 8 Acknowledgement
+f1: 0.736842105263
+
+Test:
+  test loss_bi: 0.00000
+  test loss_multi: 1.14977
+  test f1_bi: 0.70038
+  test f1_multi: 0.53406
+vvs@vvs-ThinkPad-E490:~/Downloads/d_parse/china$ 
+

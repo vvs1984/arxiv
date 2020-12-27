@@ -1,0 +1,3893 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+Loading data: /home/vvs/Downloads/d_parse/chinadataset/train_spect_ru.json
+1086 dialogs, 11898 edus, 11527 relations, 140 backward relations
+758 edus have multiple parents
+Loading data: /home/vvs/Downloads/d_parse/chinadataset/new_test_spect_ru.json
+111 dialogs, 1156 edus, 1126 relations, 8 backward relations
+77 edus have multiple parents
+Building vocabulary...
+Loading word vectors...
+Pre-trained vectors: 0/1001
+Dataset sizes: 1086/111
+Reading model parameters from dev_model
+0
+0 0 : эээ . как принять сделку ? 
+1 1 : у тебя есть пшеница ? 
+2 2 : ага , я тоже не уверен 
+3 0 : да , могу торговать 
+4 0 : но может UNK(видеть) только кнопку " отклонить " 
+5 1 : странно 
+6 1 : UNK(обычно) UNK(предлагает) один 
+7 1 : у тебя нет того , что UNK(предлагается) 
+8 2 : UNK(техническая) ошибка я думаю 
+9 0 : Я попробую UNK(обменяться) с вами на следующем ходу . посмотрим , работает ли это . 
+10 2 : Спасибо 
+11 0 : Так это дерево тебе было нужно ? 
+12 2 : пшеница , UNK(которая) мне нужна 
+13 2 : Я имею в виду , что я после пшеницы 
+14 1 : да думаю было UNK(недоразумение) 
+15 0 : о , я думал , у тебя есть пшеница для торговли . 
+16 0 : да UNK(недоразумение) : ) 
+ground truth:
+0 1 Q-Elab
+0 2 Parallel
+1 3 Question-answer_pair
+3 4 Contrast
+3 5 Comment
+3 6 Elaboration
+6 7 Continuation
+6 8 Comment
+3 9 Result
+8 9 Result
+9 10 Acknowledgement
+10 11 Clarification_question
+11 12 Question-answer_pair
+12 13 Elaboration
+11 14 Acknowledgement
+12 14 Acknowledgement
+14 15 Acknowledgement
+14 16 Acknowledgement
+15 16 Elaboration
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+1 3 Question-answer_pair
+3 4 Contrast
+4 5 Comment
+5 6 Explanation
+6 7 Explanation
+7 8 Comment
+7 9 Comment
+9 10 Acknowledgement
+10 11 Clarification_question
+11 12 Question-answer_pair
+12 13 Elaboration
+12 14 Question-answer_pair
+14 15 Result
+15 16 Comment
+f1: 0.39999999999999997
+
+1
+0 0 : Кто-нибудь может сэкономить руду ? 
+1 1 : Да 
+2 0 : Извини овца 
+3 2 : у меня есть руда 
+4 0 : У кого-нибудь есть овцы ? 
+5 0 : Я могу дать руду или пшеницу 
+6 1 : у меня также есть овца 
+7 0 : нужна руда или пшеница ? 
+8 2 : мне нужна пшеница 
+9 1 : пшеница 
+10 0 : нет торговли ? 
+11 2 : у тебя UNK(высшая) UNK(точка) 
+12 1 : я думаю , что ресурсы были в UNK(обратном) порядке ( я получаю руду ) , может быть , UNK(неправильно) 
+13 0 : Я попробую еще раз 
+14 1 : прохладный : ) 
+15 0 : Я UNK(определенно) даю пшеницу 
+16 0 : У меня нет овцы : ) 
+ground truth:
+0 1 Question-answer_pair
+0 2 Correction
+0 3 Question-answer_pair
+0 4 Narration
+4 5 Elaboration
+4 6 Question-answer_pair
+6 7 Q-Elab
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+8 10 Clarification_question
+9 10 Clarification_question
+10 11 Question-answer_pair
+10 12 Question-answer_pair
+11 12 Contrast
+12 13 Result
+13 14 Acknowledgement
+13 15 Continuation
+15 16 Elaboration
+predicted:
+0 1 Question-answer_pair
+1 2 Acknowledgement
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Elaboration
+4 6 Question-answer_pair
+6 7 Q-Elab
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+9 10 Q-Elab
+10 11 Comment
+11 12 Comment
+12 13 Contrast
+13 14 Acknowledgement
+14 15 Contrast
+15 16 Elaboration
+f1: 0.5294117647058824
+
+2
+0 0 : у кого есть глина ? : ) 
+1 0 : У меня есть пшеница и дрова 
+2 1 : нет извините 
+3 2 : уже нет , 
+4 2 : Прости 
+5 3 : Нет , 
+6 3 : нет глины 
+7 0 : Ну что ж 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+5 6 Elaboration
+2 7 Acknowledgement
+3 7 Acknowledgement
+5 7 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+5 6 Explanation
+6 7 Comment
+f1: 0.6250000000000001
+
+3
+0 0 : если бы только кто-то мог выбросить 3 
+1 1 : это точно 
+2 0 : UNK(уп) 
+3 1 : Я UNK(совершал) эту UNK(ошибку) много раз . : П 
+4 2 : Полагаю , ни у кого нет глины ? 
+5 1 : UNK(Во) UNK(всяком) случае не я 
+6 3 : Прости , 
+7 3 : Нет 
+8 0 : я думаю это проблема с UNK(игрой) 
+9 1 : почему UNK(нельзя) бросить 3 ? : ( 
+10 3 : у кого-нибудь есть овца ? 
+11 3 : Я могу дать все , кроме глины 
+12 1 : Прости , 
+13 1 : Я не . 
+14 2 : Прости 
+15 0 : у меня есть один 
+16 0 : я могу дать тебе 
+17 0 : но мне нужна пшеница 
+18 3 : слишком поздно , 
+19 3 : все равно ура 
+20 0 : Ну наконец то 
+21 1 : ха-ха 
+ground truth:
+0 1 Acknowledgement
+2 3 Comment
+0 4 Continuation
+4 5 Question-answer_pair
+7 6 Explanation
+4 7 Question-answer_pair
+4 8 Comment
+4 9 Continuation
+7 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+12 13 Explanation
+10 14 Question-answer_pair
+10 15 Question-answer_pair
+15 16 Elaboration
+16 17 Elaboration
+15 18 Question-answer_pair
+15 19 Comment
+18 19 Contrast
+9 20 Narration
+20 21 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Explanation
+4 8 Question-answer_pair
+8 9 Clarification_question
+9 10 Q-Elab
+10 11 Elaboration
+10 12 Question-answer_pair
+10 13 Question-answer_pair
+10 14 Question-answer_pair
+10 15 Question-answer_pair
+15 16 Elaboration
+16 17 Contrast
+17 18 Question-answer_pair
+18 19 Explanation
+19 20 Acknowledgement
+19 21 Comment
+f1: 0.2857142857142857
+
+4
+0 0 : у кого-нибудь есть пшеница 
+1 0 : а дрова нужны ? 
+2 1 : не я извини 
+3 2 : и я нет 
+4 0 : хорошо , все равно спасибо 
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 3 Parallel
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Alternation
+f1: 0.4
+
+5
+0 0 : у кого-нибудь есть руда . 
+1 0 : У меня есть дрова для торговли 
+2 1 : нет извините 
+3 2 : Прошу прощения , но нет 
+4 3 : нет извините 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+f1: 1.0
+
+6
+0 0 : 3 UNK(БОЛЬШЕ) глины 
+1 1 : у кого-нибудь есть глина ? 
+2 0 : UNK(наш) UNK(перуанский) друг 
+3 2 : ха-ха 
+4 1 : что вам нужно 
+5 2 : да , у меня есть немного глины 
+6 2 : есть овца ? 
+7 1 : да , много 
+8 2 : ура 
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Acknowledgement
+3 4 Q-Elab
+3 5 Elaboration
+4 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Acknowledgement
+predicted:
+0 1 Continuation
+1 2 Question-answer_pair
+1 3 Question-answer_pair
+2 4 Result
+1 5 Question-answer_pair
+5 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Acknowledgement
+f1: 0.5
+
+7
+0 0 : у кого-нибудь есть больше ? 
+1 1 : Прошу прощения , но нет 
+2 2 : У меня пока ничего нет : ) 
+3 3 : у меня есть 
+4 3 : но мне нужна пшеница 
+5 3 : иметь 
+6 0 : хорошо 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Contrast
+3 5 Correction
+3 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Contrast
+3 5 Comment
+4 6 Acknowledgement
+f1: 0.6666666666666666
+
+8
+0 0 : Привет 
+1 1 : Здравствуй 
+2 2 : вечер 
+3 0 : Привет 
+4 2 : Как у вас сегодня дела ? 
+5 1 : Здравствуй 
+6 0 : Спасибо неплохо , 
+7 0 : ты ? 
+8 2 : Да довольно хорошо 
+9 2 : : ) 
+10 0 : UNK(Немного) UNK(дежавю) здесь . 
+11 2 : UNK(Инь) , UNK(которого) мы ждем , я полагаю . 
+12 0 : На самом деле 
+13 2 : UNK(великие) UNK(умы) , инка . 
+14 0 : Ах он говорит , что идет 
+15 0 : Привет 
+16 3 : да 
+17 3 : Ну наконец то 
+18 0 : UNK(Всем) удачи 
+19 2 : ты тоже 
+ground truth:
+0 1 Acknowledgement
+0 2 Acknowledgement
+1 2 Acknowledgement
+2 3 Continuation
+3 4 Clarification_question
+2 5 Acknowledgement
+3 5 Acknowledgement
+4 6 Question-answer_pair
+6 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Continuation
+6 10 Comment
+10 11 Elaboration
+11 12 Acknowledgement
+12 13 Comment
+12 14 Narration
+14 15 Continuation
+15 16 Acknowledgement
+16 17 Elaboration
+14 18 Narration
+18 19 Continuation
+predicted:
+0 1 Acknowledgement
+0 2 Comment
+2 3 Acknowledgement
+2 4 Elaboration
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Comment
+8 10 Comment
+10 11 Comment
+11 12 Acknowledgement
+12 13 Comment
+13 14 Comment
+14 15 Continuation
+15 16 Acknowledgement
+16 17 Comment
+17 18 Comment
+18 19 Parallel
+f1: 0.4
+
+9
+0 0 : ? 
+1 1 : построить дорогу 
+2 2 : думаю , мы должны UNK(вести) UNK(переговоры) в UNK(чате) , прежде чем UNK(предлагать) 
+3 1 : UNK(уп) 
+4 1 : хорошо , тогда 
+5 2 : часть UNK(эксперимента) UNK(ребят) 
+6 1 : О , я вижу 
+ground truth:
+0 1 Question-answer_pair
+1 2 Contrast
+2 3 Comment
+2 4 Acknowledgement
+2 5 Elaboration
+5 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+3 4 Result
+4 5 Comment
+5 6 Comment
+f1: 0.3333333333333333
+
+10
+0 0 : у кого-нибудь есть глина или пшеница 
+1 1 : Нет 
+2 2 : извини нет 
+3 3 : Прошу прощения , но нет 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+f1: 1.0
+
+11
+0 0 : у кого-нибудь есть дрова ? 
+1 0 : Я могу сэкономить овец , руду или пшеницу ? 
+2 1 : у меня есть дрова , 
+3 1 : обменять руду ? 
+4 2 : нет , извини 
+5 0 : по рукам 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Q-Elab
+0 4 Question-answer_pair
+3 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+f1: 0.8000000000000002
+
+12
+0 0 : есть ли у кого-нибудь глина для торговли ? 
+1 1 : нет , извините 
+2 2 : нет извините 
+3 3 : нет ничего страшного 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+f1: 1.0
+
+13
+0 0 : кому-нибудь нужна руда 
+1 1 : обменяю на овец ? 
+2 0 : да спасибо 
+3 1 : прохладный 
+4 2 : я в порядке для руды в UNK(мес) . 
+5 2 : хотя бы немного пшеницы 
+6 2 : если у кого-нибудь есть 
+7 3 : извини я не UNK(помог) 
+8 0 : да 
+9 0 : мне тоже нужна пшеница : ) 
+10 1 : здесь нет пшеницы , извините 
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Acknowledgement
+0 4 Question-answer_pair
+6 5 Conditional
+4 6 Contrast
+0 7 Question-answer_pair
+6 8 Acknowledgement
+6 9 Parallel
+8 9 Elaboration
+6 10 Question-answer_pair
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Acknowledgement
+1 4 Question-answer_pair
+4 5 Contrast
+5 6 Elaboration
+6 7 Question-answer_pair
+6 8 Question-answer_pair
+8 9 Elaboration
+6 10 Question-answer_pair
+f1: 0.47619047619047616
+
+14
+0 0 : у кого-нибудь есть дрова для торговли . У меня есть овца 
+1 1 : нет 
+2 2 : Сожалею , 
+3 2 : Мне тоже нужно дерево 
+4 2 : У меня есть пшеница 
+5 2 : если вы хотите 
+6 3 : у вас есть пшеничный UNK(киран) ? 
+7 3 : если так 
+8 3 : я могу торговать деревом 
+9 0 : Прости , 
+10 0 : UNK(хоть) овец много : ) 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+5 4 Conditional
+3 5 Contrast
+0 6 Q-Elab
+6 7 Explanation
+7 8 Conditional
+6 9 Question-answer_pair
+9 10 Contrast
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Elaboration
+3 4 Elaboration
+4 5 Result
+5 6 Q-Elab
+6 7 Elaboration
+7 8 Elaboration
+6 9 Question-answer_pair
+9 10 Explanation
+f1: 0.3
+
+15
+0 0 : у кого есть глина или овца ? 
+1 0 : Я могу дать пшеницу . 
+2 1 : я обменяю овец на пшеницу 
+3 2 : я тоже 
+4 0 : по рукам 
+5 2 : . 
+6 0 : Прости ! 
+7 2 : : ) 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 3 Parallel
+2 4 Acknowledgement
+4 5 Comment
+5 6 Comment
+6 7 Comment
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+4 5 Acknowledgement
+5 6 Comment
+4 7 Comment
+f1: 0.6666666666666666
+
+16
+0 0 : у кого-нибудь есть дрова ? я могу дать глину или пшеницу 
+1 1 : да много 
+2 2 : у меня есть дрова 
+3 0 : вы бы UNK(предпочли) UNK(глиняный) или пшеничный UNK(киран) ? 
+4 1 : может дать вам 2 дерева за UNK(каждого) 
+5 2 : глина 
+6 0 : UNK(Сделка) UNK(Киран) 
+7 0 : прости инь 
+8 2 : без проблем 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Acknowledgement
+5 7 Comment
+6 7 Contrast
+7 8 Comment
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Comment
+6 7 Explanation
+7 8 Acknowledgement
+f1: 0.23529411764705882
+
+17
+0 0 : у кого-нибудь есть глина 
+1 1 : больше нет , извините 
+2 2 : У меня есть несколько , 
+3 2 : у тебя есть руда 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Q-Elab
+2 3 Continuation
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Elaboration
+f1: 0.5714285714285715
+
+18
+0 0 : у кого есть руда или овца ? 
+1 0 : Я могу UNK(одолжить) пшеницу и дрова 
+2 0 : запасная пшеница и дрова * 
+3 1 : У меня есть руда , обменять на пшеницу ? 
+4 0 : по рукам 
+ground truth:
+0 1 Elaboration
+1 2 Correction
+0 3 Q-Elab
+3 4 Question-answer_pair
+predicted:
+0 1 Elaboration
+1 2 Elaboration
+0 3 Q-Elab
+3 4 Question-answer_pair
+f1: 0.75
+
+19
+0 0 : отлично сработано 
+1 1 : ура , хорошая игра 
+2 2 : отлично . хорошая игра 
+3 0 : скоро UNK(поговорим) 
+4 1 : UNK(скажем) среду для того , у кого нет UNK(кирана) ? 
+5 0 : звучит нормально для меня 
+6 0 : время ? 
+7 1 : круто , у меня все нормально , снова 8 ? 
+8 0 : ура 
+9 0 : не могу UNK(дождаться) 
+10 1 : круто , увидимся тогда ! 
+ground truth:
+0 1 Acknowledgement
+1 2 Acknowledgement
+0 3 Continuation
+3 4 Clarification_question
+4 5 Question-answer_pair
+4 6 Q-Elab
+6 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Continuation
+8 10 Acknowledgement
+predicted:
+0 1 Comment
+1 2 Comment
+1 3 Comment
+3 4 Clarification_question
+4 5 Question-answer_pair
+5 6 Clarification_question
+6 7 Question-answer_pair
+7 8 Question-answer_pair
+8 9 Elaboration
+8 10 Acknowledgement
+f1: 0.4000000000000001
+
+20
+0 0 : Спасибо 
+1 1 : нет проблем 
+2 2 : у кого-нибудь есть глина или пшеница 
+3 0 : вау инка . должно быть сейчас UNK(купается) в глине 
+4 3 : хаха да 
+5 2 : что вам нужно 
+6 1 : хотите немного руды для глины , инка ? 
+7 1 : : П 
+8 3 : у тебя есть UNK(овечий) инь ? 
+9 1 : Я делаю ! 
+10 3 : я буду торговать с вами UNK(обоими) 
+11 3 : если так 
+12 3 : извините , UNK(gaeil) UNK(предложил) руду сначала я думаю 
+13 1 : все нормально 
+14 3 : есть овца ? 
+15 1 : У меня тоже есть овца 
+16 1 : UNK(взять) его UNK(торговлю) 
+17 2 : у меня есть овца 
+18 3 : Хорошо , я UNK(обменяюсь) с тобой на UNK(овечий) UNK(мозг) 
+19 3 : ура 
+20 1 : ура 
+ground truth:
+0 1 Comment
+1 2 Continuation
+2 3 Comment
+2 4 Question-answer_pair
+3 4 Acknowledgement
+4 5 Q-Elab
+4 6 Q-Elab
+6 7 Comment
+5 8 Q-Elab
+8 9 Question-answer_pair
+11 10 Conditional
+8 11 Result
+9 11 Result
+11 12 Correction
+12 13 Acknowledgement
+12 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Contrast
+14 17 Question-answer_pair
+15 18 Acknowledgement
+18 19 Comment
+18 20 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Continuation
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+3 5 Result
+2 6 Q-Elab
+6 7 Comment
+6 8 Q-Elab
+8 9 Question-answer_pair
+9 10 Contrast
+10 11 Result
+11 12 Explanation
+11 13 Comment
+13 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Elaboration
+14 17 Question-answer_pair
+17 18 Acknowledgement
+18 19 Comment
+19 20 Comment
+f1: 0.28571428571428564
+
+21
+0 0 : У кого-нибудь есть пшеница для торговли ? 
+1 1 : UNK(ничуть) , 
+2 1 : Прости 
+3 2 : нет ничего страшного 
+4 3 : у тебя есть дрова ? 
+5 0 : Ага 
+6 3 : ура 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.8333333333333334
+
+22
+0 0 : Кто угодно может торговать рудой . У меня есть еще дрова для торговли 
+1 1 : у тебя случайно есть глина ? 
+2 0 : Извините но нет 
+3 2 : Я могу сделать это , UNK(Киран) 
+4 0 : сколько вы можете торговать . 
+5 0 : 2 по цене 2 ? 
+6 2 : только что получил , извини 
+7 0 : ладно , круто 
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Q-Elab
+4 5 Continuation
+4 6 Question-answer_pair
+6 7 Acknowledgement
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Result
+4 5 Q-Elab
+5 6 Question-answer_pair
+6 7 Acknowledgement
+f1: 0.5714285714285714
+
+23
+0 0 : у кого-нибудь есть овцы ? 
+1 0 : У меня есть древесина и руда . 
+2 1 : Прошу прощения , но нет 
+3 2 : да 
+4 2 : у меня много овец 
+5 3 : Да 
+6 3 : может это сделать 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+0 5 Question-answer_pair
+5 6 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Elaboration
+0 5 Question-answer_pair
+5 6 Elaboration
+f1: 1.0
+
+24
+0 0 : ДОБАВИТЬ ВРЕМЯ 
+1 1 : UNK(аллилуйя) 
+2 2 : хе-хе 
+3 2 : у кого-нибудь есть руда для торговли ? 
+4 1 : извини нет 
+5 3 : да . 
+6 3 : у тебя есть глина ? 
+7 3 : или пшеница ? 
+8 2 : нет ни того , ни другого , к сожалению , 
+9 2 : хотя много дерева 
+10 3 : о хорошо 
+11 3 : тогда UNK(nvm) 
+12 2 : UNK(Гейлджуар) , хочешь торговать этой рудой ? 
+13 0 : Если у тебя есть овца , 
+14 0 : Я могу . 
+ground truth:
+0 1 Comment
+1 2 Comment
+2 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Q-Elab
+5 6 Continuation
+6 7 Alternation
+6 8 Question-answer_pair
+8 9 Contrast
+8 10 Acknowledgement
+10 11 Result
+3 12 Q-Elab
+12 13 Question-answer_pair
+13 14 Conditional
+predicted:
+0 1 Comment
+0 2 Comment
+2 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Continuation
+6 7 Alternation
+7 8 Question-answer_pair
+8 9 Contrast
+9 10 Acknowledgement
+10 11 Result
+10 12 Q-Elab
+12 13 Question-answer_pair
+13 14 Elaboration
+f1: 0.6206896551724138
+
+25
+0 0 : у кого-нибудь есть глина 
+1 1 : мне нужен мой , 
+2 1 : Прости 
+3 2 : Нет , 
+4 2 : ищу то же самое 
+5 3 : нет извините 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Comment
+0 5 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Elaboration
+0 5 Question-answer_pair
+f1: 0.8000000000000002
+
+26
+0 0 : я могу дать овцу или дрова за пшеницу . 
+1 0 : есть UNK(берущие) ? 
+2 1 : овца была бы UNK(хорошей) 
+3 2 : Не здесь 
+4 0 : Ладно 
+ground truth:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Q-Elab
+0 2 Question-answer_pair
+2 3 Question-answer_pair
+2 4 Acknowledgement
+f1: 0.6666666666666665
+
+27
+0 0 : есть ли у кого-нибудь глина , которой можно торговать ? 
+1 1 : UNK(вовсе) нет , 
+2 1 : Прости 
+3 2 : точно так же 
+4 0 : снова та же UNK(просьба) . 
+5 0 : я тоже мог бы UNK(заинтересоваться) рудой 
+6 1 : до UNK(сих) пор нет глины , 
+7 1 : Прости 
+8 2 : UNK(Еще) нет глины . 
+9 0 : Ладно , 
+10 0 : Спасибо , в любом случае 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+1 3 Parallel
+0 4 Continuation
+4 5 Contrast
+4 6 Question-answer_pair
+6 7 Comment
+4 8 Question-answer_pair
+6 8 Parallel
+4 9 Acknowledgement
+9 10 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Elaboration
+0 6 Question-answer_pair
+6 7 Comment
+0 8 Question-answer_pair
+8 9 Acknowledgement
+9 10 Continuation
+f1: 0.3636363636363636
+
+28
+0 0 : что ты UNK(предлагал) снова дмм ? 
+1 0 : у меня есть глина 
+2 0 : и UNK(тонны) руды 
+3 1 : мне сейчас руда не нужна . 
+4 1 : я мог бы предложить дрова 
+5 0 : Это было бы хорошо , 
+6 0 : 1 глина на 1 дерево ? 
+7 1 : хорошо 
+ground truth:
+0 1 Explanation
+1 2 Continuation
+0 3 Question-answer_pair
+3 4 Contrast
+4 5 Question-answer_pair
+4 6 Q-Elab
+5 6 Continuation
+6 7 Question-answer_pair
+predicted:
+0 1 Elaboration
+1 2 Elaboration
+0 3 Question-answer_pair
+3 4 Elaboration
+4 5 Acknowledgement
+5 6 Elaboration
+6 7 Question-answer_pair
+f1: 0.26666666666666666
+
+29
+0 0 : инка , тебя все еще интересует древесина для руды ? 
+1 1 : да , я готов к UNK(этому) 
+2 0 : я могу сделать 1 за 1 или 2 за 2 ? 
+3 1 : 1 к 1 
+4 1 : если это нормально 
+5 0 : прохладный 
+ground truth:
+0 1 Question-answer_pair
+0 2 Q-Elab
+4 3 Conditional
+2 4 Question-answer_pair
+4 5 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Explanation
+4 5 Acknowledgement
+f1: 0.4000000000000001
+
+30
+0 0 : думал , что будет : P 
+1 0 : отлично сработано 
+2 1 : UNK(Браво) ! 
+3 2 : ура ! 
+4 2 : хорошие ребята игры 
+5 1 : UNK(Хорошая) UNK(короткая) игра ! 
+6 2 : UNK(захватывающая) UNK(последняя) игра сейчас , 
+7 2 : UNK(трое) из вас на 1 UNK(победу) 
+8 1 : Правильно , 
+9 1 : UNK(toodle) UNK(pip) 
+10 2 : в порядке , 
+11 2 : ура за игры , ребята , 
+12 2 : Я UNK(повеселился) 
+13 0 : когда мы UNK(выбрали) UNK(финальную) игру ? 
+14 0 : мы UNK(выбрали) UNK(дату) ? 
+15 2 : я не думаю , что ты сделал 
+16 0 : Ладно , 
+17 0 : мы UNK(оставим) это электронной почте 
+18 0 : пока ! 
+19 2 : до скорого ! 
+ground truth:
+0 1 Comment
+1 2 Parallel
+1 3 Acknowledgement
+2 3 Acknowledgement
+3 4 Continuation
+4 5 Acknowledgement
+4 6 Continuation
+6 7 Elaboration
+6 8 Acknowledgement
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Continuation
+11 12 Elaboration
+6 13 Clarification_question
+13 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Acknowledgement
+16 17 Continuation
+17 18 Continuation
+18 19 Acknowledgement
+predicted:
+0 1 Continuation
+0 2 Comment
+0 3 Comment
+3 4 Comment
+3 5 Comment
+5 6 Comment
+6 7 Elaboration
+6 8 Acknowledgement
+8 9 Elaboration
+8 10 Acknowledgement
+10 11 Elaboration
+11 12 Elaboration
+11 13 Clarification_question
+13 14 Clarification_question
+14 15 Question-answer_pair
+15 16 Acknowledgement
+16 17 Explanation
+17 18 Continuation
+18 19 Acknowledgement
+f1: 0.41025641025641024
+
+31
+0 0 : Привет 
+1 1 : Здравствуй ! 
+2 0 : привет , давай UNK(начнем) ? 
+3 2 : Привет 
+4 2 : Действительно , UNK(звучало) так , как UNK(будто) LJ не играл 
+5 0 : в порядке , 
+6 0 : удачи , ребята ! 
+7 2 : И тебе ! 
+ground truth:
+0 1 Acknowledgement
+1 2 Continuation
+1 3 Acknowledgement
+2 3 Acknowledgement
+2 4 Question-answer_pair
+4 5 Acknowledgement
+5 6 Continuation
+6 7 Continuation
+predicted:
+0 1 Acknowledgement
+1 2 Clarification_question
+2 3 Question-answer_pair
+3 4 Explanation
+4 5 Acknowledgement
+5 6 Continuation
+6 7 Acknowledgement
+f1: 0.39999999999999997
+
+32
+0 0 : у кого-нибудь есть запасные дрова ? 
+1 0 : я мог бы дать руду или пшеницу 
+2 1 : древесина для пшеницы ? 
+3 1 : 1 к 1 
+4 0 : звучит хорошо 
+5 0 : ура 
+6 1 : : ) 
+ground truth:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Elaboration
+2 4 Question-answer_pair
+4 5 Comment
+5 6 Comment
+predicted:
+0 1 Elaboration
+0 2 Q-Elab
+0 3 Question-answer_pair
+2 4 Acknowledgement
+4 5 Comment
+5 6 Comment
+f1: 0.6666666666666666
+
+33
+0 0 : Я бы UNK(попробовал) торговать , но мне нужно слишком много UNK(разных) UNK(вещей) : / 
+1 1 : справедливо , 
+2 1 : UNK(Первые) UNK(дни) 
+ground truth:
+0 1 Comment
+1 2 Explanation
+predicted:
+0 1 Acknowledgement
+1 2 Elaboration
+f1: 0
+
+34
+0 0 : Есть у кого-нибудь глина ? 
+1 1 : Не боюсь 
+2 2 : Нет 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+f1: 1.0
+
+35
+0 0 : у кого-нибудь есть овца ? 
+1 0 : может дать пшеницу или дерево 
+2 1 : Нет 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+f1: 1.0
+
+36
+0 0 : слишком много UNK(восьмерок) . 
+1 1 : UNK(согласовано) 
+ground truth:
+0 1 Acknowledgement
+predicted:
+0 1 Comment
+f1: 0
+
+37
+0 0 : есть шанс овцы И пшеницы ? 
+1 0 : я могу предложить руды 
+2 1 : у меня есть пшеница , но нет овец , я боюсь 
+3 2 : у меня нет овцы , и только одна пшеница , UNK(которая) мне нужна 
+4 0 : Ну что ж 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Acknowledgement
+3 4 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+f1: 0.888888888888889
+
+38
+0 0 : какие овцы и пшеница сейчас ? 
+1 1 : все еще нет овцы , 
+2 1 : Прости 
+3 2 : не UNK(жалко) , к сожалению 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+f1: 1.0
+
+39
+0 0 : теперь мне нужна пшеница UNK(ИЛИ) овца 
+1 0 : я могу предложить руду или дерево 
+2 1 : руда для пшеницы ? 
+3 0 : конечно 
+4 2 : Я в UNK(той) же UNK(ситуации) , что и в прошлый раз , 
+5 2 : нужно то , что у меня есть . 
+ground truth:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Question-answer_pair
+0 4 Question-answer_pair
+4 5 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Q-Elab
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Elaboration
+f1: 0.8000000000000002
+
+40
+0 0 : кому нужна руда или пшеница ? 
+1 1 : нет 
+2 1 : Спасибо 
+3 2 : пшеница 
+4 0 : ты можешь дать мне овцу или дрова ? 
+5 2 : Я могу дать тебе одну древесину 
+6 0 : k 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.8333333333333334
+
+41
+0 0 : кто-нибудь за руду ? 
+1 0 : Я хочу глина 
+2 1 : Прости 
+3 2 : грустный 
+4 0 : или овца 
+5 2 : Нет 
+6 1 : не могу 
+7 1 : иметь много руды 
+8 1 : для всего 
+9 2 : пшеница ? 
+10 1 : 3 руды за пшеницу ? 
+11 0 : хорошо 
+12 2 : ^^ 
+13 0 : Прости , 
+14 0 : UNK(неправильно) UNK(понятый) 
+15 1 : хорошо 
+16 2 : я сделаю это 
+17 1 : Спасибо 
+18 2 : * ДОБАВИТЬ ВРЕМЯ * 
+ground truth:
+0 1 Elaboration
+1 2 Question-answer_pair
+1 3 Question-answer_pair
+1 4 Alternation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Elaboration
+7 8 Elaboration
+8 9 Clarification_question
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Comment
+12 13 Comment
+13 14 Explanation
+13 15 Acknowledgement
+10 16 Question-answer_pair
+16 17 Acknowledgement
+16 18 Continuation
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Alternation
+0 5 Question-answer_pair
+0 6 Question-answer_pair
+6 7 Elaboration
+7 8 Elaboration
+5 9 Q-Elab
+9 10 Q-Elab
+10 11 Question-answer_pair
+10 12 Question-answer_pair
+10 13 Question-answer_pair
+13 14 Explanation
+14 15 Acknowledgement
+15 16 Acknowledgement
+16 17 Acknowledgement
+17 18 Comment
+f1: 0.3888888888888889
+
+42
+0 0 : мне нужна глина 
+1 0 : Я могу дать пшеницу 
+2 1 : на 
+3 2 : извините нет 
+4 0 : может кто-нибудь дать мне овцу ? 
+5 1 : Нет 
+6 2 : п 
+7 1 : овец просто нет UNK(рынка) . 
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Continuation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+5 7 Explanation
+6 7 Explanation
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+1 4 Q-Elab
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+4 7 Question-answer_pair
+f1: 0.5333333333333333
+
+43
+0 0 : где я могу увидеть , что я UNK(накатил) ? 
+1 1 : на UNK(стрелке) 
+2 0 : в порядке , 
+3 0 : так что если бы было 7 
+4 0 : я мог бы переместить грабителя 
+5 0 : и могу ли я делать UNK(другие) вещи в UNK(зависимости) от UNK(чисел) ? 
+6 1 : Ага 
+7 0 : UNK(упс) , 
+8 0 : Я не UNK(знала) 
+9 0 : Прости , 
+10 0 : какие вещи ? 
+11 1 : нет , любое другое число просто UNK(производит) ресурсы 
+12 2 : грабитель - UNK(единственное) UNK(исключение) 
+13 0 : в порядке , 
+14 0 : так что мне не нужно играть в UNK(специальные) UNK(действия) 
+15 0 : кто-нибудь хотел бы получить дрова за руду ? 
+16 1 : нет 
+17 1 : UNK(разработчик) карты - UNK(единственное) другое UNK(специальное) UNK(действие) 
+18 1 : нет 
+19 2 : Да , пожалуйста 
+20 1 : хотя я возьму UNK(чью-нибудь) овцу 
+21 0 : нет овцы 
+22 2 : здесь тоже нет 
+23 0 : кто-нибудь хочет дрова ? 
+24 2 : п 
+25 1 : 2 дерева ? 
+26 0 : одна древесина для глины 
+27 1 : хм нет извините 
+28 0 : или руда 
+29 1 : я возьму только два дерева , 
+30 1 : и дать 1 руду 
+31 0 : нет 
+32 0 : Прости 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+2 3 Q-Elab
+3 4 Conditional
+3 5 Continuation
+3 6 Question-answer_pair
+6 7 Acknowledgement
+7 8 Elaboration
+6 9 Q-Elab
+9 10 Continuation
+3 11 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Continuation
+11 13 Acknowledgement
+13 14 Result
+14 15 Continuation
+14 16 Acknowledgement
+16 17 Elaboration
+15 18 Question-answer_pair
+15 19 Question-answer_pair
+18 20 Contrast
+20 21 Contrast
+20 22 Contrast
+21 22 Parallel
+15 23 Continuation
+23 24 Question-answer_pair
+23 25 Q-Elab
+25 26 Question-answer_pair
+23 27 Question-answer_pair
+26 27 Question-answer_pair
+26 28 Alternation
+27 29 Elaboration
+29 30 Continuation
+29 31 Question-answer_pair
+31 32 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Acknowledgement
+2 3 Explanation
+3 4 Contrast
+4 5 Continuation
+5 6 Question-answer_pair
+6 7 Acknowledgement
+7 8 Elaboration
+8 9 Comment
+8 10 Clarification_question
+10 11 Question-answer_pair
+10 12 Question-answer_pair
+12 13 Acknowledgement
+13 14 Explanation
+14 15 Continuation
+15 16 Question-answer_pair
+16 17 Explanation
+16 18 Elaboration
+15 19 Question-answer_pair
+18 20 Contrast
+20 21 Contrast
+20 22 Parallel
+21 23 Q-Elab
+23 24 Question-answer_pair
+23 25 Q-Elab
+25 26 Q-Elab
+26 27 Question-answer_pair
+25 28 Question-answer_pair
+27 29 Explanation
+29 30 Elaboration
+29 31 Acknowledgement
+31 32 Comment
+f1: 0.3283582089552239
+
+44
+0 0 : кто-нибудь хотел бы дать мне руду ? 
+1 1 : UNK(косяк) 
+2 2 : зачем ? 
+3 0 : дерево ? 
+4 2 : нет 
+5 2 : Спасибо 
+6 1 : хорошо ? 
+7 0 : кто-нибудь может дать мне руду ? 
+8 0 : ( для дерева ) 
+9 2 : нет 
+ground truth:
+0 1 Question-answer_pair
+0 2 Q-Elab
+2 3 Q-Elab
+0 4 Question-answer_pair
+3 4 Question-answer_pair
+4 5 Comment
+0 6 Clarification_question
+6 7 Result
+7 8 Elaboration
+7 9 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Q-Elab
+2 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Comment
+3 6 Q-Elab
+6 7 Q-Elab
+7 8 Elaboration
+7 9 Question-answer_pair
+f1: 0.7368421052631577
+
+45
+0 0 : как мы делаем обмен ? 
+1 1 : сначала мы UNK(поговорим) об этом 
+2 1 : когда мы действительно хотим обменять . 
+3 2 : зарегистрировать сделку ' 
+4 1 : UNK(нажимаем) " зарегистрировать сделку " 
+5 0 : Ладно , 
+6 0 : давай UNK(сделаем) обмен 
+7 1 : какой ? 
+8 0 : древесина для пшеницы 
+9 2 : UNK(Какой) ты хочешь ? 
+10 1 : да , я видел это 
+11 1 : уже UNK(продано) , UNK(Том) 
+12 2 : хорошо 
+13 0 : Спасибо 
+14 0 : что еще я могу сделать во время UNK(хода) ? 
+15 0 : ( я UNK(новичок) в этом ) 
+16 1 : построить 
+17 1 : сделка , 
+18 1 : " сделано " 
+ground truth:
+0 1 Question-answer_pair
+1 2 Narration
+2 3 Elaboration
+2 4 Conditional
+1 5 Acknowledgement
+5 6 Result
+6 7 Elaboration
+7 8 Question-answer_pair
+8 9 Clarification_question
+8 10 Acknowledgement
+9 11 Correction
+11 12 Acknowledgement
+10 13 Acknowledgement
+13 14 Continuation
+14 15 Explanation
+14 16 Question-answer_pair
+16 17 Narration
+17 18 Narration
+predicted:
+0 1 Question-answer_pair
+1 2 Elaboration
+0 3 Question-answer_pair
+0 4 Question-answer_pair
+4 5 Acknowledgement
+5 6 Elaboration
+6 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Q-Elab
+9 10 Question-answer_pair
+10 11 Explanation
+10 12 Acknowledgement
+12 13 Acknowledgement
+13 14 Elaboration
+14 15 Elaboration
+14 16 Question-answer_pair
+16 17 Continuation
+17 18 Elaboration
+f1: 0.16666666666666666
+
+46
+0 0 : кто-нибудь хочет дрова ? 
+1 0 : извините глина 
+2 1 : нет 
+ground truth:
+0 1 Correction
+0 2 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+f1: 0.5
+
+47
+0 0 : так что если я UNK(построю) дорогу 
+1 0 : получить ресурсы рядом с ним ? 
+2 1 : нет вам нужен поселок 
+3 1 : дороги UNK(ведут) к UNK(населенным) UNK(пунктам) 
+4 1 : все UNK(населенные) UNK(пункты) должны иметь UNK(минимальное) UNK(расстояние) 2 
+5 0 : Ладно 
+ground truth:
+0 1 Conditional
+0 2 Question-answer_pair
+2 3 Continuation
+3 4 Continuation
+2 5 Acknowledgement
+predicted:
+0 1 Elaboration
+1 2 Question-answer_pair
+2 3 Explanation
+2 4 Explanation
+4 5 Acknowledgement
+f1: 0
+
+48
+0 0 : я могу обменять дрова 
+1 0 : хотя один лес 
+2 1 : нет , спасибо 
+3 0 : хорошо 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Acknowledgement
+f1: 1.0
+
+49
+0 0 : кто-нибудь дал бы мне глину ? 
+1 1 : здесь нет 
+2 2 : нет 
+3 0 : У меня есть одна древесина для обмена 
+4 0 : есть UNK(берущие) ? 
+5 2 : нет 
+6 0 : для овец , пшеницы или UNK(шалфея) 
+7 1 : я могу купить барана за две руды ? 
+8 2 : не иметь 
+9 1 : кк 
+10 0 : нет овцы 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Elaboration
+3 4 Q-Elab
+4 5 Question-answer_pair
+3 6 Elaboration
+3 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Acknowledgement
+7 10 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Elaboration
+3 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Q-Elab
+6 7 Q-Elab
+7 8 Question-answer_pair
+6 9 Acknowledgement
+9 10 Contrast
+f1: 0.6
+
+50
+0 0 : 2 руды за пшеницу ? 
+1 1 : ты UNK(даешь) 2 руды ? 
+2 1 : тогда да 
+3 0 : да 
+4 1 : k 
+5 0 : я могу купить дрова за 1 руду ? 
+6 1 : нет 
+7 2 : нет 
+8 2 : Прости 
+9 0 : кк 
+ground truth:
+0 1 Clarification_question
+1 2 Conditional
+1 3 Question-answer_pair
+3 4 Acknowledgement
+0 5 Continuation
+5 6 Question-answer_pair
+5 7 Question-answer_pair
+7 8 Comment
+6 9 Acknowledgement
+7 9 Acknowledgement
+predicted:
+0 1 Q-Elab
+0 2 Question-answer_pair
+1 3 Question-answer_pair
+0 4 Question-answer_pair
+1 5 Q-Elab
+5 6 Question-answer_pair
+5 7 Question-answer_pair
+7 8 Comment
+7 9 Acknowledgement
+f1: 0.5263157894736842
+
+51
+0 0 : вот твоя древесина 
+1 0 : кому-то нужна глина ? 
+2 0 : я возьму овцу или руду 
+3 1 : Я могу торговать деревом 
+4 2 : Нет 
+5 1 : для глины 
+6 0 : k 
+7 1 : или руда 
+ground truth:
+0 1 Continuation
+1 2 Elaboration
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+3 5 Elaboration
+5 6 Question-answer_pair
+5 7 Alternation
+predicted:
+0 1 Elaboration
+1 2 Elaboration
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+3 5 Elaboration
+3 6 Acknowledgement
+6 7 Alternation
+f1: 0.5714285714285714
+
+52
+0 0 : чтобы переместить грабителя 
+1 0 : мне нужно бросить кости ? 
+2 0 : я могу предложить руду для овец или глину 
+3 0 : или пшеница за то же 
+4 1 : Томас , можешь UNK(продолжить) с того UNK(места) , где UNK(вышла) из игры ? 
+5 2 : да 
+6 2 : Извини за это 
+7 2 : но сейчас он работает 
+8 0 : нп 
+9 0 : кому за руду что ли ? 
+10 1 : нет 
+11 2 : у меня есть руда 
+12 2 : Мне нужна овца 
+13 2 : или глина 
+14 0 : Я имею в виду , что у меня есть что предложить 
+15 0 : Мне нужна овца 
+16 0 : или UNK(Клэри) 
+17 2 : нет 
+18 2 : Спасибо 
+19 0 : глина 
+20 0 : тогда кто-нибудь хочет дрова за руду ? 
+21 1 : нет 
+22 0 : Ладно 
+ground truth:
+0 1 Conditional
+0 2 Continuation
+2 3 Alternation
+2 4 Continuation
+4 5 Question-answer_pair
+5 6 Comment
+6 7 Contrast
+7 8 Comment
+2 9 Continuation
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Contrast
+12 13 Alternation
+9 14 Elaboration
+14 15 Continuation
+15 16 Alternation
+9 17 Question-answer_pair
+17 18 Comment
+15 19 Correction
+9 20 Narration
+17 20 Result
+20 21 Question-answer_pair
+21 22 Acknowledgement
+predicted:
+0 1 Elaboration
+1 2 Elaboration
+2 3 Alternation
+1 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Explanation
+6 7 Contrast
+6 8 Acknowledgement
+8 9 Elaboration
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Elaboration
+12 13 Alternation
+12 14 Q-Elab
+14 15 Elaboration
+15 16 Alternation
+15 17 Question-answer_pair
+17 18 Comment
+18 19 Acknowledgement
+19 20 Continuation
+20 21 Question-answer_pair
+21 22 Acknowledgement
+f1: 0.4444444444444445
+
+53
+0 0 : можно мне овцу или пшеницу ? 
+1 0 : у меня слишком много дров 
+2 1 : п 
+3 2 : Я могу дать тебе пшеницу 
+4 0 : хорошо 
+5 2 : Спасибо 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+f1: 1.0
+
+54
+0 0 : так что если я хочу UNK(отложить) UNK(урегулирование) 
+1 0 : где я могу это сделать ? 
+2 1 : на UNK(одной) из UNK(твоих) дорог 
+3 2 : на любом UNK(углу) , который UNK(находится) на UNK(расстоянии) не менее двух от всех UNK(остальных) UNK(населенных) UNK(пунктов) 
+4 2 : UNK(подключен) да 
+5 0 : Спасибо 
+6 0 : отлично сработано 
+7 1 : 3 UNK(рыцаря) ? 
+8 2 : Спасибо за игру 
+9 1 : gg 
+10 2 : UNK(ю) 
+11 2 : Ага 
+12 3 : UNK(Вау) , это было быстро . 
+13 3 : Отлично сработано . 
+14 3 : Пожалуйста , не UNK(забудьте) отправить мне свои UNK(анкеты) . 
+15 2 : k 
+16 1 : хорошо 
+17 0 : хорошо 
+18 0 : Ну тогда пока 
+19 3 : Для UNK(получения) 5 вам нужно будет UNK(подписать) UNK(квитанцию) . 
+20 0 : хорошо 
+21 3 : Я в UNK(IF) 3 . 24 . 
+22 3 : Должен быть там UNK(большую) часть времени на этой неделе . 
+23 3 : UNK(Еще) раз спасибо ! 
+24 0 : хорошо я UNK(приду) 
+25 1 : хорошо , спасибо 
+ground truth:
+0 1 Conditional
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Continuation
+2 5 Acknowledgement
+3 5 Acknowledgement
+5 6 Comment
+6 7 Clarification_question
+6 8 Acknowledgement
+8 9 Comment
+9 10 Acknowledgement
+10 11 Correction
+6 12 Comment
+8 12 Comment
+9 12 Comment
+6 13 Comment
+8 13 Comment
+9 13 Comment
+13 14 Continuation
+14 15 Acknowledgement
+14 16 Acknowledgement
+14 17 Acknowledgement
+15 18 Comment
+16 18 Comment
+17 18 Continuation
+14 19 Continuation
+19 20 Acknowledgement
+19 21 Continuation
+21 22 Elaboration
+21 23 Comment
+21 24 Acknowledgement
+19 25 Acknowledgement
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Comment
+3 4 Comment
+4 5 Acknowledgement
+5 6 Continuation
+5 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Acknowledgement
+9 10 Comment
+10 11 Continuation
+9 12 Comment
+12 13 Continuation
+13 14 Continuation
+14 15 Acknowledgement
+14 16 Acknowledgement
+16 17 Acknowledgement
+17 18 Continuation
+18 19 Comment
+19 20 Acknowledgement
+20 21 Contrast
+21 22 Continuation
+22 23 Comment
+23 24 Acknowledgement
+23 25 Acknowledgement
+f1: 0.2456140350877193
+
+55
+0 0 : кто-нибудь хочет пшеницу ? 
+1 1 : Да , пожалуйста 
+2 0 : Мне нужна глина или руда 
+3 1 : Я могу дать руду 
+4 1 : или глина 
+5 0 : или овца ! 
+6 1 : UNK(невозможно) . 
+7 0 : давай UNK(сделаем) глину 
+8 1 : k 
+9 0 : хочешь еще одну UNK(цельную) руду ? 
+10 1 : еще одна пшеница ? 
+11 0 : одна пшеница 
+12 1 : кк 
+ground truth:
+0 1 Question-answer_pair
+0 2 Elaboration
+2 3 Question-answer_pair
+3 4 Alternation
+2 5 Alternation
+5 6 Question-answer_pair
+2 7 Result
+6 7 Result
+7 8 Acknowledgement
+7 9 Continuation
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Elaboration
+0 3 Question-answer_pair
+3 4 Alternation
+3 5 Q-Elab
+5 6 Question-answer_pair
+6 7 Result
+7 8 Acknowledgement
+7 9 Result
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Acknowledgement
+f1: 0.7199999999999999
+
+56
+0 0 : кто-нибудь может дать мне барана ? 
+1 0 : для руды 
+2 1 : если ты UNK(дашь) мне дрова 
+3 2 : не я 
+4 0 : за две руды ? 
+5 1 : k 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+2 4 Q-Elab
+4 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Question-answer_pair
+2 4 Q-Elab
+4 5 Question-answer_pair
+f1: 0.8000000000000002
+
+57
+0 0 : я могу купить овцу ? 
+1 1 : никто 
+2 2 : нет извините 
+3 0 : хорошо 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Acknowledgement
+2 3 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Acknowledgement
+f1: 0.8571428571428571
+
+58
+0 0 : у меня слишком много пшеницы ! 
+1 1 : опять овца кто-нибудь ? 
+2 1 : или глина 
+3 0 : нет 
+4 0 : п 
+5 2 : нет 
+ground truth:
+0 1 Continuation
+1 2 Alternation
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+3 4 Parallel
+1 5 Question-answer_pair
+4 5 Parallel
+predicted:
+0 1 Q-Elab
+1 2 Alternation
+1 3 Question-answer_pair
+3 4 Comment
+1 5 Question-answer_pair
+f1: 0.5
+
+59
+0 0 : грабитель меня UNK(грабит) ? 
+1 0 : я могу его переместить ? 
+2 1 : если вы UNK(выбросите) 7 
+3 2 : грабитель UNK(мешает) вам получить это , пока он там 
+4 2 : может кто-нибудь дать мне руду ? 
+5 0 : зачем ? 
+6 2 : пшеница или дерево 
+7 1 : конечно 
+8 2 : который ? 
+9 0 : как насчет овец или UNK(клара) ? 
+10 1 : пшеница пожалуйста 
+11 2 : k 
+12 1 : Прости 
+13 1 : UNK(повторить) UNK(попытку) 
+14 1 : не мог этого UNK(видеть) 
+15 2 : если вы UNK(переместите) другое UNK(окно) UNK(поверх) UNK(пузыря) UNK(речи) 
+16 2 : вы UNK(увидите) , что 
+17 2 : как " UNK(хлестать) " 
+18 1 : Спасибо 
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Continuation
+4 5 Q-Elab
+5 6 Question-answer_pair
+4 7 Question-answer_pair
+6 8 Q-Elab
+7 8 Q-Elab
+6 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Acknowledgement
+11 12 Correction
+12 13 Continuation
+13 14 Explanation
+14 15 Comment
+15 16 Conditional
+15 17 Explanation
+15 18 Acknowledgement
+predicted:
+0 1 Elaboration
+1 2 Question-answer_pair
+2 3 Explanation
+3 4 Elaboration
+4 5 Q-Elab
+5 6 Question-answer_pair
+6 7 Question-answer_pair
+7 8 Q-Elab
+8 9 Q-Elab
+9 10 Question-answer_pair
+10 11 Acknowledgement
+9 12 Question-answer_pair
+12 13 Explanation
+13 14 Explanation
+13 15 Contrast
+15 16 Result
+16 17 Elaboration
+17 18 Comment
+f1: 0.3243243243243243
+
+60
+0 0 : привет Маркус . 
+1 0 : сколько людей мы ждем ? 
+2 1 : думаю , это еще 1 
+3 0 : хорошо 
+4 2 : да , еще один 
+5 2 : UNK(Кажется) , UNK(при) UNK(входе) в игру происходит UNK(сбой) . 
+6 1 : это нормально , я не по UNK(расписанию) 
+7 1 : UNK(*Я) 
+8 2 : Думаю , у вас UNK(двоих) не было проблем с UNK(присоединением) к игре ? 
+9 0 : Нет 
+10 2 : Ах , отлично ! 
+11 2 : Итак , теперь один из вас может начать игру . 
+12 2 : UNK(Радоваться) , UNK(веселиться) ! 
+13 0 : UNK(стрелка) UNK(указывает) на меня 
+14 0 : но я не могу нажать на UNK(рулон) 
+15 0 : ой , извини 
+16 1 : Вы можете UNK(разместить) поселение 
+17 1 : UNK(первый) 
+18 1 : ты UNK(катишься) позже 
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Acknowledgement
+2 4 Acknowledgement
+4 5 Comment
+5 6 Acknowledgement
+6 7 Correction
+5 8 Clarification_question
+8 9 Acknowledgement
+9 10 Acknowledgement
+10 11 Result
+11 12 Continuation
+11 13 Comment
+13 14 Contrast
+14 15 Comment
+13 16 Explanation
+16 17 Continuation
+17 18 Narration
+predicted:
+0 1 Clarification_question
+1 2 Question-answer_pair
+2 3 Acknowledgement
+1 4 Question-answer_pair
+4 5 Explanation
+4 6 Comment
+6 7 Comment
+6 8 Comment
+8 9 Question-answer_pair
+9 10 Acknowledgement
+10 11 Continuation
+11 12 Comment
+12 13 Comment
+13 14 Contrast
+14 15 Comment
+15 16 Contrast
+16 17 Comment
+17 18 Elaboration
+f1: 0.2777777777777778
+
+61
+0 0 : я UNK(предлагаю) пшеницу для дерева или глины 
+1 1 : нет 
+2 1 : Спасибо 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+f1: 1.0
+
+62
+0 0 : так что я бы хотел построить дорогу . 
+1 0 : где я UNK(нажимаю) ? 
+2 1 : строить ? 
+3 1 : внизу рядом с UNK(«дорогой») и т . UNK(д) . 
+4 2 : если у вас есть 1 дерево , 1 глина , 
+5 2 : он UNK(находится) внизу UNK(экрана) 
+6 0 : хорошо , я вижу . 
+7 0 : кто-нибудь хочет руду ? 
+8 2 : Нет 
+9 1 : нет 
+10 0 : для дерева 
+11 1 : для победы нужно 10 UNK(победных) очков . 
+12 1 : поселение UNK(дает) вам 1 UNK(ПО) , 
+13 1 : город UNK(дает) вам 2 UNK(ПО) 
+14 0 : хорошо спасибо 
+ground truth:
+0 1 Q-Elab
+1 2 Clarification_question
+1 3 Question-answer_pair
+1 4 Question-answer_pair
+4 5 Conditional
+4 6 Acknowledgement
+6 7 Continuation
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+7 10 Elaboration
+0 11 Background
+11 12 Continuation
+12 13 Continuation
+11 14 Acknowledgement
+predicted:
+0 1 Elaboration
+1 2 Q-Elab
+2 3 Elaboration
+1 4 Question-answer_pair
+4 5 Elaboration
+4 6 Acknowledgement
+6 7 Continuation
+7 8 Question-answer_pair
+7 9 Question-answer_pair
+9 10 Result
+9 11 Elaboration
+11 12 Elaboration
+12 13 Elaboration
+13 14 Acknowledgement
+f1: 0.35714285714285715
+
+63
+0 0 : у кого-то есть глина ? 
+1 1 : никто 
+2 2 : да 
+3 0 : Что ты хочешь за это ? 
+4 2 : хм , не уверен . 
+5 2 : Я хочу дерево , 
+6 2 : но мне тоже нужна глина 
+7 0 : я могу дать тебе дрова ! 
+8 2 : Я могу обменять руду на дрова 
+9 0 : дать или хочешь руду ? 
+10 2 : отдать руду , получить древесину 
+11 0 : я в 
+12 2 : здорово 
+13 0 : ой , извини . 
+14 0 : я думал , ты UNK(говоришь) о себе , когда ты сказал дать руду 
+15 2 : Я имею в виду , что могу предложить руду 
+16 0 : ? я UNK(смущен) 
+17 2 : если вы можете дать мне дрова 
+18 0 : хорошо . 
+19 0 : я просто UNK(неправильно) понял сообщение с UNK(речевым) UNK(пузырем) . 
+20 0 : сделано 
+21 2 : Спасибо 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Contrast
+5 7 Question-answer_pair
+7 8 Correction
+8 9 Clarification_question
+9 10 Question-answer_pair
+8 11 Acknowledgement
+10 11 Acknowledgement
+11 12 Acknowledgement
+11 13 Correction
+13 14 Explanation
+17 15 Conditional
+14 16 Elaboration
+10 17 Elaboration
+17 18 Acknowledgement
+16 19 Explanation
+18 19 Explanation
+17 20 Acknowledgement
+20 21 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Elaboration
+5 6 Contrast
+5 7 Q-Elab
+7 8 Question-answer_pair
+8 9 Q-Elab
+9 10 Question-answer_pair
+10 11 Acknowledgement
+9 12 Question-answer_pair
+12 13 Acknowledgement
+13 14 Elaboration
+14 15 Result
+15 16 Q-Elab
+16 17 Question-answer_pair
+17 18 Acknowledgement
+18 19 Explanation
+19 20 Result
+20 21 Acknowledgement
+f1: 0.4090909090909091
+
+64
+0 0 : есть глина сейчас , у кого-нибудь есть дерево ? 
+1 1 : Ага 
+2 1 : У меня есть дрова 
+3 1 : 1 к 1 
+4 2 : Да , пожалуйста 
+5 2 : UNK(Слишком) поздно я думаю 
+6 1 : UNK(соз) UNK(брат) 
+7 0 : Прости , 
+8 0 : самый UNK(быстрый) UNK(вне) UNK(блока) 
+9 1 : нужен этот новый UNK(ноутбук) 
+10 2 : UNK(Какой) UNK(ноутбук) ? 
+11 1 : UNK(ранее) . 
+12 1 : сколько дров на новый UNK(ноут) . 
+ground truth:
+0 1 Question-answer_pair
+1 2 Elaboration
+2 3 Elaboration
+0 4 Question-answer_pair
+4 5 Contrast
+5 6 Comment
+5 7 Comment
+7 8 Contrast
+6 9 Comment
+9 10 Clarification_question
+10 11 Question-answer_pair
+11 12 Elaboration
+predicted:
+0 1 Question-answer_pair
+1 2 Elaboration
+2 3 Elaboration
+0 4 Question-answer_pair
+4 5 Explanation
+5 6 Comment
+6 7 Comment
+7 8 Explanation
+8 9 Comment
+9 10 Clarification_question
+10 11 Question-answer_pair
+11 12 Continuation
+f1: 0.5833333333333334
+
+65
+0 0 : UNK(аахххххх) UNK(7777777]) 
+1 0 : Прости . 
+2 1 : UNK(Эхххх) 
+3 1 : Надеюсь , тебе UNK(понравится) UNK(Баххх) UNK(\) 
+4 0 : это случайно 
+5 0 : но всегда UNK(приземляется) на меня . ? 
+6 1 : UNK(Древесина) за руду . кто-нибудь ? 
+7 0 : странно . 
+8 0 : Прости 
+9 2 : Нет , 
+10 2 : Прости 
+ground truth:
+0 1 Comment
+0 2 Comment
+2 3 Elaboration
+0 4 Elaboration
+4 5 Contrast
+2 6 Continuation
+5 7 Comment
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+9 10 Comment
+predicted:
+0 1 Comment
+0 2 Comment
+2 3 Explanation
+3 4 Comment
+4 5 Contrast
+5 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Comment
+6 9 Question-answer_pair
+9 10 Comment
+f1: 0.5
+
+66
+0 0 : Хорошо там UNK(Ztime) . 
+1 1 : удачи в этой игре . 
+2 1 : не как UNK(Пуэрто-Рико) 
+ground truth:
+0 1 Explanation
+1 2 Contrast
+predicted:
+0 1 Contrast
+1 2 Explanation
+f1: 0
+
+67
+0 0 : 7 ! 
+1 1 : Да правильно . 
+2 0 : что . это UNK(исправление) ? 
+3 2 : хахаха 
+4 0 : хорошо , кто-нибудь хочет пшеницу ? 
+5 2 : Нет 
+6 2 : просто кому-то UNK(девятки) UNK(накатить) . 
+7 1 : да 
+8 1 : Я могу дать тебе дрова . 
+9 0 : Было ли это UNK(«да») на обмен на UNK(сомдек) ? 
+10 0 : ОК . круто . за 1 пшеницу ? 
+11 1 : и руда . : ) 
+12 0 : эээ . нет руды . 
+13 0 : Спасибо . 
+ground truth:
+0 1 Acknowledgement
+0 2 Result
+0 3 Comment
+0 4 Narration
+4 5 Question-answer_pair
+5 6 Elaboration
+4 7 Question-answer_pair
+7 8 Elaboration
+7 9 Clarification_question
+7 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Correction
+12 13 Contrast
+predicted:
+0 1 Acknowledgement
+1 2 Clarification_question
+0 3 Comment
+0 4 Continuation
+4 5 Question-answer_pair
+5 6 Explanation
+6 7 Acknowledgement
+7 8 Elaboration
+8 9 Q-Elab
+9 10 Q-Elab
+10 11 Question-answer_pair
+11 12 Question-answer_pair
+12 13 Comment
+f1: 0.38461538461538464
+
+68
+0 0 : Мне нужна руда или глина . 
+1 0 : Могу дать дрова или овец . 
+2 1 : нет UNK(запасных) 
+3 1 : Прости 
+4 2 : Я сделаю 1 руду за 1 дерево и 1 овцу 
+5 0 : Хммм нет . 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Question-answer_pair
+4 5 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Question-answer_pair
+4 5 Question-answer_pair
+f1: 1.0
+
+69
+0 0 : UNK(yer) . не 7 на этот раз . 
+1 1 : Вы хотите овец ? 
+2 0 : Хорошо . 
+3 0 : за 1 пшеницу 
+4 1 : 1 дерево возможно 
+5 0 : UNK(пустой) на UNK(дереве) 
+6 2 : я мог бы сделать эту сделку на следующем ходу . 
+7 1 : как насчет руды 
+8 0 : для ? 
+9 1 : UNK(Неважно) 
+10 0 : хорошо 
+ground truth:
+0 1 Continuation
+1 2 Question-answer_pair
+2 3 Elaboration
+2 4 Q-Elab
+4 5 Question-answer_pair
+4 6 Comment
+5 7 Result
+7 8 Q-Elab
+8 9 Question-answer_pair
+9 10 Acknowledgement
+predicted:
+0 1 Clarification_question
+1 2 Question-answer_pair
+2 3 Elaboration
+2 4 Question-answer_pair
+4 5 Comment
+4 6 Result
+6 7 Q-Elab
+7 8 Q-Elab
+8 9 Question-answer_pair
+7 10 Question-answer_pair
+f1: 0.4000000000000001
+
+70
+0 0 : где семерки , когда они вам нужны ? 
+1 1 : UNK(хи) UNK(хи) 
+2 2 : хахаха 
+3 0 : Вам лучше построить UNK(Новую) UNK(Зеландию) . UNK(посмотрите) на все UNK(те) карты , которые у вас на UNK(руках) . 
+4 1 : Я могу дать дрова или пшеницу за 2 овцы . 
+5 0 : Прости . 
+6 2 : мне нужны овцы . нет ни UNK(одной) . 
+7 2 : UNK(Ztime) UNK(монополизировал) UNK(животноводство) 
+8 0 : У меня нет овец . 
+ground truth:
+0 1 Comment
+0 2 Comment
+0 3 Continuation
+3 4 Continuation
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Explanation
+7 8 Correction
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Comment
+3 4 Contrast
+4 5 Question-answer_pair
+4 6 Question-answer_pair
+6 7 Explanation
+6 8 Contrast
+f1: 0.375
+
+71
+0 0 : Что тебе нужно , UNK(Шонус) 
+1 1 : овец 
+2 0 : Что ты можешь дать ? 
+3 1 : древесина или руда 
+4 1 : черт 
+5 2 : а ? 
+6 2 : ооо . 
+7 2 : 7 . 
+8 0 : UNK(Дерево) было бы хорошо 
+9 0 : UNK(Хо) . нет . 
+10 1 : UNK(неправильно) , чтобы закончить мой ход ! 
+11 2 : кто-нибудь хочет дать мне дрова . 
+12 2 : Я пшеницу отдам . 
+13 0 : UNK(Дай) мне глину 
+14 0 : и мы можем UNK(заключить) сделку . 
+15 2 : Прости 
+16 2 : как насчет 2 пшеницы . на 1 дерево ? 
+17 0 : Сожалею . 
+18 2 : как насчет 1 руды и 1 пшеницы для дерева 
+19 2 : хорошо . 
+20 0 : Все еще не могу этого сделать . 
+21 1 : ты хочешь 1 дерево ? 
+22 2 : я сделал . 
+23 2 : но только что UNK(торговал) с банком . 
+24 1 : черт 
+25 1 : ха-ха 
+26 2 : UNK(ваши) . UNK(дорогие) UNK(банки) . как в UNK(реальной) UNK(жизни) . 
+27 1 : в самом деле 
+ground truth:
+0 1 Question-answer_pair
+1 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Comment
+4 5 Clarification_question
+5 6 Question-answer_pair
+6 7 Elaboration
+3 8 Question-answer_pair
+8 9 Contrast
+4 10 Explanation
+5 10 Question-answer_pair
+9 10 Explanation
+6 11 Continuation
+11 12 Elaboration
+11 13 Q-Elab
+13 14 Conditional
+13 15 Question-answer_pair
+13 16 Q-Elab
+15 16 Continuation
+16 17 Question-answer_pair
+17 18 Q-Elab
+17 19 Acknowledgement
+18 20 Question-answer_pair
+18 21 Clarification_question
+21 22 Question-answer_pair
+22 23 Contrast
+23 24 Acknowledgement
+24 25 Comment
+24 26 Comment
+26 27 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Q-Elab
+2 3 Question-answer_pair
+3 4 Comment
+2 5 Q-Elab
+5 6 Elaboration
+6 7 Comment
+7 8 Comment
+8 9 Explanation
+8 10 Comment
+10 11 Continuation
+11 12 Elaboration
+11 13 Question-answer_pair
+13 14 Continuation
+13 15 Comment
+15 16 Elaboration
+16 17 Question-answer_pair
+17 18 Result
+18 19 Result
+18 20 Question-answer_pair
+18 21 Q-Elab
+21 22 Question-answer_pair
+22 23 Contrast
+23 24 Acknowledgement
+24 25 Comment
+21 26 Comment
+26 27 Acknowledgement
+f1: 0.38596491228070173
+
+72
+0 0 : так . может ли кто-нибудь обменять меня овцу на дрова ? 
+1 1 : ты хочешь овец ? 
+2 0 : да 
+3 1 : Прости . 
+4 1 : UNK(nz) - это то место , куда можно пойти ! 
+5 2 : Нет овец здесь UNK(дружище) . 
+6 1 : UNK(посмотри) UNK(снаружи) . 
+7 2 : UNK(Где) UNK(остальные) 4 ? 
+8 1 : под UNK(грабителем) 
+9 1 : и UNK(вверху) UNK(слева) 
+10 2 : Да . 
+11 2 : Я знаю . 
+12 1 : аааа 
+13 0 : до UNK(сих) пор нет там овец ? 
+14 1 : Нет . 
+15 1 : овцы здесь UNK(свободны) 
+16 2 : UNK(Хороший) UNK(Шонус) . 
+ground truth:
+0 1 Clarification_question
+1 2 Question-answer_pair
+2 3 Question-answer_pair
+3 4 Contrast
+0 5 Question-answer_pair
+4 5 Correction
+5 6 Comment
+7 8 Question-answer_pair
+8 9 Continuation
+8 10 Acknowledgement
+10 11 Continuation
+10 12 Comment
+0 13 Narration
+13 14 Question-answer_pair
+14 15 Elaboration
+13 16 Comment
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Explanation
+0 5 Question-answer_pair
+0 6 Question-answer_pair
+5 7 Clarification_question
+7 8 Question-answer_pair
+8 9 Continuation
+9 10 Acknowledgement
+10 11 Elaboration
+10 12 Acknowledgement
+12 13 Clarification_question
+13 14 Question-answer_pair
+14 15 Elaboration
+13 16 Question-answer_pair
+f1: 0.375
+
+73
+0 0 : UNK(утро) . 
+1 1 : Привет 
+2 1 : UNK(доброе) UNK(утро) 
+3 0 : в какой UNK(части) UNK(страны) вы UNK(находитесь) ? 
+4 2 : UNK(NZ) UNK(брат) . 
+5 1 : UNK(Лондон) 
+6 0 : UNK(Эдинбург) 
+7 1 : UNK(любимое) место 
+8 0 : UNK(Добро) UNK(пожаловать) , UNK(Новая) UNK(Зеландия) 
+9 1 : привет UNK(NZ) 
+10 2 : UNK(Yrahhh) Привет всем 
+11 0 : право . 
+12 0 : А не UNK(___) ли нам . 
+13 1 : В этом UNK(году) я UNK(пробежал) там UNK(марафон) ( UNK(Шотландия) , а не UNK(Новая) UNK(Зеландия) ) 
+14 0 : ооо . UNK(впечатляет) 
+15 1 : UNK(медаль) в UNK(форме) UNK(пениса) для всех . 
+16 2 : UNK(Ух) ты , круто . 
+17 0 : эээ . 
+18 1 : действительно , . что я сказал , когда они дали мне 
+19 0 : UNK(впечатляющая) UNK(медаль) ? 
+20 1 : UNK(пропорция) UNK(ниже) UNK(среднего) , но UNK(металлическая) . 
+21 2 : UNK(Тем) не UNK(мение) . 
+22 0 : UNK(Бьюсь) об UNK(заклад) , вы все UNK(выглядели) как UNK(кучка) UNK(хуев) . 
+23 1 : хахаха 
+24 0 : ты . мы . 
+25 1 : UNK(Действуй) 
+26 2 : Да . 
+27 0 : UNK(Go) UNK(NZ) 
+28 0 : черт 
+29 1 : UNK(неуместен) / 
+30 1 : ? 
+31 2 : Тебе нужно UNK(отменить) ? 
+32 0 : нет . 
+33 0 : ты занял то место , на которое я UNK(смотрел) . 
+34 0 : нет , все хорошо . 
+35 1 : хахаха 
+36 2 : Должен быть здесь UNK(подлым) . 
+ground truth:
+0 1 Acknowledgement
+1 2 Elaboration
+1 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Question-answer_pair
+6 7 Comment
+4 8 Comment
+4 9 Comment
+8 10 Comment
+9 10 Comment
+3 11 Continuation
+11 12 Continuation
+7 13 Continuation
+13 14 Comment
+13 15 Continuation
+15 16 Comment
+15 17 Comment
+17 18 Comment
+15 19 Q-Elab
+19 20 Question-answer_pair
+11 21 Continuation
+20 22 Comment
+22 23 Comment
+21 24 Continuation
+24 25 Question-answer_pair
+24 26 Question-answer_pair
+25 26 Question-answer_pair
+26 27 Result
+27 28 Comment
+28 29 Clarification_question
+29 30 Correction
+28 31 Clarification_question
+29 32 Question-answer_pair
+32 33 Explanation
+31 34 Question-answer_pair
+32 35 Comment
+32 36 Comment
+predicted:
+0 1 Acknowledgement
+1 2 Elaboration
+0 3 Elaboration
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Comment
+6 7 Comment
+7 8 Comment
+8 9 Comment
+8 10 Comment
+10 11 Comment
+11 12 Elaboration
+12 13 Comment
+13 14 Comment
+14 15 Comment
+15 16 Comment
+16 17 Comment
+16 18 Contrast
+18 19 Clarification_question
+19 20 Question-answer_pair
+19 21 Question-answer_pair
+21 22 Comment
+22 23 Comment
+23 24 Result
+24 25 Comment
+25 26 Acknowledgement
+26 27 Comment
+27 28 Continuation
+27 29 Comment
+29 30 Continuation
+30 31 Q-Elab
+31 32 Question-answer_pair
+32 33 Elaboration
+32 34 Contrast
+34 35 Comment
+34 36 Comment
+f1: 0.27027027027027023
+
+74
+0 0 : UNK(Новая) UNK(Зеландия) идет за овцами 
+1 1 : ха-ха 
+ground truth:
+0 1 Comment
+predicted:
+0 1 Comment
+f1: 1.0
+
+75
+0 0 : аааа 7 
+1 1 : UNK(Уже) 
+2 0 : ты . 
+3 2 : не UNK(займет) много времени 
+4 2 : надеюсь , не так много , как в UNK(прошлой) игре 
+5 0 : ты в прошлый раз много UNK(всплыл) на UNK(старте) . 
+ground truth:
+0 1 Comment
+1 2 Acknowledgement
+1 3 Comment
+3 4 Continuation
+4 5 Elaboration
+predicted:
+0 1 Comment
+1 2 Comment
+0 3 Comment
+3 4 Explanation
+4 5 Contrast
+f1: 0.20000000000000004
+
+76
+0 0 : Хорошо , я могу отдать овцу за глину 
+1 1 : Прости 
+2 2 : никто 
+3 2 : Прости 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+f1: 1.0
+
+77
+0 0 : 2 UNK(Овцы) для UNK(Clay) UNK(Ztime) 
+1 1 : Прости 
+2 2 : не получил ни одного 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+f1: 1.0
+
+78
+0 0 : кому угодно дрова . 
+1 0 : Я ищу руду или глина 
+2 1 : Нет 
+3 1 : Спасибо 
+4 0 : как насчет того , чтобы дать тебе дрова для овцы ? 
+5 2 : нет , спасибо 
+6 0 : хорошо 
+7 1 : Неа . 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Alternation
+4 5 Question-answer_pair
+5 6 Acknowledgement
+4 7 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+0 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+4 7 Question-answer_pair
+f1: 0.8571428571428571
+
+79
+0 0 : кто-нибудь хочет пшеницу ? 
+1 1 : Да , пожалуйста 
+2 0 : Я после дерева 
+3 0 : или овца . 
+4 0 : UNK(Какой) ты хочешь ? 
+5 1 : Я могу дать тебе руду 
+6 0 : руда . ладно . 
+7 2 : : D 
+8 2 : это UNK(большая) UNK(торговая) игра 
+9 0 : ты . 
+10 0 : кто-нибудь хочет UNK(продать) овец ? 
+11 0 : Я могу дать пшеницу . 
+12 2 : нет ни одного : ( 
+13 1 : Как насчет глины ? 
+14 0 : 2 пшеницы . 
+15 1 : UNK(Хочу) глину . 
+16 0 : Прости . 
+17 2 : я тоже хочу овец . 
+18 2 : для руды . 
+19 2 : если кто-нибудь UNK(получит) 
+20 0 : ха . UNK(сомдек) украл у меня 
+ground truth:
+0 1 Question-answer_pair
+0 2 Elaboration
+2 3 Alternation
+2 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Question-answer_pair
+6 7 Comment
+7 8 Continuation
+7 9 Acknowledgement
+0 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+11 13 Q-Elab
+11 14 Q-Elab
+13 14 Result
+14 15 Question-answer_pair
+15 16 Question-answer_pair
+10 17 Parallel
+19 18 Conditional
+17 19 Elaboration
+19 20 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Question-answer_pair
+2 3 Alternation
+2 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Comment
+7 8 Explanation
+8 9 Comment
+9 10 Continuation
+10 11 Elaboration
+10 12 Question-answer_pair
+10 13 Q-Elab
+13 14 Question-answer_pair
+14 15 Result
+15 16 Question-answer_pair
+13 17 Question-answer_pair
+17 18 Elaboration
+18 19 Elaboration
+19 20 Comment
+f1: 0.4390243902439024
+
+80
+0 0 : мне нужна пшеница 
+1 0 : может дать . дерево или овцу 
+2 1 : Прости 
+3 1 : я UNK(потратил) это 
+4 2 : UNK(Болит) 
+5 2 : UNK(ry) . 
+6 0 : хаха не был уверен , было ли это 
+7 0 : извините или уверен 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Explanation
+0 4 Question-answer_pair
+4 5 Continuation
+4 6 Comment
+6 7 Elaboration
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Explanation
+0 4 Question-answer_pair
+4 5 Comment
+5 6 Comment
+6 7 Elaboration
+f1: 0.7142857142857143
+
+81
+0 0 : Я за глиной . 
+1 0 : Я дам руду 
+2 1 : Нет 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+f1: 1.0
+
+82
+0 0 : Я дал дрова за пшеницу . 
+1 1 : не иметь 
+2 2 : нужна пшеница 
+3 0 : Я тоже . 
+4 1 : я тоже 
+5 2 : надо UNK(вырубить) леса и UNK(посадить) UNK(посевы) . 
+6 1 : ты . 
+7 1 : UNK(банк) всегда UNK(выигрывает) . 
+8 0 : Ага . UNK(Банк) всегда UNK(выигрывает) . 
+9 1 : ха молодец . 
+10 1 : UNK(Некоторое) время мне это UNK(нравилось) . 
+11 2 : ха-ха 
+12 1 : просто кажется , что UNK(застряли) здесь . 
+13 0 : Это хорошо для нас . 
+14 1 : кто-нибудь хочет дрова ? 
+15 2 : это UNK(долгая) UNK(закрытая) игра 
+16 2 : Нет 
+17 0 : нет 
+18 1 : ты . это близко . 
+19 1 : хорошо . 
+20 0 : Эй , эй . 
+21 1 : Я UNK(помогаю) тебе . 
+22 1 : UNK(пытаюсь) получить меньше 7 карт . 
+23 2 : хахаха 
+24 0 : Я могу дать дрова за пшеницу . 
+25 0 : или глина 
+26 0 : UNK(Клей) был бы лучше . 
+27 1 : если это не дерево . 
+28 1 : Я не могу помочь 
+29 0 : UNK(Нееет) . 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Parallel
+2 4 Parallel
+3 4 Parallel
+2 5 Result
+3 5 Result
+4 5 Result
+5 6 Acknowledgement
+2 7 Comment
+3 7 Comment
+4 7 Comment
+7 8 Acknowledgement
+8 9 Comment
+8 10 Comment
+9 10 Contrast
+10 11 Comment
+10 12 Contrast
+12 13 Comment
+12 14 Continuation
+12 15 Comment
+14 16 Question-answer_pair
+14 17 Question-answer_pair
+15 18 Acknowledgement
+16 19 Acknowledgement
+17 19 Acknowledgement
+19 20 Comment
+20 21 Correction
+21 22 Explanation
+21 23 Comment
+21 24 Continuation
+24 25 Alternation
+24 26 Contrast
+28 27 Conditional
+24 28 Q-Elab
+28 29 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Parallel
+2 4 Parallel
+2 5 Elaboration
+5 6 Comment
+6 7 Elaboration
+6 8 Acknowledgement
+8 9 Comment
+9 10 Explanation
+10 11 Comment
+10 12 Explanation
+12 13 Comment
+13 14 Q-Elab
+14 15 Question-answer_pair
+15 16 Elaboration
+14 17 Question-answer_pair
+17 18 Result
+18 19 Result
+17 20 Continuation
+20 21 Comment
+21 22 Explanation
+22 23 Comment
+22 24 Contrast
+24 25 Alternation
+25 26 Elaboration
+24 27 Question-answer_pair
+27 28 Contrast
+27 29 Comment
+f1: 0.3076923076923077
+
+83
+0 0 : UNK(Путь) к работе . 
+1 1 : UNK(промышленный) UNK(раунд) 
+2 2 : дороги надо UNK(держать) ! 
+ground truth:
+0 1 Comment
+0 2 Comment
+1 2 Comment
+predicted:
+0 1 Comment
+0 2 Comment
+f1: 0.8
+
+84
+0 0 : UNK(Awwwhhhh) . 
+1 1 : аааа . нет . моя UNK(поленница) теперь не UNK(такая) UNK(большая) . 
+2 2 : хахаха 
+3 0 : Как насчет UNK(ноутбука) 
+4 2 : думал , что ты UNK(собираешься) UNK(открыть) UNK(ikea) 
+ground truth:
+0 1 Continuation
+1 2 Comment
+1 3 Clarification_question
+2 4 Elaboration
+predicted:
+0 1 Comment
+0 2 Comment
+1 3 Result
+3 4 Comment
+f1: 0
+
+85
+0 0 : UNK(случайный) 7 
+1 1 : черт 
+2 0 : не UNK(бывает) так в UNK(реальной) игре не так ли . ? 
+3 2 : UNK(Дерево) для глины ? 
+4 1 : UNK(украдено) два ресурса ! 
+5 0 : Прости . 
+ground truth:
+0 1 Comment
+0 2 Contrast
+1 4 Elaboration
+4 5 Comment
+predicted:
+0 1 Comment
+0 2 Elaboration
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Comment
+f1: 0.4444444444444445
+
+86
+0 0 : кто-нибудь хочет дать мне глину . 
+1 1 : для ? 
+2 2 : Нет . 
+3 1 : о , подождите 
+4 1 : нет 
+5 0 : дерево 
+6 1 : ха-ха 
+7 0 : руда 
+8 1 : нет дерева 
+9 0 : а ? 
+10 0 : хорошо . 
+ground truth:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+1 3 Correction
+3 4 Elaboration
+1 5 Question-answer_pair
+3 6 Comment
+5 7 Alternation
+5 8 Question-answer_pair
+8 9 Clarification_question
+8 10 Acknowledgement
+predicted:
+0 1 Q-Elab
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Explanation
+3 5 Acknowledgement
+5 6 Comment
+5 7 Elaboration
+7 8 Question-answer_pair
+8 9 Q-Elab
+8 10 Acknowledgement
+f1: 0.380952380952381
+
+87
+0 0 : возьми пшеницу за одного 
+1 0 : когда придет моя очередь 
+2 1 : UNK(раздавать) дрова под пшеницу . 
+3 2 : извините , не нужно дерево 
+4 2 : у вас там UNK(большая) UNK(рука) карт . 
+5 0 : хаха он делает ! 
+6 1 : Ага . но пшеницы нет . 
+7 1 : Хммм 
+8 2 : у тебя есть глина ? 
+9 2 : для пшеницы ? 
+10 1 : Нет . 
+11 2 : : ) стоит попробовать 
+12 1 : UNK(Руда) для пшеницы 
+13 2 : нет 
+14 2 : Спасибо 
+15 0 : Нет 
+16 2 : снова в UNK(банк) ? 
+ground truth:
+0 1 Elaboration
+0 2 Continuation
+2 3 Question-answer_pair
+2 4 Comment
+4 5 Acknowledgement
+2 6 Explanation
+4 6 Contrast
+6 7 Comment
+2 8 Q-Elab
+8 9 Elaboration
+8 10 Question-answer_pair
+10 11 Comment
+8 12 Q-Elab
+10 12 Contrast
+12 13 Question-answer_pair
+13 14 Comment
+12 15 Question-answer_pair
+13 16 Clarification_question
+15 16 Clarification_question
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Question-answer_pair
+3 4 Explanation
+4 5 Comment
+4 6 Contrast
+6 7 Elaboration
+6 8 Q-Elab
+8 9 Q-Elab
+9 10 Question-answer_pair
+10 11 Acknowledgement
+9 12 Question-answer_pair
+12 13 Acknowledgement
+13 14 Comment
+14 15 Comment
+14 16 Clarification_question
+f1: 0.22857142857142856
+
+88
+0 0 : нужна пшеница 
+1 0 : хотите . глина ? 
+2 1 : ты UNK(одо) ? 
+3 1 : ты . 
+4 1 : Мне нужна глина . 
+5 1 : может дать пшеницу 
+6 0 : k 
+7 0 : это может быть где я UNK(потеряю) свою UNK(дорожную) карту ? 
+8 1 : UNK(э) . 
+9 1 : Я UNK(считаю) , что сделка UNK(неправильная) ? 
+10 1 : ты хотел пшеницу ? 
+11 0 : да 
+12 0 : для глины 
+13 1 : там сказано , что тебе нужна глина . 
+14 2 : Мы все хотим человека пшеницы 
+15 2 : и глина . 
+16 1 : хорошо 
+17 1 : Спасибо . 
+18 0 : ха-ха 
+19 0 : Спасибо 
+20 2 : Так UNK(бывает) и в UNK(реальной) игре . 
+ground truth:
+0 1 Elaboration
+0 2 Clarification_question
+0 3 Question-answer_pair
+3 4 Elaboration
+4 5 Continuation
+3 6 Acknowledgement
+3 7 Comment
+6 8 Clarification_question
+8 9 Continuation
+9 10 Elaboration
+8 11 Question-answer_pair
+11 12 Elaboration
+11 13 Contrast
+11 14 Comment
+14 15 Continuation
+11 16 Acknowledgement
+16 17 Comment
+14 18 Comment
+17 19 Acknowledgement
+8 20 Comment
+predicted:
+0 1 Elaboration
+0 2 Q-Elab
+0 3 Question-answer_pair
+3 4 Elaboration
+4 5 Elaboration
+4 6 Acknowledgement
+6 7 Elaboration
+7 8 Question-answer_pair
+8 9 Elaboration
+9 10 Elaboration
+10 11 Question-answer_pair
+11 12 Elaboration
+11 13 Result
+13 14 Contrast
+14 15 Continuation
+14 16 Acknowledgement
+16 17 Comment
+17 18 Comment
+18 19 Comment
+17 20 Comment
+f1: 0.35
+
+89
+0 0 : кто-нибудь хочет пшеницу ? 
+1 1 : Нет 
+2 1 : Спасибо 
+3 2 : для ? 
+4 0 : овца или руда или глина 
+5 2 : хахаха , их нет 
+6 0 : UNK(хахахаха) 
+7 0 : отлично 
+8 0 : ржунимагу 
+9 0 : UNK(ноутбук) ? 
+10 1 : Конечно 
+11 2 : UNK(построен) из дерева конечно 
+12 1 : : ) 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Elaboration
+7 8 Comment
+0 9 Alternation
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Q-Elab
+3 4 Question-answer_pair
+4 5 Question-answer_pair
+3 6 Question-answer_pair
+6 7 Comment
+7 8 Comment
+8 9 Clarification_question
+9 10 Question-answer_pair
+9 11 Question-answer_pair
+11 12 Comment
+f1: 0.75
+
+90
+0 0 : UNK(Дерево) UNK(->) UNK(Овца) 
+1 0 : Мне здесь нужны овцы . 
+2 1 : Прости 
+3 2 : Прости , 
+4 2 : нет овец на моих UNK(землях) 
+5 1 : без овец 
+6 0 : 2 леса для чего угодно , кроме пшеницы . 
+7 1 : Прости 
+8 1 : если вы не UNK(примете) дрова взамен ? 
+9 2 : хахаха руда ? 
+10 0 : Конечно . 
+11 1 : отлично . UNK(настроил) ! 
+12 0 : руда была бы UNK(хорошей) 
+13 2 : ты UNK(звучишь) UNK(отчаянно) , и я не могу 
+14 2 : так что нет 
+15 0 : Просто хочу UNK(избавиться) от карт . 
+ground truth:
+0 1 Elaboration
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Explanation
+2 5 Explanation
+2 6 Result
+3 6 Result
+6 7 Question-answer_pair
+7 8 Alternation
+6 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Acknowledgement
+9 12 Question-answer_pair
+12 13 Comment
+12 14 Question-answer_pair
+13 14 Result
+13 15 Explanation
+predicted:
+0 1 Elaboration
+0 2 Comment
+0 3 Comment
+3 4 Explanation
+4 5 Acknowledgement
+5 6 Result
+6 7 Question-answer_pair
+6 8 Q-Elab
+8 9 Q-Elab
+8 10 Question-answer_pair
+10 11 Comment
+8 12 Question-answer_pair
+12 13 Explanation
+13 14 Result
+12 15 Elaboration
+f1: 0.3125
+
+91
+0 0 : : ) 
+1 1 : UNK(Хотел) бы я иметь UNK(портвейн) из дерева 
+ground truth:
+0 1 Comment
+predicted:
+0 1 Comment
+f1: 1.0
+
+92
+0 0 : UNK(Охх) мой . 
+1 1 : может также . 
+2 0 : 2 леса за 1 руду ? 
+3 1 : Прости 
+4 2 : Нет 
+5 2 : Прости 
+ground truth:
+0 1 Comment
+0 2 Continuation
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Comment
+predicted:
+0 1 Contrast
+0 2 Elaboration
+2 3 Question-answer_pair
+2 4 Question-answer_pair
+4 5 Comment
+f1: 0.6
+
+93
+0 0 : кто-нибудь хочет дать мне пшеницу для овец ? 
+1 1 : Прости 
+2 2 : У меня есть овца 
+3 0 : Ну что ж 
+4 1 : * UNK(качает) UNK(кулаком) * UNK(грабителю) . 
+5 2 : UNK(Shawn) UNK(Us) Я получил UNK(Sheep) . все еще хотите в UNK(тренде) ? 
+6 0 : ха-ха 
+7 0 : мне нужна пшеница 
+8 2 : Ох , я понял . 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+1 3 Acknowledgement
+2 3 Acknowledgement
+0 5 Continuation
+4 6 Comment
+5 7 Question-answer_pair
+7 8 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Acknowledgement
+0 4 Question-answer_pair
+0 5 Q-Elab
+5 6 Question-answer_pair
+5 7 Question-answer_pair
+7 8 Acknowledgement
+f1: 0.625
+
+94
+0 0 : 12 снова . 
+1 1 : чувак . 
+2 2 : хаха ты UNK(далеко) UNK(впереди) ! 
+3 0 : Кто что UNK(такое) овцы ? 
+4 2 : Нет 
+5 1 : не совсем . когда вы UNK(доберетесь) до дороги 
+6 2 : у меня нет ресурсов для этого 
+ground truth:
+0 1 Comment
+0 2 Comment
+0 3 Continuation
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Explanation
+predicted:
+0 1 Comment
+0 2 Comment
+0 3 Clarification_question
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+3 6 Question-answer_pair
+f1: 0.6666666666666666
+
+95
+0 0 : ха . удачи 7 
+1 1 : Не снова . 
+2 2 : * UNK(качает) UNK(кулак) * 
+3 0 : UNK(собака) UNK(ест) UNK(собачий) UNK(мир) . 
+4 2 : буквально взял UNK(хлеб) UNK(изо) UNK(рта) там 
+5 0 : хм . что делать . 
+ground truth:
+0 1 Comment
+0 2 Comment
+2 3 Comment
+2 4 Elaboration
+3 4 Elaboration
+0 5 Narration
+predicted:
+0 1 Comment
+0 2 Comment
+1 3 Comment
+0 4 Comment
+4 5 Comment
+f1: 0.3636363636363636
+
+96
+0 0 : 3 пшеницы ? 
+1 0 : действительно ? 
+2 1 : ты . UNK(мужик) . слишком много . 
+3 0 : UNK(Пройди) UNK(сюда) , UNK(брат) . 
+ground truth:
+0 1 Continuation
+0 2 Question-answer_pair
+2 3 Result
+predicted:
+0 1 Elaboration
+0 2 Question-answer_pair
+2 3 Comment
+f1: 0.3333333333333333
+
+97
+0 0 : кто-нибудь хочет пшеницу ? 
+1 1 : для ? 
+2 0 : овец ? 
+3 2 : Овец ? 
+4 1 : k 
+5 0 : твоя овца 
+6 1 : ха-ха 
+7 2 : 2 пшеницы 
+8 1 : 1 ! 
+9 1 : UNK(подрезать) . 
+10 0 : : - ) 
+11 2 : UNK(Гус) один . 
+12 1 : UNK(безжалостный) 
+13 0 : кому еще нужна пшеница ? 
+14 2 : Да твоя . 
+15 2 : хорошо , я 
+16 2 : Что ты хочешь ? 
+17 2 : Овец . 
+18 0 : у тебя есть глина или дерево ? 
+19 2 : У меня есть дрова . 
+20 2 : за 2 пшеницы . 
+21 0 : ДОБАВИТЬ ВРЕМЯ 
+22 0 : хорошо 
+23 2 : Вы UNK(выигрываете) . 
+24 2 : почему я UNK(стою) с тобой ? 
+25 2 : UNK(Обр) . 
+26 1 : ха-ха 
+27 0 : на . 
+28 0 : Я UNK(застрял) здесь . 
+ground truth:
+0 1 Q-Elab
+1 2 Question-answer_pair
+2 3 Clarification_question
+2 4 Acknowledgement
+3 5 Question-answer_pair
+5 6 Acknowledgement
+6 7 Q-Elab
+5 8 Q-Elab
+7 8 Contrast
+8 9 Elaboration
+8 10 Comment
+8 11 Comment
+8 12 Comment
+11 12 Elaboration
+0 13 Narration
+12 14 Acknowledgement
+13 15 Question-answer_pair
+13 16 Q-Elab
+15 16 Q-Elab
+16 17 Elaboration
+16 18 Q-Elab
+18 19 Question-answer_pair
+19 20 Elaboration
+18 21 Continuation
+19 22 Acknowledgement
+22 23 Contrast
+23 24 Clarification_question
+24 25 Comment
+25 26 Acknowledgement
+23 27 Correction
+27 28 Elaboration
+predicted:
+0 1 Q-Elab
+1 2 Q-Elab
+2 3 Q-Elab
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+5 6 Comment
+5 7 Result
+7 8 Acknowledgement
+8 9 Comment
+8 10 Acknowledgement
+10 11 Comment
+11 12 Comment
+11 13 Result
+13 14 Question-answer_pair
+14 15 Continuation
+15 16 Clarification_question
+16 17 Elaboration
+16 18 Q-Elab
+18 19 Question-answer_pair
+19 20 Elaboration
+20 21 Result
+21 22 Result
+22 23 Comment
+23 24 Clarification_question
+24 25 Comment
+24 26 Question-answer_pair
+24 27 Question-answer_pair
+27 28 Elaboration
+f1: 0.3050847457627119
+
+98
+0 0 : : ) 
+1 1 : : - ) 
+2 1 : Спасибо ! 
+3 2 : черт ! 
+4 0 : UNK(Хороший) UNK(брат) . 
+5 2 : хороший 
+6 1 : это была UNK(близкая) игра . 
+7 2 : Да 
+8 2 : UNK(снимаю) перед вами UNK(шляпу) 
+9 0 : Ты должен был его давно выиграть . 
+10 2 : и в следующий раз . все UNK(четверо) из нас ? 
+11 1 : Я так UNK(застрял) 
+12 1 : UNK(йер) . либо все 4 . 
+13 1 : или я UNK(бросаю) UNK(учебу) , а ты UNK(играешь) с UNK(Вольфи) 
+14 1 : ( UNK(Woodnsheep) / UNK(Клэр) ) 
+15 0 : UNK(SheepNWood) не может UNK(проводить) UNK(выходные) . 
+16 2 : UNK(срочно) 
+17 1 : UNK(ей) придется UNK(вписаться) в 1 или 2 . 
+18 2 : мы что-нибудь UNK(разберемся) может быть 
+19 1 : она UNK(сделала) одну на UNK(прошлой) неделе с UNK(сомдеком) и мной . 
+20 1 : хорошо , парни 
+21 1 : Спасибо за игру . 
+22 1 : Мне UNK(пора) UNK(бежать) . 
+23 2 : ну я хочу UNK(завтрак) ! 
+24 2 : так что . увидимся по электронной почте : ) 
+25 1 : UNK(хороших) UNK(выходных) . 
+26 2 : спасибо за действительно UNK(хорошую) игру 
+27 1 : ура 
+28 0 : Я могу UNK(остаться) UNK(допоздна) на одну ночь , чтобы сделать это . 
+29 2 : вы оба тоже 
+30 0 : Мы UNK(напишем) по электронной почте . 
+31 1 : до скорого . 
+32 0 : хорошо , ребята . Увидимся 
+ground truth:
+0 1 Acknowledgement
+1 2 Continuation
+1 3 Comment
+1 4 Acknowledgement
+3 5 Elaboration
+1 6 Comment
+6 7 Acknowledgement
+6 8 Comment
+7 8 Continuation
+6 9 Comment
+8 10 Clarification_question
+9 11 Contrast
+10 12 Acknowledgement
+12 13 Alternation
+13 14 Elaboration
+12 15 Contrast
+15 16 Comment
+15 17 Contrast
+16 18 Contrast
+18 19 Elaboration
+9 20 Continuation
+10 20 Continuation
+20 21 Comment
+21 22 Continuation
+20 23 Continuation
+23 24 Result
+23 25 Continuation
+25 26 Continuation
+25 27 Continuation
+15 28 Contrast
+25 29 Comment
+28 30 Continuation
+27 31 Continuation
+29 32 Acknowledgement
+31 32 Acknowledgement
+predicted:
+0 1 Comment
+1 2 Comment
+2 3 Comment
+2 4 Comment
+4 5 Comment
+5 6 Comment
+6 7 Acknowledgement
+7 8 Elaboration
+6 9 Contrast
+9 10 Continuation
+10 11 Question-answer_pair
+11 12 Explanation
+12 13 Alternation
+12 14 Background
+13 15 Contrast
+15 16 Comment
+16 17 Elaboration
+17 18 Contrast
+18 19 Comment
+19 20 Result
+20 21 Continuation
+21 22 Elaboration
+22 23 Contrast
+23 24 Result
+24 25 Comment
+25 26 Comment
+26 27 Comment
+27 28 Contrast
+28 29 Parallel
+29 30 Comment
+30 31 Acknowledgement
+31 32 Acknowledgement
+f1: 0.14925373134328357
+
+99
+0 0 : и семерки UNK(начались) . 
+1 1 : рад , что тогда я UNK(избавился) от UNK(некоторых) ресурсов . 
+2 0 : кому угодно дрова . 
+3 0 : Я после глины 
+4 1 : нет глины 
+5 2 : UNK(Никакой) глины от меня , друг мой . 
+6 0 : ОК . та 
+ground truth:
+0 1 Result
+0 2 Continuation
+2 3 Question-answer_pair
+3 4 Question-answer_pair
+3 5 Question-answer_pair
+4 6 Acknowledgement
+5 6 Acknowledgement
+predicted:
+0 1 Comment
+0 2 Elaboration
+2 3 Elaboration
+2 4 Question-answer_pair
+2 5 Question-answer_pair
+5 6 Acknowledgement
+f1: 0.15384615384615383
+
+100
+0 0 : Я могу дать дрова за руду или пшеницу . 
+1 1 : Прости . 
+2 1 : UNK(пытаюсь) отправить дрова . 
+3 2 : 1 по цене 1 , хорошо 
+4 0 : Ага 
+5 2 : хорошо 
+6 0 : Что ты можешь дать ? 
+7 2 : пшеница 
+ground truth:
+0 1 Question-answer_pair
+1 2 Explanation
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+3 6 Q-Elab
+4 6 Continuation
+6 7 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+0 3 Question-answer_pair
+3 4 Acknowledgement
+4 5 Acknowledgement
+4 6 Q-Elab
+6 7 Question-answer_pair
+f1: 0.6666666666666666
+
+101
+0 0 : хотите обменять дрова на овец ? 
+1 1 : нет 
+2 1 : Спасибо . 
+3 2 : извини . все еще здесь нет овцы 
+4 0 : хаха ты такой же как я . 
+5 1 : У UNK(Новой) UNK(Зеландии) есть овца . 
+6 0 : хотите еще дров ? 
+7 1 : Для этого нужно 2 дерева . 
+8 2 : UNK(тяжелая) торговля . приятно . 
+9 0 : хахаха 
+10 0 : хорошо 
+11 2 : UNK(жесткие) сделки в UNK(современном) UNK(мире) . 
+12 0 : Да . 
+13 0 : сколько дров на новый UNK(ноут) ? 
+14 2 : : - ) 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Comment
+3 5 Contrast
+4 5 Contrast
+0 6 Q-Elab
+5 6 Result
+6 7 Question-answer_pair
+7 8 Comment
+8 9 Comment
+7 10 Acknowledgement
+8 11 Elaboration
+8 12 Acknowledgement
+12 13 Comment
+13 14 Comment
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+3 4 Comment
+3 5 Explanation
+5 6 Q-Elab
+6 7 Question-answer_pair
+7 8 Question-answer_pair
+8 9 Comment
+8 10 Acknowledgement
+10 11 Comment
+11 12 Acknowledgement
+12 13 Clarification_question
+13 14 Question-answer_pair
+f1: 0.39999999999999997
+
+102
+0 0 : ааа 7 снова . извините 
+1 1 : действительно 
+2 1 : Прости ? 
+3 0 : вы . UNK(жалко) вас , ребята 
+4 0 : UNK(смотри) , UNK(NZ) должен UNK(сбросить) все свои карты . 
+5 2 : UNK(Нееет) . 
+6 0 : у кого есть глина ? 
+7 0 : Я могу дать дрова 
+8 2 : Нет . 
+9 1 : Нет 
+10 0 : пшеница 
+11 0 : UNK(Даю) пшеницу 
+12 0 : хорошо 
+13 2 : Нет 
+ground truth:
+0 1 Clarification_question
+1 2 Elaboration
+1 3 Question-answer_pair
+3 4 Explanation
+4 5 Comment
+0 6 Continuation
+6 7 Elaboration
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+6 10 Q-Elab
+8 10 Result
+9 10 Result
+10 11 Elaboration
+11 12 Continuation
+10 13 Question-answer_pair
+predicted:
+0 1 Comment
+1 2 Elaboration
+0 3 Explanation
+3 4 Explanation
+4 5 Comment
+5 6 Continuation
+6 7 Elaboration
+6 8 Question-answer_pair
+6 9 Question-answer_pair
+9 10 Acknowledgement
+10 11 Elaboration
+11 12 Continuation
+10 13 Question-answer_pair
+f1: 0.6428571428571429
+
+103
+0 0 : Мне нужно дерево , глина или руда , я могу дать овцу 
+1 1 : я могу торговать деревом 
+2 2 : просто UNK(потратил) все это 
+3 2 : Прости 
+4 0 : 1 овца за 1 дерево ? 
+5 1 : 2 овцы 1 дрова 
+6 2 : извините UNK(пустой) 
+7 2 : UNK(трудные) UNK(времена) . 
+8 1 : надеюсь , я не UNK(бросаю) 7 
+9 1 : и это меня UNK(попадает) в UNK(задницу) 
+10 1 : UNK(укусы) * 
+ground truth:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+1 4 Q-Elab
+4 5 Question-answer_pair
+2 6 Elaboration
+6 7 Explanation
+5 8 Comment
+8 9 Continuation
+9 10 Correction
+predicted:
+0 1 Question-answer_pair
+0 2 Question-answer_pair
+2 3 Comment
+2 4 Result
+4 5 Question-answer_pair
+5 6 Question-answer_pair
+6 7 Explanation
+5 8 Comment
+8 9 Continuation
+8 10 Comment
+f1: 0.7
+
+104
+0 0 : UNK(барабанная) UNK(дробь) 
+1 0 : 8 . 
+2 0 : отлично 
+ground truth:
+0 1 Continuation
+1 2 Comment
+predicted:
+0 1 Elaboration
+1 2 Comment
+f1: 0.5
+
+105
+0 0 : хахаха 
+1 0 : это UNK(как-то) странно . 
+2 1 : UNK(Очередной) раз ! 
+3 2 : UNK(уф) 
+4 0 : ты . 
+5 0 : Я знаю . в этих UNK(играх) много чего . 
+6 0 : кто-нибудь хочет пшеницу ? 
+7 2 : Нет : ( 
+8 1 : Нет 
+ground truth:
+0 1 Elaboration
+0 2 Comment
+0 3 Comment
+2 4 Acknowledgement
+4 5 Elaboration
+0 6 Continuation
+6 7 Question-answer_pair
+6 8 Question-answer_pair
+predicted:
+0 1 Explanation
+1 2 Comment
+2 3 Comment
+2 4 Comment
+4 5 Elaboration
+5 6 Continuation
+6 7 Question-answer_pair
+6 8 Question-answer_pair
+f1: 0.375
+
+106
+0 0 : UNK(Пшеница) UNK(->) UNK(Руда) ? 
+1 1 : хочешь руду ? 
+2 0 : UNK(Ага/) . 
+3 1 : Прости 
+4 0 : Или глина ? 
+5 2 : никто 
+6 2 : Прости 
+7 1 : Прости 
+8 1 : слишком много пшеницы 
+ground truth:
+0 1 Clarification_question
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+0 4 Alternation
+4 5 Question-answer_pair
+5 6 Comment
+4 7 Question-answer_pair
+7 8 Explanation
+predicted:
+0 1 Q-Elab
+1 2 Question-answer_pair
+0 3 Question-answer_pair
+1 4 Q-Elab
+4 5 Question-answer_pair
+5 6 Comment
+4 7 Question-answer_pair
+7 8 Explanation
+f1: 0.75
+
+107
+0 0 : кто-нибудь хочет дрова ? 
+1 1 : Нет 
+ground truth:
+0 1 Question-answer_pair
+predicted:
+0 1 Question-answer_pair
+f1: 1.0
+
+108
+0 0 : у кого есть руда для торговли ? 
+1 1 : нет 
+2 1 : Прости 
+3 2 : Нет . , . 
+4 0 : или . глина из пшеницы или дерева . 
+5 1 : я могу дать пшеницу 
+6 2 : UNK(Глины) здесь тоже нет . 
+7 1 : ааа извини . нет глины 
+8 0 : хорошо 
+ground truth:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Alternation
+4 5 Question-answer_pair
+3 6 Parallel
+4 6 Question-answer_pair
+4 7 Question-answer_pair
+5 7 Correction
+6 8 Acknowledgement
+7 8 Acknowledgement
+predicted:
+0 1 Question-answer_pair
+1 2 Comment
+0 3 Question-answer_pair
+0 4 Alternation
+0 5 Question-answer_pair
+0 6 Question-answer_pair
+5 7 Elaboration
+7 8 Acknowledgement
+f1: 0.5263157894736842
+
+Test:
+  test loss_bi: 0.00000
+  test loss_multi: 0.93608
+  test f1_bi: 0.69870
+  test f1_multi: 0.49728

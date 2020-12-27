@@ -1,0 +1,904 @@
+<?xml version="1.0" ?>
+<annotations>
+<metadata corpusHashcode="410-85061493"/>
+<unit id="stac_-12">
+<metadata>
+<author>stac</author>
+<creation-date>-12</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1"/>
+</start>
+<end>
+<singlePosition index="91"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377735">
+<metadata>
+<author>stac</author>
+<creation-date>1338377735</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305193359</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">skinnylinny</feature>
+<feature name="Identifier">43</feature>
+<feature name="Timestamp">16:19:24:975</feature>
+<feature name="Resources">clay=0; ore=0; sheep=0; wheat=2; wood=2</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="1"/>
+</start>
+<end>
+<singlePosition index="91"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338497723">
+<metadata>
+<author>stac</author>
+<creation-date>1338497723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305157000</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Offer</type>
+<featureSet>
+<feature name="Addressee">Nancy</feature>
+<feature name="Surface_act">Request</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="20"/>
+</start>
+<end>
+<singlePosition index="91"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-14">
+<metadata>
+<author>stac</author>
+<creation-date>-14</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="92"/>
+</start>
+<end>
+<singlePosition index="145"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377737">
+<metadata>
+<author>stac</author>
+<creation-date>1338377737</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">Nancy</feature>
+<feature name="Identifier">45</feature>
+<feature name="Timestamp">16:20:31:053</feature>
+<feature name="Resources">clay=2; ore=0; sheep=1; wheat=1; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="92"/>
+</start>
+<end>
+<singlePosition index="145"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338517723">
+<metadata>
+<author>stac</author>
+<creation-date>1338517723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305253890</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Accept</type>
+<featureSet>
+<feature name="Addressee">skinnylinny</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="105"/>
+</start>
+<end>
+<singlePosition index="145"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1340077727">
+<metadata>
+<author>stac</author>
+<creation-date>1340077727</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Dialogue</type>
+<featureSet>
+<feature name="Trades">skinnylinny traded 4 ore for 1 clay from the bank. Chameleon traded 4 ore for 1 clay from the bank. Nancy traded 4 clay for 1 wheat from the bank. skinnylinny traded 1 wheat for 1 clay from Nancy.</feature>
+<feature name="Dice_rolling">skinnylinny rolled a 4 and a 3. Chameleon rolled a 1 and a 2. Nancy rolled a 5 and a 6. skinnylinny rolled a 2 and a 4. Chameleon rolled a 1 and a 5. Nancy rolled a 3 and a 3. skinnylinny rolled a 3 and a 3. Chameleon rolled a 6 and a 3. Nancy rolled a 2 and a 3. skinnylinny rolled a 5 and a 5.</feature>
+<feature name="Gets">skinnylinny gets 1 wheat. skinnylinny gets 1 wood. skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay. skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay. skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay. skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay. Chameleon gets 1 sheep. Nancy gets 1 wood. Chameleon gets 1 ore. Nancy gets 1 sheep. Chameleon gets 2 sheep. Nancy gets 1 clay.</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="0"/>
+</start>
+<end>
+<singlePosition index="145"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-19">
+<metadata>
+<author>stac</author>
+<creation-date>-19</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="146"/>
+</start>
+<end>
+<singlePosition index="207"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377742">
+<metadata>
+<author>stac</author>
+<creation-date>1338377742</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305283937</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=2;  settlements=2</feature>
+<feature name="Emitter">Chameleon</feature>
+<feature name="Identifier">50</feature>
+<feature name="Timestamp">16:21:46:456</feature>
+<feature name="Resources">clay=1; ore=3; sheep=5; wheat=0; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="146"/>
+</start>
+<end>
+<singlePosition index="207"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338567723">
+<metadata>
+<author>stac</author>
+<creation-date>1338567723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305275921</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Offer</type>
+<featureSet>
+<feature name="Addressee">skinnylinny, Nancy</feature>
+<feature name="Surface_act">Request</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="163"/>
+</start>
+<end>
+<singlePosition index="207"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-20">
+<metadata>
+<author>stac</author>
+<creation-date>-20</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="208"/>
+</start>
+<end>
+<singlePosition index="230"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377743">
+<metadata>
+<author>stac</author>
+<creation-date>1338377743</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=4;  settlements=2</feature>
+<feature name="Emitter">skinnylinny</feature>
+<feature name="Identifier">51</feature>
+<feature name="Timestamp">16:22:11:377</feature>
+<feature name="Resources">clay=0; ore=1; sheep=0; wheat=1; wood=1</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="208"/>
+</start>
+<end>
+<singlePosition index="230"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338577723">
+<metadata>
+<author>stac</author>
+<creation-date>1338577723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305356484</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Accept</type>
+<featureSet>
+<feature name="Addressee">Chameleon</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="227"/>
+</start>
+<end>
+<singlePosition index="230"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-21">
+<metadata>
+<author>stac</author>
+<creation-date>-21</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="231"/>
+</start>
+<end>
+<singlePosition index="264"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377744">
+<metadata>
+<author>stac</author>
+<creation-date>1338377744</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">Nancy</feature>
+<feature name="Identifier">52</feature>
+<feature name="Timestamp">16:22:18:952</feature>
+<feature name="Resources">clay=2; ore=0; sheep=1; wheat=2; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="231"/>
+</start>
+<end>
+<singlePosition index="264"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338587723">
+<metadata>
+<author>stac</author>
+<creation-date>1338587723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305388390</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Refusal</type>
+<featureSet>
+<feature name="Addressee">Chameleon</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="244"/>
+</start>
+<end>
+<singlePosition index="249"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338587724">
+<metadata>
+<author>stac</author>
+<creation-date>1338587724</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305380796</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Refusal</type>
+<featureSet>
+<feature name="Addressee">Chameleon</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="250"/>
+</start>
+<end>
+<singlePosition index="264"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1340977728">
+<metadata>
+<author>stac</author>
+<creation-date>1340977728</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Dialogue</type>
+<featureSet>
+<feature name="Trades">Chameleon traded 1 sheep for 1 wood from skinnylinny. Chameleon traded 4 sheep for 1 clay from the bank.</feature>
+<feature name="Dice_rolling">Chameleon rolled a 4 and a 2.</feature>
+<feature name="Gets">skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay.</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="145"/>
+</start>
+<end>
+<singlePosition index="264"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-28">
+<metadata>
+<author>stac</author>
+<creation-date>-28</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="265"/>
+</start>
+<end>
+<singlePosition index="308"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377751">
+<metadata>
+<author>stac</author>
+<creation-date>1338377751</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">Chameleon</feature>
+<feature name="Identifier">59</feature>
+<feature name="Timestamp">16:24:04:870</feature>
+<feature name="Resources">clay=1; ore=4; sheep=0; wheat=0; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="265"/>
+</start>
+<end>
+<singlePosition index="308"/>
+</end>
+</positioning>
+</unit>
+<unit id="nasher_1384111580311">
+<metadata>
+<author>nasher</author>
+<creation-date>1384111580311</creation-date>
+<lastModifier>nasher</lastModifier>
+<lastModificationDate>1384111580311</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Other</type>
+<featureSet>
+<feature name="Addressee">skinnylinny, Nancy</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="282"/>
+</start>
+<end>
+<singlePosition index="308"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-29">
+<metadata>
+<author>stac</author>
+<creation-date>-29</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="309"/>
+</start>
+<end>
+<singlePosition index="363"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377752">
+<metadata>
+<author>stac</author>
+<creation-date>1338377752</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">Nancy</feature>
+<feature name="Identifier">60</feature>
+<feature name="Timestamp">16:25:20:570</feature>
+<feature name="Resources">clay=3; ore=0; sheep=1; wheat=2; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="309"/>
+</start>
+<end>
+<singlePosition index="363"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338667723">
+<metadata>
+<author>stac</author>
+<creation-date>1338667723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305436593</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Offer</type>
+<featureSet>
+<feature name="Addressee">skinnylinny, Chameleon</feature>
+<feature name="Surface_act">Request</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="322"/>
+</start>
+<end>
+<singlePosition index="363"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-30">
+<metadata>
+<author>stac</author>
+<creation-date>-30</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="385"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377753">
+<metadata>
+<author>stac</author>
+<creation-date>1338377753</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=3;  settlements=2</feature>
+<feature name="Emitter">Chameleon</feature>
+<feature name="Identifier">61</feature>
+<feature name="Timestamp">16:25:28:883</feature>
+<feature name="Resources">clay=1; ore=4; sheep=0; wheat=0; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="364"/>
+</start>
+<end>
+<singlePosition index="385"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338677723">
+<metadata>
+<author>stac</author>
+<creation-date>1338677723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305499000</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Accept</type>
+<featureSet>
+<feature name="Addressee">Nancy</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="381"/>
+</start>
+<end>
+<singlePosition index="385"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_-31">
+<metadata>
+<author>stac</author>
+<creation-date>-31</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>paragraph</type>
+<featureSet/>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="386"/>
+</start>
+<end>
+<singlePosition index="409"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338377754">
+<metadata>
+<author>stac</author>
+<creation-date>1338377754</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Turn</type>
+<featureSet>
+<feature name="Comments">Please write in remarks...</feature>
+<feature name="Developments">roads=4;  settlements=2</feature>
+<feature name="Emitter">skinnylinny</feature>
+<feature name="Identifier">62</feature>
+<feature name="Timestamp">16:25:34:485</feature>
+<feature name="Resources">clay=0; ore=2; sheep=1; wheat=1; wood=0</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="386"/>
+</start>
+<end>
+<singlePosition index="409"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1338687723">
+<metadata>
+<author>stac</author>
+<creation-date>1338687723</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305508546</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Accept</type>
+<featureSet>
+<feature name="Addressee">Nancy</feature>
+<feature name="Surface_act">Assertion</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="405"/>
+</start>
+<end>
+<singlePosition index="409"/>
+</end>
+</positioning>
+</unit>
+<unit id="stac_1341777729">
+<metadata>
+<author>stac</author>
+<creation-date>1341777729</creation-date>
+<lastModifier>n/a</lastModifier>
+<lastModificationDate>0</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Dialogue</type>
+<featureSet>
+<feature name="Trades">Nancy traded 1 clay for 1 ore from Chameleon.</feature>
+<feature name="Dice_rolling">Nancy rolled a 4 and a 2.</feature>
+<feature name="Gets">skinnylinny gets 1 ore. Chameleon gets 1 ore. Nancy gets 1 clay.</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="264"/>
+</start>
+<end>
+<singlePosition index="409"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305162015">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305162015</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305181781</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Receivable</feature>
+<feature name="Quantity">1</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">clay</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="62"/>
+</start>
+<end>
+<singlePosition index="66"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305198734">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305198734</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305227812</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Givable</feature>
+<feature name="Quantity">1</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">wheat</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="85"/>
+</start>
+<end>
+<singlePosition index="90"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305287406">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305287406</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305307140</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Receivable</feature>
+<feature name="Quantity">?</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">wood</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="192"/>
+</start>
+<end>
+<singlePosition index="196"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305312750">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305312750</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305331046</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Givable</feature>
+<feature name="Quantity">?</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">sheep</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="201"/>
+</start>
+<end>
+<singlePosition index="206"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305446359">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305446359</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305462859</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Receivable</feature>
+<feature name="Quantity">?</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">ore</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="350"/>
+</start>
+<end>
+<singlePosition index="353"/>
+</end>
+</positioning>
+</unit>
+<unit id="asoubeille_1355305469468">
+<metadata>
+<author>asoubeille</author>
+<creation-date>1355305469468</creation-date>
+<lastModifier>asoubeille</lastModifier>
+<lastModificationDate>1355305486796</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Givable</feature>
+<feature name="Quantity">?</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">clay</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="358"/>
+</start>
+<end>
+<singlePosition index="362"/>
+</end>
+</positioning>
+</unit>
+<unit id="selva_1359044951781">
+<metadata>
+<author>selva</author>
+<creation-date>1359044951781</creation-date>
+<lastModifier>selva</lastModifier>
+<lastModificationDate>1359044967209</lastModificationDate>
+</metadata>
+<characterisation>
+<type>Resource</type>
+<featureSet>
+<feature name="Status">Not possessed</feature>
+<feature name="Quantity">0</feature>
+<feature name="Correctness">True</feature>
+<feature name="Kind">wood</feature>
+</featureSet>
+</characterisation>
+<positioning>
+<start>
+<singlePosition index="259"/>
+</start>
+<end>
+<singlePosition index="264"/>
+</end>
+</positioning>
+</unit>
+</annotations>
