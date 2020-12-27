@@ -1,0 +1,14 @@
+FROM ubuntu:18.04
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    python3.8 \
+    python3-pip
+RUN mkdir /brat
+COPY /brat /brat
+RUN chmod 777 /brat
+WORKDIR /brat
+RUN ./apache-group.sh
+RUN ./apache-user.sh
+RUN ls -a
+ENTRYPOINT ["python3","standalone.py"]

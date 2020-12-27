@@ -1,0 +1,568 @@
+Sending build context to Docker daemon  23.55kB
+Step 1/6 : FROM python:3.7
+ ---> 5b86e11778a2
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> 29c0c25234ab
+Step 3/6 : COPY . .
+ ---> 0c90fde872f7
+Step 4/6 : RUN pip install -r requirements.txt
+ ---> Running in cddc34ccab42
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Building wheels for collected packages: psycopg2
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp37-cp37m-linux_x86_64.whl size=467864 sha256=341a56ec427c9c5cfe76ea33f1cce3e7861fc047162cec6c98e0c6e735682f92
+  Stored in directory: /root/.cache/pip/wheels/25/78/75/9c0323f7e1fb42143cbd2439302beb7850a1034abb961cb281
+Successfully built psycopg2
+Installing collected packages: click, itsdangerous, Werkzeug, MarkupSafe, Jinja2, Flask, psycopg2
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: You are using pip version 20.2.4; however, version 20.3 is available.
+You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+[0mRemoving intermediate container cddc34ccab42
+ ---> 449b24b137b8
+Step 5/6 : EXPOSE 5000 5432
+ ---> Running in 064cec579e34
+Removing intermediate container 064cec579e34
+ ---> 3f29743e4228
+Step 6/6 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 8abae73b1977
+Removing intermediate container 8abae73b1977
+ ---> 15542dcf89bb
+Successfully built 15542dcf89bb
+Successfully tagged imdb_app:latest
+Sending build context to Docker daemon  26.11kB
+Step 1/6 : FROM python:3.7
+ ---> 5b86e11778a2
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> 29c0c25234ab
+Step 3/6 : COPY . .
+ ---> 0bc38baf40b2
+Step 4/6 : RUN pip install -r requirements.txt
+ ---> Running in 13853bb4fe8a
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (27 kB)
+Building wheels for collected packages: psycopg2
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp37-cp37m-linux_x86_64.whl size=467915 sha256=e3973a0a6b54bf1fb5d64a1ade25843c970c2c8940da9568c51e27dec2ca75b7
+  Stored in directory: /root/.cache/pip/wheels/25/78/75/9c0323f7e1fb42143cbd2439302beb7850a1034abb961cb281
+Successfully built psycopg2
+Installing collected packages: MarkupSafe, Jinja2, click, Werkzeug, itsdangerous, Flask, psycopg2
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: You are using pip version 20.2.4; however, version 20.3 is available.
+You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+[0mRemoving intermediate container 13853bb4fe8a
+ ---> 1512fac8442d
+Step 5/6 : EXPOSE 5000 5432
+ ---> Running in 44c4bc3d0598
+Removing intermediate container 44c4bc3d0598
+ ---> fc851c3f343c
+Step 6/6 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 32cea29f6d15
+Removing intermediate container 32cea29f6d15
+ ---> ea968ab07c0d
+Successfully built ea968ab07c0d
+Successfully tagged imdb_app:latest
+Sending build context to Docker daemon  28.16kB
+Step 1/8 : FROM python:alpine
+alpine: Pulling from library/python
+188c0c94c7c5: Pulling fs layer
+d9fc4dd5c37b: Pulling fs layer
+8e2102c9ae14: Pulling fs layer
+ce0fde1153f7: Pulling fs layer
+47ad0f607bd6: Pulling fs layer
+ce0fde1153f7: Waiting
+47ad0f607bd6: Waiting
+d9fc4dd5c37b: Verifying Checksum
+d9fc4dd5c37b: Download complete
+188c0c94c7c5: Verifying Checksum
+188c0c94c7c5: Download complete
+188c0c94c7c5: Pull complete
+ce0fde1153f7: Verifying Checksum
+ce0fde1153f7: Download complete
+d9fc4dd5c37b: Pull complete
+47ad0f607bd6: Verifying Checksum
+47ad0f607bd6: Download complete
+8e2102c9ae14: Verifying Checksum
+8e2102c9ae14: Download complete
+8e2102c9ae14: Pull complete
+ce0fde1153f7: Pull complete
+47ad0f607bd6: Pull complete
+Digest: sha256:122c3fadf6d4940f9a1c3b3929a8c16336b122467247cf7af532b2a0f47cb55d
+Status: Downloaded newer image for python:alpine
+ ---> d44dd5d49939
+Step 2/8 : WORKDIR /usr/src/app
+ ---> Running in dc63078c1d0f
+Removing intermediate container dc63078c1d0f
+ ---> a95e35938b5f
+Step 3/8 : COPY . .
+ ---> 7a2c9185f1f9
+Step 4/8 : ADD requirements.txt /
+ ---> 6701cee27e94
+Step 5/8 : RUN apk update --no-cache && apk add build-base postgresql-dev libpq --no-cache --virtual .build-deps && pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r /requirements.txt && apk del .build-deps
+ ---> Running in e13e1a8b9f60
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/main]
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/community]
+OK: 12746 distinct packages available
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/37) Installing libgcc (9.3.0-r2)
+(2/37) Installing libstdc++ (9.3.0-r2)
+(3/37) Installing binutils (2.34-r1)
+(4/37) Installing libmagic (5.38-r0)
+(5/37) Installing file (5.38-r0)
+(6/37) Installing gmp (6.2.0-r0)
+(7/37) Installing isl (0.18-r0)
+(8/37) Installing libgomp (9.3.0-r2)
+(9/37) Installing libatomic (9.3.0-r2)
+(10/37) Installing libgphobos (9.3.0-r2)
+(11/37) Installing mpfr4 (4.0.2-r4)
+(12/37) Installing mpc1 (1.1.0-r1)
+(13/37) Installing gcc (9.3.0-r2)
+(14/37) Installing musl-dev (1.1.24-r10)
+(15/37) Installing libc-dev (0.7.2-r3)
+(16/37) Installing g++ (9.3.0-r2)
+(17/37) Installing make (4.3-r0)
+(18/37) Installing fortify-headers (1.1-r0)
+(19/37) Installing patch (2.7.6-r6)
+(20/37) Installing build-base (0.5-r2)
+(21/37) Installing libxml2 (2.9.10-r5)
+(22/37) Installing llvm10-libs (10.0.0-r2)
+(23/37) Installing clang-libs (10.0.0-r2)
+(24/37) Installing clang (10.0.0-r2)
+(25/37) Installing llvm10 (10.0.0-r2)
+(26/37) Installing pkgconf (1.7.2-r0)
+(27/37) Installing openssl-dev (1.1.1g-r0)
+(28/37) Installing icu-libs (67.1-r0)
+(29/37) Installing icu (67.1-r0)
+(30/37) Installing icu-dev (67.1-r0)
+(31/37) Installing db (5.3.28-r1)
+(32/37) Installing libsasl (2.1.27-r6)
+(33/37) Installing libldap (2.4.50-r0)
+(34/37) Installing libpq (12.5-r0)
+(35/37) Installing postgresql-libs (12.5-r0)
+(36/37) Installing postgresql-dev (12.5-r0)
+(37/37) Installing .build-deps (20201202.155423)
+Executing busybox-1.31.1-r19.trigger
+OK: 424 MiB in 73 packages
+Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (20.3)
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1.tar.gz (19 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Building wheels for collected packages: psycopg2, MarkupSafe
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp39-cp39-linux_x86_64.whl size=145916 sha256=aefd2f8c91c0fe43b935ac1fe5814fa8b3a2a27e03497704db4efe99035c820f
+  Stored in directory: /tmp/pip-ephem-wheel-cache-h5yf6uuv/wheels/a2/07/10/a9a82e72d50feb8d646acde6a88000bbf2ca0f82e41aea438a
+  Building wheel for MarkupSafe (setup.py): started
+  Building wheel for MarkupSafe (setup.py): finished with status 'done'
+  Created wheel for MarkupSafe: filename=MarkupSafe-1.1.1-cp39-cp39-linux_x86_64.whl size=17700 sha256=d8a1395be67bb94f42d3e624f26fe7fa80bbb106ad46fe853f31a6c1f000336a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-h5yf6uuv/wheels/e0/19/6f/6ba857621f50dc08e084312746ed3ebc14211ba30037d5e44e
+Successfully built psycopg2 MarkupSafe
+Installing collected packages: MarkupSafe, Werkzeug, Jinja2, itsdangerous, click, psycopg2, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: Ignoring APKINDEX.2c4ac24e.tar.gz: No such file or directory
+WARNING: Ignoring APKINDEX.40a3604f.tar.gz: No such file or directory
+[0m(1/37) Purging .build-deps (20201202.155423)
+(2/37) Purging build-base (0.5-r2)
+(3/37) Purging file (5.38-r0)
+(4/37) Purging g++ (9.3.0-r2)
+(5/37) Purging gcc (9.3.0-r2)
+(6/37) Purging binutils (2.34-r1)
+(7/37) Purging libatomic (9.3.0-r2)
+(8/37) Purging libgomp (9.3.0-r2)
+(9/37) Purging libgphobos (9.3.0-r2)
+(10/37) Purging make (4.3-r0)
+(11/37) Purging libc-dev (0.7.2-r3)
+(12/37) Purging musl-dev (1.1.24-r10)
+(13/37) Purging fortify-headers (1.1-r0)
+(14/37) Purging patch (2.7.6-r6)
+(15/37) Purging postgresql-dev (12.5-r0)
+(16/37) Purging clang (10.0.0-r2)
+(17/37) Purging openssl-dev (1.1.1g-r0)
+(18/37) Purging icu-dev (67.1-r0)
+(19/37) Purging icu (67.1-r0)
+(20/37) Purging icu-libs (67.1-r0)
+(21/37) Purging postgresql-libs (12.5-r0)
+(22/37) Purging libpq (12.5-r0)
+(23/37) Purging llvm10 (10.0.0-r2)
+(24/37) Purging clang-libs (10.0.0-r2)
+(25/37) Purging llvm10-libs (10.0.0-r2)
+(26/37) Purging libstdc++ (9.3.0-r2)
+(27/37) Purging libgcc (9.3.0-r2)
+(28/37) Purging libmagic (5.38-r0)
+(29/37) Purging isl (0.18-r0)
+(30/37) Purging mpc1 (1.1.0-r1)
+(31/37) Purging mpfr4 (4.0.2-r4)
+(32/37) Purging gmp (6.2.0-r0)
+(33/37) Purging libxml2 (2.9.10-r5)
+(34/37) Purging pkgconf (1.7.2-r0)
+(35/37) Purging libldap (2.4.50-r0)
+(36/37) Purging libsasl (2.1.27-r6)
+(37/37) Purging db (5.3.28-r1)
+Executing busybox-1.31.1-r19.trigger
+OK: 15 MiB in 36 packages
+Removing intermediate container e13e1a8b9f60
+ ---> ee4c88ad42f9
+Step 6/8 : RUN apk add postgresql-libs libpq --no-cache
+ ---> Running in d8071646474d
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/5) Installing db (5.3.28-r1)
+(2/5) Installing libsasl (2.1.27-r6)
+(3/5) Installing libldap (2.4.50-r0)
+(4/5) Installing libpq (12.5-r0)
+(5/5) Installing postgresql-libs (12.5-r0)
+OK: 17 MiB in 41 packages
+Removing intermediate container d8071646474d
+ ---> 4c18e092cc1e
+Step 7/8 : EXPOSE 5000 5432
+ ---> Running in 839cb172203c
+Removing intermediate container 839cb172203c
+ ---> 90ace63b2d90
+Step 8/8 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in cc9a3b5482fe
+Removing intermediate container cc9a3b5482fe
+ ---> 8bb9dccef9f3
+Successfully built 8bb9dccef9f3
+Successfully tagged imdb_app:latest
+Sending build context to Docker daemon  35.84kB
+Step 1/8 : FROM python:alpine
+ ---> d44dd5d49939
+Step 2/8 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> a95e35938b5f
+Step 3/8 : COPY . .
+ ---> c6737c616398
+Step 4/8 : ADD requirements.txt /
+ ---> 417594c71815
+Step 5/8 : RUN apk update --no-cache && apk add build-base postgresql-dev libpq --no-cache --virtual .build-deps && pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r /requirements.txt && apk del .build-deps
+ ---> Running in 304175df70c1
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/main]
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/community]
+OK: 12746 distinct packages available
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/37) Installing libgcc (9.3.0-r2)
+(2/37) Installing libstdc++ (9.3.0-r2)
+(3/37) Installing binutils (2.34-r1)
+(4/37) Installing libmagic (5.38-r0)
+(5/37) Installing file (5.38-r0)
+(6/37) Installing gmp (6.2.0-r0)
+(7/37) Installing isl (0.18-r0)
+(8/37) Installing libgomp (9.3.0-r2)
+(9/37) Installing libatomic (9.3.0-r2)
+(10/37) Installing libgphobos (9.3.0-r2)
+(11/37) Installing mpfr4 (4.0.2-r4)
+(12/37) Installing mpc1 (1.1.0-r1)
+(13/37) Installing gcc (9.3.0-r2)
+(14/37) Installing musl-dev (1.1.24-r10)
+(15/37) Installing libc-dev (0.7.2-r3)
+(16/37) Installing g++ (9.3.0-r2)
+(17/37) Installing make (4.3-r0)
+(18/37) Installing fortify-headers (1.1-r0)
+(19/37) Installing patch (2.7.6-r6)
+(20/37) Installing build-base (0.5-r2)
+(21/37) Installing libxml2 (2.9.10-r5)
+(22/37) Installing llvm10-libs (10.0.0-r2)
+(23/37) Installing clang-libs (10.0.0-r2)
+(24/37) Installing clang (10.0.0-r2)
+(25/37) Installing llvm10 (10.0.0-r2)
+(26/37) Installing pkgconf (1.7.2-r0)
+(27/37) Installing openssl-dev (1.1.1g-r0)
+(28/37) Installing icu-libs (67.1-r0)
+(29/37) Installing icu (67.1-r0)
+(30/37) Installing icu-dev (67.1-r0)
+(31/37) Installing db (5.3.28-r1)
+(32/37) Installing libsasl (2.1.27-r6)
+(33/37) Installing libldap (2.4.50-r0)
+(34/37) Installing libpq (12.5-r0)
+(35/37) Installing postgresql-libs (12.5-r0)
+(36/37) Installing postgresql-dev (12.5-r0)
+(37/37) Installing .build-deps (20201202.155610)
+Executing busybox-1.31.1-r19.trigger
+OK: 424 MiB in 73 packages
+Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (20.3)
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1.tar.gz (19 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Building wheels for collected packages: psycopg2, MarkupSafe
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp39-cp39-linux_x86_64.whl size=145916 sha256=7e5f556216d63e4d9edcc339f4113f0dcd473ade53c3834b53abe8b91386532a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-j9_v2awq/wheels/a2/07/10/a9a82e72d50feb8d646acde6a88000bbf2ca0f82e41aea438a
+  Building wheel for MarkupSafe (setup.py): started
+  Building wheel for MarkupSafe (setup.py): finished with status 'done'
+  Created wheel for MarkupSafe: filename=MarkupSafe-1.1.1-cp39-cp39-linux_x86_64.whl size=17700 sha256=a9f9abde9abcfa4fd0a5eb431431b07f6309e18965428f43a190385d9301c099
+  Stored in directory: /tmp/pip-ephem-wheel-cache-j9_v2awq/wheels/e0/19/6f/6ba857621f50dc08e084312746ed3ebc14211ba30037d5e44e
+Successfully built psycopg2 MarkupSafe
+Installing collected packages: MarkupSafe, Werkzeug, Jinja2, itsdangerous, click, psycopg2, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: Ignoring APKINDEX.2c4ac24e.tar.gz: No such file or directory
+WARNING: Ignoring APKINDEX.40a3604f.tar.gz: No such file or directory
+[0m(1/37) Purging .build-deps (20201202.155610)
+(2/37) Purging build-base (0.5-r2)
+(3/37) Purging file (5.38-r0)
+(4/37) Purging g++ (9.3.0-r2)
+(5/37) Purging gcc (9.3.0-r2)
+(6/37) Purging binutils (2.34-r1)
+(7/37) Purging libatomic (9.3.0-r2)
+(8/37) Purging libgomp (9.3.0-r2)
+(9/37) Purging libgphobos (9.3.0-r2)
+(10/37) Purging make (4.3-r0)
+(11/37) Purging libc-dev (0.7.2-r3)
+(12/37) Purging musl-dev (1.1.24-r10)
+(13/37) Purging fortify-headers (1.1-r0)
+(14/37) Purging patch (2.7.6-r6)
+(15/37) Purging postgresql-dev (12.5-r0)
+(16/37) Purging clang (10.0.0-r2)
+(17/37) Purging openssl-dev (1.1.1g-r0)
+(18/37) Purging icu-dev (67.1-r0)
+(19/37) Purging icu (67.1-r0)
+(20/37) Purging icu-libs (67.1-r0)
+(21/37) Purging postgresql-libs (12.5-r0)
+(22/37) Purging libpq (12.5-r0)
+(23/37) Purging llvm10 (10.0.0-r2)
+(24/37) Purging clang-libs (10.0.0-r2)
+(25/37) Purging llvm10-libs (10.0.0-r2)
+(26/37) Purging libstdc++ (9.3.0-r2)
+(27/37) Purging libgcc (9.3.0-r2)
+(28/37) Purging libmagic (5.38-r0)
+(29/37) Purging isl (0.18-r0)
+(30/37) Purging mpc1 (1.1.0-r1)
+(31/37) Purging mpfr4 (4.0.2-r4)
+(32/37) Purging gmp (6.2.0-r0)
+(33/37) Purging libxml2 (2.9.10-r5)
+(34/37) Purging pkgconf (1.7.2-r0)
+(35/37) Purging libldap (2.4.50-r0)
+(36/37) Purging libsasl (2.1.27-r6)
+(37/37) Purging db (5.3.28-r1)
+Executing busybox-1.31.1-r19.trigger
+OK: 15 MiB in 36 packages
+Removing intermediate container 304175df70c1
+ ---> 9055bc380edb
+Step 6/8 : RUN apk add postgresql-libs libpq --no-cache
+ ---> Running in 7df1b4a341e8
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/5) Installing db (5.3.28-r1)
+(2/5) Installing libsasl (2.1.27-r6)
+(3/5) Installing libldap (2.4.50-r0)
+(4/5) Installing libpq (12.5-r0)
+(5/5) Installing postgresql-libs (12.5-r0)
+OK: 17 MiB in 41 packages
+Removing intermediate container 7df1b4a341e8
+ ---> 03c08271ecfa
+Step 7/8 : EXPOSE 5000 5432
+ ---> Running in 9c8f4c23cb92
+Removing intermediate container 9c8f4c23cb92
+ ---> 6dced2cbc131
+Step 8/8 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 8e032cfc4161
+Removing intermediate container 8e032cfc4161
+ ---> e7f3844939ad
+Successfully built e7f3844939ad
+Successfully tagged imdb_app:latest
+Sending build context to Docker daemon   42.5kB
+Step 1/8 : FROM python:alpine
+ ---> d44dd5d49939
+Step 2/8 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> a95e35938b5f
+Step 3/8 : COPY . .
+ ---> 4b3d2f8e4d73
+Step 4/8 : ADD requirements.txt /
+ ---> 8a6710c90590
+Step 5/8 : RUN apk update --no-cache && apk add build-base postgresql-dev libpq --no-cache --virtual .build-deps && pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r /requirements.txt && apk del .build-deps
+ ---> Running in 6d8f986ff7af
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/main]
+v3.12.1-69-gbdfcc49399 [http://dl-cdn.alpinelinux.org/alpine/v3.12/community]
+OK: 12746 distinct packages available
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/37) Installing libgcc (9.3.0-r2)
+(2/37) Installing libstdc++ (9.3.0-r2)
+(3/37) Installing binutils (2.34-r1)
+(4/37) Installing libmagic (5.38-r0)
+(5/37) Installing file (5.38-r0)
+(6/37) Installing gmp (6.2.0-r0)
+(7/37) Installing isl (0.18-r0)
+(8/37) Installing libgomp (9.3.0-r2)
+(9/37) Installing libatomic (9.3.0-r2)
+(10/37) Installing libgphobos (9.3.0-r2)
+(11/37) Installing mpfr4 (4.0.2-r4)
+(12/37) Installing mpc1 (1.1.0-r1)
+(13/37) Installing gcc (9.3.0-r2)
+(14/37) Installing musl-dev (1.1.24-r10)
+(15/37) Installing libc-dev (0.7.2-r3)
+(16/37) Installing g++ (9.3.0-r2)
+(17/37) Installing make (4.3-r0)
+(18/37) Installing fortify-headers (1.1-r0)
+(19/37) Installing patch (2.7.6-r6)
+(20/37) Installing build-base (0.5-r2)
+(21/37) Installing libxml2 (2.9.10-r5)
+(22/37) Installing llvm10-libs (10.0.0-r2)
+(23/37) Installing clang-libs (10.0.0-r2)
+(24/37) Installing clang (10.0.0-r2)
+(25/37) Installing llvm10 (10.0.0-r2)
+(26/37) Installing pkgconf (1.7.2-r0)
+(27/37) Installing openssl-dev (1.1.1g-r0)
+(28/37) Installing icu-libs (67.1-r0)
+(29/37) Installing icu (67.1-r0)
+(30/37) Installing icu-dev (67.1-r0)
+(31/37) Installing db (5.3.28-r1)
+(32/37) Installing libsasl (2.1.27-r6)
+(33/37) Installing libldap (2.4.50-r0)
+(34/37) Installing libpq (12.5-r0)
+(35/37) Installing postgresql-libs (12.5-r0)
+(36/37) Installing postgresql-dev (12.5-r0)
+(37/37) Installing .build-deps (20201202.155841)
+Executing busybox-1.31.1-r19.trigger
+OK: 424 MiB in 73 packages
+Requirement already satisfied: pip in /usr/local/lib/python3.9/site-packages (20.3)
+Collecting Flask==1.1.1
+  Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting psycopg2==2.8.6
+  Downloading psycopg2-2.8.6.tar.gz (383 kB)
+Collecting click>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting itsdangerous>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2>=2.10.1
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1.tar.gz (19 kB)
+Collecting Werkzeug>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Building wheels for collected packages: psycopg2, MarkupSafe
+  Building wheel for psycopg2 (setup.py): started
+  Building wheel for psycopg2 (setup.py): finished with status 'done'
+  Created wheel for psycopg2: filename=psycopg2-2.8.6-cp39-cp39-linux_x86_64.whl size=145916 sha256=9bf682db7e72e14fbaf8fa2e20fcc4447e80cf3cbddc397e70f80734f31855e4
+  Stored in directory: /tmp/pip-ephem-wheel-cache-noxdk8_8/wheels/a2/07/10/a9a82e72d50feb8d646acde6a88000bbf2ca0f82e41aea438a
+  Building wheel for MarkupSafe (setup.py): started
+  Building wheel for MarkupSafe (setup.py): finished with status 'done'
+  Created wheel for MarkupSafe: filename=MarkupSafe-1.1.1-cp39-cp39-linux_x86_64.whl size=17700 sha256=7c0d4bb4f67fbcdcc4d1b392851aee2859c5161a2660e92353dbbbfb26e93118
+  Stored in directory: /tmp/pip-ephem-wheel-cache-noxdk8_8/wheels/e0/19/6f/6ba857621f50dc08e084312746ed3ebc14211ba30037d5e44e
+Successfully built psycopg2 MarkupSafe
+Installing collected packages: MarkupSafe, Werkzeug, Jinja2, itsdangerous, click, psycopg2, Flask
+Successfully installed Flask-1.1.1 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0 psycopg2-2.8.6
+[91mWARNING: Ignoring APKINDEX.2c4ac24e.tar.gz: No such file or directory
+WARNING: Ignoring APKINDEX.40a3604f.tar.gz: No such file or directory
+[0m(1/37) Purging .build-deps (20201202.155841)
+(2/37) Purging build-base (0.5-r2)
+(3/37) Purging file (5.38-r0)
+(4/37) Purging g++ (9.3.0-r2)
+(5/37) Purging gcc (9.3.0-r2)
+(6/37) Purging binutils (2.34-r1)
+(7/37) Purging libatomic (9.3.0-r2)
+(8/37) Purging libgomp (9.3.0-r2)
+(9/37) Purging libgphobos (9.3.0-r2)
+(10/37) Purging make (4.3-r0)
+(11/37) Purging libc-dev (0.7.2-r3)
+(12/37) Purging musl-dev (1.1.24-r10)
+(13/37) Purging fortify-headers (1.1-r0)
+(14/37) Purging patch (2.7.6-r6)
+(15/37) Purging postgresql-dev (12.5-r0)
+(16/37) Purging clang (10.0.0-r2)
+(17/37) Purging openssl-dev (1.1.1g-r0)
+(18/37) Purging icu-dev (67.1-r0)
+(19/37) Purging icu (67.1-r0)
+(20/37) Purging icu-libs (67.1-r0)
+(21/37) Purging postgresql-libs (12.5-r0)
+(22/37) Purging libpq (12.5-r0)
+(23/37) Purging llvm10 (10.0.0-r2)
+(24/37) Purging clang-libs (10.0.0-r2)
+(25/37) Purging llvm10-libs (10.0.0-r2)
+(26/37) Purging libstdc++ (9.3.0-r2)
+(27/37) Purging libgcc (9.3.0-r2)
+(28/37) Purging libmagic (5.38-r0)
+(29/37) Purging isl (0.18-r0)
+(30/37) Purging mpc1 (1.1.0-r1)
+(31/37) Purging mpfr4 (4.0.2-r4)
+(32/37) Purging gmp (6.2.0-r0)
+(33/37) Purging libxml2 (2.9.10-r5)
+(34/37) Purging pkgconf (1.7.2-r0)
+(35/37) Purging libldap (2.4.50-r0)
+(36/37) Purging libsasl (2.1.27-r6)
+(37/37) Purging db (5.3.28-r1)
+Executing busybox-1.31.1-r19.trigger
+OK: 15 MiB in 36 packages
+Removing intermediate container 6d8f986ff7af
+ ---> 6154dd486ae2
+Step 6/8 : RUN apk add postgresql-libs libpq --no-cache
+ ---> Running in 61e0d7708c5b
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.12/community/x86_64/APKINDEX.tar.gz
+(1/5) Installing db (5.3.28-r1)
+(2/5) Installing libsasl (2.1.27-r6)
+(3/5) Installing libldap (2.4.50-r0)
+(4/5) Installing libpq (12.5-r0)
+(5/5) Installing postgresql-libs (12.5-r0)
+OK: 17 MiB in 41 packages
+Removing intermediate container 61e0d7708c5b
+ ---> de9c02880f1a
+Step 7/8 : EXPOSE 5000 5432
+ ---> Running in 1db028fe6bbc
+Removing intermediate container 1db028fe6bbc
+ ---> 172bcbcd1794
+Step 8/8 : ENTRYPOINT ["python3", "./imdb.py"]
+ ---> Running in 5d3d657de1f4
+Removing intermediate container 5d3d657de1f4
+ ---> d4936d5866a8
+Successfully built d4936d5866a8
+Successfully tagged imdb_app:latest

@@ -1,0 +1,41 @@
+Script started on 2020-11-19 13:04:08+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker build -t brat_local .
+Sending build context to Docker daemon  557.1kBSending build context to Docker daemon  12.81MBSending build context to Docker daemon  25.62MBSending build context to Docker daemon  37.88MBSending build context to Docker daemon  50.69MBSending build context to Docker daemon  64.06MBSending build context to Docker daemon  77.43MBSending build context to Docker daemon  89.13MBSending build context to Docker daemon  101.9MBSending build context to Docker daemon  115.3MBSending build context to Docker daemon  129.2MBSending build context to Docker daemon  141.5MBSending build context to Docker daemon  153.7MBSending build context to Docker daemon  164.3MBSending build context to Docker daemon  177.1MBSending build context to Docker daemon  188.8MBSending build context to Docker daemon  201.7MBSending build context to Docker daemon    215MBSending build context to Docker daemon  226.2MBSending build context to Docker daemon  237.9MBSending build context to Docker daemon  250.7MBSending build context to Docker daemon  263.5MBSending build context to Docker daemon  275.2MBSending build context to Docker daemon    288MBSending build context to Docker daemon  300.3MBSending build context to Docker daemon  313.6MBSending build context to Docker daemon    327MBSending build context to Docker daemon  340.9MBSending build context to Docker daemon  355.4MBSending build context to Docker daemon  364.9MBSending build context to Docker daemon  372.7MBSending build context to Docker daemon  384.4MBSending build context to Docker daemon  397.7MBSending build context to Docker daemon  407.1MB
+Step 1/7 : FROM python:3.7
+ ---> 5b86e11778a2
+Step 2/7 : RUN mkdir /brat
+ ---> Using cache
+ ---> 939c4819999a
+Step 3/7 : COPY /brat_v /brat
+ ---> Using cache
+ ---> e75d1fe69011
+Step 4/7 : RUN chmod 777 /brat
+ ---> Using cache
+ ---> 0e47862f85bd
+Step 5/7 : WORKDIR /brat
+ ---> Using cache
+ ---> 08e3ba9bb40b
+Step 6/7 : EXPOSE 8080
+ ---> Using cache
+ ---> 417e7af3563c
+Step 7/7 : ENTRYPOINT ["python", "/brat/standalone.py", "8080"]
+ ---> Using cache
+ ---> 4b412bbbc0c3
+Successfully built 4b412bbbc0c3
+Successfully tagged brat_local:latest
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker run -v /home/vvs/brat_data:/brat/data/1 -p 8080:8080 -t brat_local .
+['/brat/standalone.py', '8080', '.']
+
+! WARNING: running as root. The brat standalone server is experimental   !
+! and may be a security risk. It is recommend to run the standalone      !
+! server as a non-root user with write permissions to the brat work/ and !
+! data/ directories (e.g. apache if brat is set up using standard        !
+! installation).                                                         !
+
+Serving brat at http://0.0.0.0:8080
+^C(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ docker save brat_local:latest | gzip > /home/vvs/vvs_home/abb/w2_Docker/p2/brat_local.tar.gz/brat_local.tar.gz
+bash: /home/vvs/vvs_home/abb/w2_Docker/p2/brat_local.tar.gz/brat_local.tar.gz: Not a directory
+(base) ]0;vvs@vvs-System-Product-Name: ~/vvs_home/abb/w2_Docker/p2[01;32mvvs@vvs-System-Product-Name[00m:[01;34m~/vvs_home/abb/w2_Docker/p2[00m$ ei[Kxit
+exit
+
+Script done on 2020-11-19 13:06:17+03:00 [COMMAND_EXIT_CODE="1"]

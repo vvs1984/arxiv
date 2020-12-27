@@ -1,0 +1,6 @@
+T1	Divorce 161 163	77
+E1	Divorce:T1 
+T2	Organization 145 148	bra
+T3	Transfer-money 190 196	apache
+E2	Transfer-money:T3 
+T4	GPE 170 177	WORKDIR
